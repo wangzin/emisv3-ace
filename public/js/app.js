@@ -4099,7 +4099,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/AppLayout */ "./resources/js/Layouts/AppLayout.vue");
-/* harmony import */ var _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Jetstream/Welcome */ "./resources/js/Jetstream/Welcome.vue");
 //
 //
 //
@@ -4165,12 +4164,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"],
-    Welcome: _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__["default"]
+    AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
   props: ['data', 'errors'],
   data: function data() {
@@ -4180,11 +4177,6 @@ __webpack_require__.r(__webpack_exports__);
     showdetails: function showdetails() {
       window.location = "/trainingdetails";
     }
-  },
-  mounted: function mounted() {
-    $('#insetLinksection').addClass('menu-open');
-    $('#insetLink').addClass('nav-link active');
-    $('#listtraining').addClass('active');
   }
 });
 
@@ -47970,7 +47962,7 @@ var staticRenderFns = [
                           _c("li", { staticClass: "divider" }),
                           _vm._v(" "),
                           _c("li", [
-                            _c("a", { attrs: { href: "#" } }, [
+                            _c("a", { attrs: { href: "/" } }, [
                               _c("i", {
                                 staticClass: "ace-icon fa fa-power-off"
                               }),

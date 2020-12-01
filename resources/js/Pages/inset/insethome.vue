@@ -65,11 +65,9 @@
 </template>
 <script>
     import AppLayout from '@/Layouts/AppLayout'
-    import Welcome from '@/Jetstream/Welcome'
     export default {
         components: {
             AppLayout,
-            Welcome,
         },
         props: ['data', 'errors'],
         data() {
@@ -81,10 +79,6 @@
                window.location="/trainingdetails";
             },
         },
-        mounted () {
-            $('#insetLinksection').addClass('menu-open');
-            $('#insetLink').addClass('nav-link active');
-            $('#listtraining').addClass('active');
-        },   
+          
     }
 </script>

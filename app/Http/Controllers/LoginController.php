@@ -49,4 +49,5 @@ class LoginController extends Controller
         return Inertia::render('inset/insethome'); 
     }
     
+    
 }

@@ -212,7 +212,7 @@
 									<a href="#">
 										<i class="ace-icon fa fa-cog"></i>
 										Settings
-									</a>
+									</a>  
 								</li>
 
 								<li>
@@ -222,8 +222,8 @@
 									</a>
 								</li>
 								<li class="divider"></li>
-								<li>
-									<a href="#">
+								<li> 
+									<a href="/">
 										<i class="ace-icon fa fa-power-off"></i>
 										Logout
 									</a>
@@ -236,3 +236,4 @@
 		</div>
     </div>
 </template>
+
