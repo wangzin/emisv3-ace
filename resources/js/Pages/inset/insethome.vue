@@ -45,7 +45,18 @@
                                 </tr>
                                 <tr>
                                     <td class="">2</td>
-                                    <td class="">Aualification Upgradation</td>
+                                    <td class="">Qualification Upgradation</td>
+                                    <td class="">Further Study</td>
+                                    <td class="">University Name</td>
+                                    <td class="">2018-10-12</td>
+                                    <td class="">2020-10-12</td>
+                                    <td class="">
+                                        <button @click="showdetails('qualification')" class="btn btn-block btn-primary btn-sm"><i class="fa fa-eye"></i> View</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="">3</td>
+                                    <td class="">Other Name</td>
                                     <td class="">Further Study</td>
                                     <td class="">University Name</td>
                                     <td class="">2018-10-12</td>
@@ -59,15 +70,12 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </app-layout>
 </template>
 <script>
-    import AppLayout from '@/Layouts/AppLayout'
     export default {
         components: {
-            AppLayout,
         },
         props: ['data', 'errors'],
         data() {

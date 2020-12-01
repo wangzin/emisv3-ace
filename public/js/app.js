@@ -2855,6 +2855,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 
 
@@ -4098,7 +4101,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/AppLayout */ "./resources/js/Layouts/AppLayout.vue");
 //
 //
 //
@@ -4164,11 +4166,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
+  components: {},
   props: ['data', 'errors'],
   data: function data() {
     return {};
@@ -4192,7 +4201,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/AppLayout */ "./resources/js/Layouts/AppLayout.vue");
-/* harmony import */ var _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Jetstream/Welcome */ "./resources/js/Jetstream/Welcome.vue");
 //
 //
 //
@@ -4200,1079 +4208,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"],
-    Welcome: _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__["default"]
+    AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -47238,23 +46177,27 @@ var render = function() {
               attrs: { id: "main-container" }
             },
             [
-              _c("main", [
-                _c(
-                  "div",
-                  {
-                    staticClass: "sidebar responsive ace-save-state",
-                    attrs: { id: "sidebar" }
-                  },
-                  [_c("sidenav")],
-                  1
-                ),
+              _c(
+                "div",
+                {
+                  staticClass: "sidebar responsive ace-save-state",
+                  attrs: { id: "sidebar" }
+                },
+                [_c("sidenav")],
+                1
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "main-content" }, [
+                _c("div", { staticClass: "main-content-inner" }, [
+                  _c("main", [_vm._t("default")], 2)
+                ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "main-content" }, [
+                _c("div", { staticClass: "footer" }, [
                   _c(
                     "div",
-                    { staticClass: "main-content-inner" },
-                    [_vm._t("default")],
-                    2
+                    { staticClass: "footer-inner" },
+                    [_c("footerpage")],
+                    1
                   )
                 ])
               ]),
@@ -47271,6 +46214,45 @@ var render = function() {
   )
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Layouts/footer.vue?vue&type=template&id=791b897f&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Layouts/footer.vue?vue&type=template&id=791b897f& ***!
+  \******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "footer-content" }, [
+        _c("span", { staticClass: "bigger-120" }, [
+          _c("span", { staticClass: "blue bolder" }, [_vm._v("MOE")]),
+          _vm._v("\n            EMIS © Version -3\n        ")
+        ]),
+        _vm._v("\n           \n        ")
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -47393,7 +46375,7 @@ var staticRenderFns = [
       _c(
         "div",
         {
-          staticClass: "navbar navbar-default          ace-save-state",
+          staticClass: "navbar navbar-default ace-save-state",
           attrs: { id: "navbar" }
         },
         [
@@ -48005,206 +46987,250 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("ul", { staticClass: "nav nav-list" }, [
+      _vm._m(1),
+      _vm._v(" "),
+      _c("li", {}, [
+        _vm._m(2),
+        _vm._v(" "),
+        _c("b", { staticClass: "arrow" }),
+        _vm._v(" "),
+        _c("ul", { staticClass: "submenu" }, [
+          _c(
+            "li",
+            {},
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "dropdown-toggle",
+                  attrs: {
+                    to: "/schoolIndex",
+                    "data-toggle": "awesome_tooltip",
+                    title: "Organization"
+                  }
+                },
+                [
+                  _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "menu-text" }, [
+                    _c("i", { staticClass: "menu-icon fa fa-home" }),
+                    _vm._v(" "),
+                    _c("b", [_vm._v("  School")])
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _vm._m(4)
+        ])
+      ]),
+      _vm._v(" "),
+      _vm._m(5),
+      _vm._v(" "),
+      _vm._m(6),
+      _vm._v(" "),
+      _vm._m(7),
+      _vm._v(" "),
+      _vm._m(8)
+    ]),
+    _vm._v(" "),
+    _vm._m(9)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        {
-          staticClass: "sidebar-shortcuts",
-          attrs: { id: "sidebar-shortcuts" }
-        },
-        [
-          _c(
-            "div",
-            {
-              staticClass: "sidebar-shortcuts-large",
-              attrs: { id: "sidebar-shortcuts-large" }
-            },
-            [
-              _c("span", { staticClass: "btn btn-success" }, [_vm._v("MOE ")]),
-              _vm._v(" "),
-              _c("span", { staticClass: "btn btn-success" }, [
-                _c("b", [_vm._v(">>")])
-              ]),
-              _vm._v(" "),
-              _c("button", { staticClass: "btn btn-success" }, [
-                _vm._v("\n                EMIS\n            ")
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "sidebar-shortcuts-mini",
-              attrs: { id: "sidebar-shortcuts-mini" }
-            },
-            [_c("span", { staticClass: "btn btn-success" })]
-          )
-        ]
-      ),
-      _vm._v(" "),
-      _c("ul", { staticClass: "nav nav-list" }, [
-        _c("li", { staticClass: "active" }, [
-          _c("a", { attrs: { href: "/userdashboard" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-tachometer" }),
+    return _c(
+      "div",
+      { staticClass: "sidebar-shortcuts", attrs: { id: "sidebar-shortcuts" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "sidebar-shortcuts-large",
+            attrs: { id: "sidebar-shortcuts-large" }
+          },
+          [
+            _c("span", { staticClass: "btn btn-success" }, [_vm._v("MOE ")]),
             _vm._v(" "),
-            _c("span", { staticClass: "menu-text" }, [_vm._v(" Dashboard ")])
-          ]),
-          _vm._v(" "),
-          _c("b", { staticClass: "arrow" })
-        ]),
-        _vm._v(" "),
-        _c("li", {}, [
-          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-home" }),
-            _vm._v(" "),
-            _c("span", { staticClass: "menu-text" }, [
-              _vm._v("\n                   Organization\n                ")
+            _c("span", { staticClass: "btn btn-success" }, [
+              _c("b", [_vm._v(">>")])
             ]),
             _vm._v(" "),
-            _c("b", { staticClass: "arrow fa fa-angle-down" })
-          ]),
-          _vm._v(" "),
-          _c("b", { staticClass: "arrow" }),
-          _vm._v(" "),
-          _c("ul", { staticClass: "submenu" }, [
-            _c("li", {}, [
-              _c(
-                "a",
-                { staticClass: "dropdown-toggle", attrs: { href: "#" } },
-                [
-                  _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-                  _vm._v(
-                    "\n                        School\n                    "
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", {}, [
-              _c(
-                "a",
-                { staticClass: "dropdown-toggle", attrs: { href: "#" } },
-                [
-                  _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-                  _vm._v(
-                    "\n                        ECR & ECCD\n                    "
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", {}, [
-              _c(
-                "a",
-                { staticClass: "dropdown-toggle", attrs: { href: "#" } },
-                [
-                  _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-                  _vm._v(
-                    "\n                        Head Quaters & Others\n                    "
-                  )
-                ]
-              )
+            _c("button", { staticClass: "btn btn-success" }, [
+              _vm._v("\n                EMIS\n            ")
             ])
-          ])
-        ]),
+          ]
+        ),
         _vm._v(" "),
-        _c("li", {}, [
-          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-users" }),
-            _vm._v(" "),
-            _c("span", { staticClass: "menu-text" }, [
-              _vm._v(
-                "\n                   Staff and Students\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("b", { staticClass: "arrow fa fa-angle-down" })
-          ]),
-          _vm._v(" "),
-          _c("b", { staticClass: "arrow" }),
-          _vm._v(" "),
-          _c("ul", { staticClass: "submenu" }, [
-            _c("li", {}, [
-              _c(
-                "a",
-                { staticClass: "dropdown-toggle", attrs: { href: "#" } },
-                [
-                  _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-                  _vm._v(
-                    "\n                        Staff Management\n                    "
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", {}, [
-              _c(
-                "a",
-                { staticClass: "dropdown-toggle", attrs: { href: "#" } },
-                [
-                  _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-                  _vm._v(
-                    "\n                        Student Management\n                    "
-                  )
-                ]
-              )
-            ])
-          ])
-        ]),
+        _c(
+          "div",
+          {
+            staticClass: "sidebar-shortcuts-mini",
+            attrs: { id: "sidebar-shortcuts-mini" }
+          },
+          [_c("span", { staticClass: "btn btn-success" })]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "active" }, [
+      _c("a", { attrs: { href: "/userdashboard" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-tachometer" }),
         _vm._v(" "),
-        _c("li", {}, [
-          _c("a", { attrs: { href: "/insethome" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-bank" }),
-            _vm._v(" "),
-            _c("span", { staticClass: "menu-text" }, [_vm._v(" INSET Module")])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", {}, [
-          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-book" }),
-            _vm._v(" "),
-            _c("span", { staticClass: "menu-text" }, [
-              _vm._v(" Result Processing")
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", {}, [
-          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-database" }),
-            _vm._v(" "),
-            _c("span", { staticClass: "menu-text" }, [_vm._v(" MDCA")])
-          ])
-        ])
+        _c("span", { staticClass: "menu-text" }, [_vm._v(" Dashboard ")])
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "sidebar-toggle sidebar-collapse",
-          attrs: { id: "sidebar-collapse" }
-        },
-        [
-          _c("i", {
-            staticClass: "ace-icon fa fa-angle-double-left ace-save-state",
-            attrs: {
-              id: "sidebar-toggle-icon",
-              "data-icon1": "ace-icon fa fa-angle-double-left",
-              "data-icon2": "ace-icon fa fa-angle-double-right"
-            }
-          })
-        ]
-      )
+      _c("b", { staticClass: "arrow" })
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+      _c("i", { staticClass: "menu-icon fa fa-home" }),
+      _vm._v(" "),
+      _c("span", { staticClass: "menu-text" }, [
+        _vm._v("\n                   Organization\n                ")
+      ]),
+      _vm._v(" "),
+      _c("b", { staticClass: "arrow fa fa-angle-down" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", {}, [
+      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+        _vm._v("\n                        ECR & ECCD\n                    ")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", {}, [
+      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+        _vm._v(
+          "\n                        Head Quaters & Others\n                    "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", {}, [
+      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-users" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "menu-text" }, [
+          _vm._v("\n                   Staff and Students\n                ")
+        ]),
+        _vm._v(" "),
+        _c("b", { staticClass: "arrow fa fa-angle-down" })
+      ]),
+      _vm._v(" "),
+      _c("b", { staticClass: "arrow" }),
+      _vm._v(" "),
+      _c("ul", { staticClass: "submenu" }, [
+        _c("li", {}, [
+          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+            _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+            _vm._v(
+              "\n                        Staff Management\n                    "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", {}, [
+          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+            _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+            _vm._v(
+              "\n                        Student Management\n                    "
+            )
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", {}, [
+      _c("a", { attrs: { href: "/insethome" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-bank" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "menu-text" }, [_vm._v(" INSET Module")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", {}, [
+      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-book" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "menu-text" }, [_vm._v(" Result Processing")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", {}, [
+      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-database" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "menu-text" }, [_vm._v(" MDCA")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "sidebar-toggle sidebar-collapse",
+        attrs: { id: "sidebar-collapse" }
+      },
+      [
+        _c("i", {
+          staticClass: "ace-icon fa fa-angle-double-left ace-save-state",
+          attrs: {
+            id: "sidebar-toggle-icon",
+            "data-icon1": "ace-icon fa fa-angle-double-left",
+            "data-icon2": "ace-icon fa fa-angle-double-right"
+          }
+        })
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -50239,6 +49265,2454 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/dashboard_data.vue?vue&type=template&id=6ed8f1be&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/dashboard_data.vue?vue&type=template&id=6ed8f1be& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("app-layout", [
+    _c(
+      "div",
+      {
+        staticClass: "breadcrumbs ace-save-state",
+        attrs: { id: "breadcrumbs" }
+      },
+      [
+        _c("ul", { staticClass: "breadcrumb" }, [
+          _c("li", [
+            _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
+            _vm._v(" "),
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "active" }, [_vm._v("Dashboard")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "nav-search", attrs: { id: "nav-search" } }, [
+          _c("form", { staticClass: "form-search" }, [
+            _c("span", { staticClass: "input-icon" }, [
+              _c("input", {
+                staticClass: "nav-search-input",
+                attrs: {
+                  type: "text",
+                  placeholder: "Search ...",
+                  id: "nav-search-input",
+                  autocomplete: "off"
+                }
+              }),
+              _vm._v(" "),
+              _c("i", { staticClass: "ace-icon fa fa-search nav-search-icon" })
+            ])
+          ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "page-content" }, [
+      _c(
+        "div",
+        {
+          staticClass: "ace-settings-container",
+          attrs: { id: "ace-settings-container" }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "btn btn-app btn-xs btn-warning ace-settings-btn",
+              attrs: { id: "ace-settings-btn" }
+            },
+            [_c("i", { staticClass: "ace-icon fa fa-cog bigger-130" })]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "ace-settings-box clearfix",
+              attrs: { id: "ace-settings-box" }
+            },
+            [
+              _c("div", { staticClass: "pull-left width-50" }, [
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("div", { staticClass: "pull-left" }, [
+                    _c(
+                      "select",
+                      {
+                        staticClass: "hide",
+                        attrs: { id: "skin-colorpicker" }
+                      },
+                      [
+                        _c(
+                          "option",
+                          {
+                            attrs: { "data-skin": "no-skin", value: "#438EB9" }
+                          },
+                          [_vm._v("#438EB9")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "option",
+                          {
+                            attrs: { "data-skin": "skin-1", value: "#222A2D" }
+                          },
+                          [_vm._v("#222A2D")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "option",
+                          {
+                            attrs: { "data-skin": "skin-2", value: "#C6487E" }
+                          },
+                          [_vm._v("#C6487E")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "option",
+                          {
+                            attrs: { "data-skin": "skin-3", value: "#D0D0D0" }
+                          },
+                          [_vm._v("#D0D0D0")]
+                        )
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("  Choose Skin")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2 ace-save-state",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-navbar",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "lbl",
+                      attrs: { for: "ace-settings-navbar" }
+                    },
+                    [_vm._v(" Fixed Navbar")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2 ace-save-state",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-sidebar",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "lbl",
+                      attrs: { for: "ace-settings-sidebar" }
+                    },
+                    [_vm._v(" Fixed Sidebar")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2 ace-save-state",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-breadcrumbs",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "lbl",
+                      attrs: { for: "ace-settings-breadcrumbs" }
+                    },
+                    [_vm._v(" Fixed Breadcrumbs")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-rtl",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    { staticClass: "lbl", attrs: { for: "ace-settings-rtl" } },
+                    [_vm._v(" Right To Left (rtl)")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2 ace-save-state",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-add-container",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "lbl",
+                      attrs: { for: "ace-settings-add-container" }
+                    },
+                    [
+                      _vm._v(
+                        "\n                            Inside\n                            "
+                      ),
+                      _c("b", [_vm._v(".container")])
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pull-left width-50" }, [
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-hover",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "lbl",
+                      attrs: { for: "ace-settings-hover" }
+                    },
+                    [_vm._v(" Submenu on Hover")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-compact",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "lbl",
+                      attrs: { for: "ace-settings-compact" }
+                    },
+                    [_vm._v(" Compact Sidebar")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ace-settings-item" }, [
+                  _c("input", {
+                    staticClass: "ace ace-checkbox-2",
+                    attrs: {
+                      type: "checkbox",
+                      id: "ace-settings-highlight",
+                      autocomplete: "off"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "lbl",
+                      attrs: { for: "ace-settings-highlight" }
+                    },
+                    [_vm._v(" Alt. Active Item")]
+                  )
+                ])
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "page-header" }, [
+        _c("h1", [
+          _vm._v("\n                Dashboard\n                "),
+          _c("small", [
+            _c("i", { staticClass: "ace-icon fa fa-angle-double-right" }),
+            _vm._v("\n                    overview & stats\n                ")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-xs-12" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "space-6" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-7 infobox-container" }, [
+              _c("div", { staticClass: "infobox infobox-green" }, [
+                _c("div", { staticClass: "infobox-icon" }, [
+                  _c("i", { staticClass: "ace-icon fa fa-comments" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox-data" }, [
+                  _c("span", { staticClass: "infobox-data-number" }, [
+                    _vm._v("32")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-content" }, [
+                    _vm._v("comments + 2 reviews")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "stat stat-success" }, [_vm._v("8%")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "infobox infobox-blue" }, [
+                _c("div", { staticClass: "infobox-icon" }, [
+                  _c("i", { staticClass: "ace-icon fa fa-twitter" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox-data" }, [
+                  _c("span", { staticClass: "infobox-data-number" }, [
+                    _vm._v("11")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-content" }, [
+                    _vm._v("new followers")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "badge badge-success" }, [
+                  _vm._v(
+                    "\n                                +32%\n                                "
+                  ),
+                  _c("i", { staticClass: "ace-icon fa fa-arrow-up" })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "infobox infobox-pink" }, [
+                _c("div", { staticClass: "infobox-icon" }, [
+                  _c("i", { staticClass: "ace-icon fa fa-shopping-cart" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox-data" }, [
+                  _c("span", { staticClass: "infobox-data-number" }, [
+                    _vm._v("8")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-content" }, [
+                    _vm._v("new orders")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "stat stat-important" }, [
+                  _vm._v("4%")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "infobox infobox-red" }, [
+                _c("div", { staticClass: "infobox-icon" }, [
+                  _c("i", { staticClass: "ace-icon fa fa-flask" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox-data" }, [
+                  _c("span", { staticClass: "infobox-data-number" }, [
+                    _vm._v("7")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-content" }, [
+                    _vm._v("experiments")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "infobox infobox-orange2" }, [
+                _c("div", { staticClass: "infobox-chart" }, [
+                  _c("span", {
+                    staticClass: "sparkline",
+                    attrs: {
+                      "data-values": "196,128,202,177,154,94,100,170,224"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox-data" }, [
+                  _c("span", { staticClass: "infobox-data-number" }, [
+                    _vm._v("6,251")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-content" }, [
+                    _vm._v("pageviews")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "badge badge-success" }, [
+                  _vm._v(
+                    "\n                                7.2%\n                                "
+                  ),
+                  _c("i", { staticClass: "ace-icon fa fa-arrow-up" })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "infobox infobox-blue2" }, [
+                _c("div", { staticClass: "infobox-progress" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "easy-pie-chart percentage",
+                      attrs: { "data-percent": "42", "data-size": "46" }
+                    },
+                    [
+                      _c("span", { staticClass: "percent" }, [_vm._v("42")]),
+                      _vm._v("%\n                                ")
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox-data" }, [
+                  _c("span", { staticClass: "infobox-text" }, [
+                    _vm._v("traffic used")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-content" }, [
+                    _c("span", { staticClass: "bigger-110" }, [_vm._v("~")]),
+                    _vm._v(
+                      "\n                                    58GB remaining\n                                "
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "space-6" }),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "infobox infobox-green infobox-small infobox-dark"
+                },
+                [
+                  _c("div", { staticClass: "infobox-progress" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "easy-pie-chart percentage",
+                        attrs: { "data-percent": "61", "data-size": "39" }
+                      },
+                      [
+                        _c("span", { staticClass: "percent" }, [_vm._v("61")]),
+                        _vm._v("%\n                                ")
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Task")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Completion")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "infobox infobox-blue infobox-small infobox-dark"
+                },
+                [
+                  _c("div", { staticClass: "infobox-chart" }, [
+                    _c("span", {
+                      staticClass: "sparkline",
+                      attrs: { "data-values": "3,4,2,3,4,4,2,2" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Earnings")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("$32,000")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "infobox infobox-grey infobox-small infobox-dark"
+                },
+                [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-download" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Downloads")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("1,205")
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "vspace-12-sm" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-5" }, [
+              _c("div", { staticClass: "widget-box transparent" }, [
+                _c("div", { staticClass: "widget-body" }, [
+                  _c("div", { staticClass: "widget-main no-padding" }, [
+                    _c(
+                      "table",
+                      { staticClass: "table table-bordered table-striped" },
+                      [
+                        _c("thead", { staticClass: "thin-border-bottom" }, [
+                          _c("tr", [
+                            _c("th", [
+                              _c("i", {
+                                staticClass: "ace-icon fa fa-caret-right blue"
+                              }),
+                              _vm._v(
+                                "name\n                                                "
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("th", [
+                              _c("i", {
+                                staticClass: "ace-icon fa fa-caret-right blue"
+                              }),
+                              _vm._v(
+                                "price\n                                                "
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("th", { staticClass: "hidden-480" }, [
+                              _c("i", {
+                                staticClass: "ace-icon fa fa-caret-right blue"
+                              }),
+                              _vm._v(
+                                "status\n                                                "
+                              )
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("tbody", [
+                          _c("tr", [
+                            _c("td", [_vm._v("internet.com")]),
+                            _vm._v(" "),
+                            _c("td", [
+                              _c("small", [
+                                _c("s", { staticClass: "red" }, [
+                                  _vm._v("$29.99")
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("b", { staticClass: "green" }, [
+                                _vm._v("$19.99")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "hidden-480" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "label label-info arrowed-right arrowed-in"
+                                },
+                                [_vm._v("on sale")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c("td", [_vm._v("online.com")]),
+                            _vm._v(" "),
+                            _c("td", [
+                              _c("b", { staticClass: "blue" }, [
+                                _vm._v("$16.45")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "hidden-480" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "label label-success arrowed-in arrowed-in-right"
+                                },
+                                [_vm._v("approved")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c("td", [_vm._v("newnet.com")]),
+                            _vm._v(" "),
+                            _c("td", [
+                              _c("b", { staticClass: "blue" }, [
+                                _vm._v("$15.00")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "hidden-480" }, [
+                              _c(
+                                "span",
+                                { staticClass: "label label-danger arrowed" },
+                                [_vm._v("pending")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c("td", [_vm._v("web.com")]),
+                            _vm._v(" "),
+                            _c("td", [
+                              _c("small", [
+                                _c("s", { staticClass: "red" }, [
+                                  _vm._v("$24.99")
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("b", { staticClass: "green" }, [
+                                _vm._v("$19.95")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "hidden-480" }, [
+                              _c("span", { staticClass: "label arrowed" }, [
+                                _c("s", [_vm._v("out of stock")])
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c("td", [_vm._v("domain.com")]),
+                            _vm._v(" "),
+                            _c("td", [
+                              _c("b", { staticClass: "blue" }, [
+                                _vm._v("$12.00")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "hidden-480" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "label label-warning arrowed arrowed-right"
+                                },
+                                [_vm._v("SOLD")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "hr hr32 hr-dotted" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-sm-6" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "widget-box transparent",
+                  attrs: { id: "recent-box" }
+                },
+                [
+                  _c("div", { staticClass: "widget-header" }, [
+                    _c("h4", { staticClass: "widget-title lighter smaller" }, [
+                      _c("i", { staticClass: "ace-icon fa fa-rss orange" }),
+                      _vm._v("RECENT\n                                ")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "widget-toolbar no-border" }, [
+                      _c(
+                        "ul",
+                        {
+                          staticClass: "nav nav-tabs",
+                          attrs: { id: "recent-tab" }
+                        },
+                        [
+                          _c("li", { staticClass: "active" }, [
+                            _c(
+                              "a",
+                              {
+                                attrs: {
+                                  "data-toggle": "tab",
+                                  href: "#task-tab"
+                                }
+                              },
+                              [_vm._v("Tasks")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              {
+                                attrs: {
+                                  "data-toggle": "tab",
+                                  href: "#member-tab"
+                                }
+                              },
+                              [_vm._v("Members")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              {
+                                attrs: {
+                                  "data-toggle": "tab",
+                                  href: "#comment-tab"
+                                }
+                              },
+                              [_vm._v("Comments")]
+                            )
+                          ])
+                        ]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "widget-body" }, [
+                    _c("div", { staticClass: "widget-main padding-4" }, [
+                      _c("div", { staticClass: "tab-content padding-8" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "tab-pane active",
+                            attrs: { id: "task-tab" }
+                          },
+                          [
+                            _c("h4", { staticClass: "smaller lighter green" }, [
+                              _c("i", { staticClass: "ace-icon fa fa-list" }),
+                              _vm._v(
+                                "\n                                                Sortable Lists\n                                            "
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "ul",
+                              {
+                                staticClass: "item-list",
+                                attrs: { id: "tasks" }
+                              },
+                              [
+                                _c(
+                                  "li",
+                                  { staticClass: "item-orange clearfix" },
+                                  [
+                                    _c("label", { staticClass: "inline" }, [
+                                      _c("input", {
+                                        staticClass: "ace",
+                                        attrs: { type: "checkbox" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "lbl" }, [
+                                        _vm._v(" Answering customer questions")
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "pull-right easy-pie-chart percentage",
+                                        attrs: {
+                                          "data-size": "30",
+                                          "data-color": "#ECCB71",
+                                          "data-percent": "42"
+                                        }
+                                      },
+                                      [
+                                        _c("span", { staticClass: "percent" }, [
+                                          _vm._v("42")
+                                        ]),
+                                        _vm._v(
+                                          "%\n                                                    "
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("li", { staticClass: "item-red clearfix" }, [
+                                  _c("label", { staticClass: "inline" }, [
+                                    _c("input", {
+                                      staticClass: "ace",
+                                      attrs: { type: "checkbox" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "lbl" }, [
+                                      _vm._v(" Fixing bugs")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "pull-right action-buttons"
+                                    },
+                                    [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "blue",
+                                          attrs: { href: "#" }
+                                        },
+                                        [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-pencil bigger-130"
+                                          })
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "vbar" }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "red",
+                                          attrs: { href: "#" }
+                                        },
+                                        [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-trash-o bigger-130"
+                                          })
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "vbar" }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "green",
+                                          attrs: { href: "#" }
+                                        },
+                                        [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-flag bigger-130"
+                                          })
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c(
+                                  "li",
+                                  { staticClass: "item-default clearfix" },
+                                  [
+                                    _c("label", { staticClass: "inline" }, [
+                                      _c("input", {
+                                        staticClass: "ace",
+                                        attrs: { type: "checkbox" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "lbl" }, [
+                                        _vm._v(" Adding new features")
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "pull-right pos-rel dropdown-hover"
+                                      },
+                                      [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-minier bigger btn-primary"
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ace-icon fa fa-cog icon-only bigger-120"
+                                            })
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-caret dropdown-close dropdown-menu-right"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "tooltip-success",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title:
+                                                      "Mark&nbsp;as&nbsp;done"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "green" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-check bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass: "tooltip-error",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Delete"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "red" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-trash-o bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "li",
+                                  { staticClass: "item-blue clearfix" },
+                                  [
+                                    _c("label", { staticClass: "inline" }, [
+                                      _c("input", {
+                                        staticClass: "ace",
+                                        attrs: { type: "checkbox" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "lbl" }, [
+                                        _vm._v(
+                                          " Upgrading scripts used in template"
+                                        )
+                                      ])
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "li",
+                                  { staticClass: "item-grey clearfix" },
+                                  [
+                                    _c("label", { staticClass: "inline" }, [
+                                      _c("input", {
+                                        staticClass: "ace",
+                                        attrs: { type: "checkbox" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "lbl" }, [
+                                        _vm._v(" Adding new skins")
+                                      ])
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "li",
+                                  { staticClass: "item-green clearfix" },
+                                  [
+                                    _c("label", { staticClass: "inline" }, [
+                                      _c("input", {
+                                        staticClass: "ace",
+                                        attrs: { type: "checkbox" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "lbl" }, [
+                                        _vm._v(" Updating server software up")
+                                      ])
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "li",
+                                  { staticClass: "item-pink clearfix" },
+                                  [
+                                    _c("label", { staticClass: "inline" }, [
+                                      _c("input", {
+                                        staticClass: "ace",
+                                        attrs: { type: "checkbox" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "lbl" }, [
+                                        _vm._v(" Cleaning up")
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "tab-pane",
+                            attrs: { id: "member-tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "clearfix" }, [
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Bob Doe's avatar",
+                                      src: "assets/images/avatars/user.jpg"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Bob Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("20 min")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-warning label-sm"
+                                      },
+                                      [_vm._v("pending")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "inline position-relative"
+                                      },
+                                      [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
+                                            attrs: {
+                                              "data-toggle": "dropdown",
+                                              "data-position": "auto"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ace-icon fa fa-angle-down icon-only bigger-120"
+                                            })
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "tooltip-success",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Approve"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "green" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-check bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "tooltip-warning",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Reject"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "orange" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-times bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass: "tooltip-error",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Delete"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "red" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-trash-o bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ])
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Joe Doe's avatar",
+                                      src: "assets/images/avatars/avatar2.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Joe Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("1 hour")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-warning label-sm"
+                                      },
+                                      [_vm._v("pending")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "inline position-relative"
+                                      },
+                                      [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
+                                            attrs: {
+                                              "data-toggle": "dropdown",
+                                              "data-position": "auto"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ace-icon fa fa-angle-down icon-only bigger-120"
+                                            })
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "tooltip-success",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Approve"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "green" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-check bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "tooltip-warning",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Reject"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "orange" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-times bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass: "tooltip-error",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Delete"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "red" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-trash-o bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ])
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Jim Doe's avatar",
+                                      src: "assets/images/avatars/avatar.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Jim Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("2 hour")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-warning label-sm"
+                                      },
+                                      [_vm._v("pending")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "inline position-relative"
+                                      },
+                                      [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
+                                            attrs: {
+                                              "data-toggle": "dropdown",
+                                              "data-position": "auto"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ace-icon fa fa-angle-down icon-only bigger-120"
+                                            })
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "tooltip-success",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Approve"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "green" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-check bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "tooltip-warning",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Reject"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "orange" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-times bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass: "tooltip-error",
+                                                  attrs: {
+                                                    href: "#",
+                                                    "data-rel": "tooltip",
+                                                    title: "Delete"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    { staticClass: "red" },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ace-icon fa fa-trash-o bigger-110"
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ])
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Alex Doe's avatar",
+                                      src: "assets/images/avatars/avatar5.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Alex Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("3 hour")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-danger label-sm"
+                                      },
+                                      [_vm._v("blocked")]
+                                    )
+                                  ])
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Bob Doe's avatar",
+                                      src: "assets/images/avatars/avatar2.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Bob Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("6 hour")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-success label-sm arrowed-in"
+                                      },
+                                      [_vm._v("approved")]
+                                    )
+                                  ])
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Susan's avatar",
+                                      src: "assets/images/avatars/avatar3.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Susan")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("yesterday")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-success label-sm arrowed-in"
+                                      },
+                                      [_vm._v("approved")]
+                                    )
+                                  ])
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Phil Doe's avatar",
+                                      src: "assets/images/avatars/avatar4.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Phil Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("2 days ago")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-info label-sm arrowed-in arrowed-in-right"
+                                      },
+                                      [_vm._v("online")]
+                                    )
+                                  ])
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv memberdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Alexa Doe's avatar",
+                                      src: "assets/images/avatars/avatar1.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Alexa Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("3 days ago")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "label label-success label-sm arrowed-in"
+                                      },
+                                      [_vm._v("approved")]
+                                    )
+                                  ])
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "space-4" }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "center" }, [
+                              _c("i", {
+                                staticClass:
+                                  "ace-icon fa fa-users fa-2x green middle"
+                              }),
+                              _vm._v(
+                                "\n\n                                                 \n                                                "
+                              ),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "btn btn-sm btn-white btn-info",
+                                  attrs: { href: "#" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                                    See all members  \n                                                    "
+                                  ),
+                                  _c("i", {
+                                    staticClass: "ace-icon fa fa-arrow-right"
+                                  })
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "hr hr-double hr8" })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "tab-pane",
+                            attrs: { id: "comment-tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "comments" }, [
+                              _c("div", { staticClass: "itemdiv commentdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Bob Doe's Avatar",
+                                      src: "assets/images/avatars/avatar.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Bob Doe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "green" }, [
+                                      _vm._v("6 min")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "text" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-quote-left"
+                                    }),
+                                    _vm._v(
+                                      "\n                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n                                                        "
+                                    )
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "tools" }, [
+                                  _c(
+                                    "div",
+                                    { staticClass: "inline position-relative" },
+                                    [
+                                      _c(
+                                        "button",
+                                        {
+                                          staticClass:
+                                            "btn btn-minier bigger btn-yellow dropdown-toggle",
+                                          attrs: { "data-toggle": "dropdown" }
+                                        },
+                                        [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-angle-down icon-only bigger-120"
+                                          })
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "ul",
+                                        {
+                                          staticClass:
+                                            "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
+                                        },
+                                        [
+                                          _c("li", [
+                                            _c(
+                                              "a",
+                                              {
+                                                staticClass: "tooltip-success",
+                                                attrs: {
+                                                  href: "#",
+                                                  "data-rel": "tooltip",
+                                                  title: "Approve"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "span",
+                                                  { staticClass: "green" },
+                                                  [
+                                                    _c("i", {
+                                                      staticClass:
+                                                        "ace-icon fa fa-check bigger-110"
+                                                    })
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("li", [
+                                            _c(
+                                              "a",
+                                              {
+                                                staticClass: "tooltip-warning",
+                                                attrs: {
+                                                  href: "#",
+                                                  "data-rel": "tooltip",
+                                                  title: "Reject"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "span",
+                                                  { staticClass: "orange" },
+                                                  [
+                                                    _c("i", {
+                                                      staticClass:
+                                                        "ace-icon fa fa-times bigger-110"
+                                                    })
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("li", [
+                                            _c(
+                                              "a",
+                                              {
+                                                staticClass: "tooltip-error",
+                                                attrs: {
+                                                  href: "#",
+                                                  "data-rel": "tooltip",
+                                                  title: "Delete"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "span",
+                                                  { staticClass: "red" },
+                                                  [
+                                                    _c("i", {
+                                                      staticClass:
+                                                        "ace-icon fa fa-trash-o bigger-110"
+                                                    })
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ])
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv commentdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Jennifer's Avatar",
+                                      src: "assets/images/avatars/avatar1.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Jennifer")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "blue" }, [
+                                      _vm._v("15 min")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "text" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-quote-left"
+                                    }),
+                                    _vm._v(
+                                      "\n                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n                                                        "
+                                    )
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "tools" }, [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "action-buttons bigger-125"
+                                    },
+                                    [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "ace-icon fa fa-pencil blue"
+                                        })
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "ace-icon fa fa-trash-o red"
+                                        })
+                                      ])
+                                    ]
+                                  )
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv commentdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Joe's Avatar",
+                                      src: "assets/images/avatars/avatar2.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Joe")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "orange" }, [
+                                      _vm._v("22 min")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "text" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-quote-left"
+                                    }),
+                                    _vm._v(
+                                      "\n                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n                                                        "
+                                    )
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "tools" }, [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "action-buttons bigger-125"
+                                    },
+                                    [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "ace-icon fa fa-pencil blue"
+                                        })
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "ace-icon fa fa-trash-o red"
+                                        })
+                                      ])
+                                    ]
+                                  )
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "itemdiv commentdiv" }, [
+                                _c("div", { staticClass: "user" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Rita's Avatar",
+                                      src: "assets/images/avatars/avatar3.png"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "body" }, [
+                                  _c("div", { staticClass: "name" }, [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _vm._v("Rita")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "time" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-clock-o"
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "red" }, [
+                                      _vm._v("50 min")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "text" }, [
+                                    _c("i", {
+                                      staticClass: "ace-icon fa fa-quote-left"
+                                    }),
+                                    _vm._v(
+                                      "\n                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n                                                        "
+                                    )
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "tools" }, [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "action-buttons bigger-125"
+                                    },
+                                    [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "ace-icon fa fa-pencil blue"
+                                        })
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "ace-icon fa fa-trash-o red"
+                                        })
+                                      ])
+                                    ]
+                                  )
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "hr hr8" }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "center" }, [
+                              _c("i", {
+                                staticClass:
+                                  "ace-icon fa fa-comments-o fa-2x green middle"
+                              }),
+                              _vm._v(
+                                "\n\n                                                 \n                                                "
+                              ),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "btn btn-sm btn-white btn-info",
+                                  attrs: { href: "#" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                                    See all comments  \n                                                    "
+                                  ),
+                                  _c("i", {
+                                    staticClass: "ace-icon fa fa-arrow-right"
+                                  })
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "hr hr-double hr8" })
+                          ]
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-6" }, [
+              _c("div", { staticClass: "widget-box" }, [
+                _c("div", { staticClass: "widget-header" }, [
+                  _c("h4", { staticClass: "widget-title lighter smaller" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-comment blue" }),
+                    _vm._v(
+                      "\n                                    Conversation\n                                "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "widget-body" }, [
+                  _c("div", { staticClass: "widget-main no-padding" }, [
+                    _c("div", { staticClass: "dialogs" }, [
+                      _c("div", { staticClass: "itemdiv dialogdiv" }, [
+                        _c("div", { staticClass: "user" }, [
+                          _c("img", {
+                            attrs: {
+                              alt: "Alexa's Avatar",
+                              src: "assets/images/avatars/avatar1.png"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "body" }, [
+                          _c("div", { staticClass: "time" }, [
+                            _c("i", { staticClass: "ace-icon fa fa-clock-o" }),
+                            _vm._v(" "),
+                            _c("span", { staticClass: "green" }, [
+                              _vm._v("4 sec")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "name" }, [
+                            _c("a", { attrs: { href: "#" } }, [_vm._v("Alexa")])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text" }, [
+                            _vm._v(
+                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis."
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "tools" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-minier btn-info",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "icon-only ace-icon fa fa-share"
+                                })
+                              ]
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "itemdiv dialogdiv" }, [
+                        _c("div", { staticClass: "user" }, [
+                          _c("img", {
+                            attrs: {
+                              alt: "John's Avatar",
+                              src: "assets/images/avatars/avatar.png"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "body" }, [
+                          _c("div", { staticClass: "time" }, [
+                            _c("i", { staticClass: "ace-icon fa fa-clock-o" }),
+                            _vm._v(" "),
+                            _c("span", { staticClass: "blue" }, [
+                              _vm._v("38 sec")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "name" }, [
+                            _c("a", { attrs: { href: "#" } }, [_vm._v("John")])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text" }, [
+                            _vm._v(
+                              "Raw denim you probably haven't heard of them jean shorts Austin."
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "tools" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-minier btn-info",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "icon-only ace-icon fa fa-share"
+                                })
+                              ]
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "itemdiv dialogdiv" }, [
+                        _c("div", { staticClass: "user" }, [
+                          _c("img", {
+                            attrs: {
+                              alt: "Bob's Avatar",
+                              src: "assets/images/avatars/user.jpg"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "body" }, [
+                          _c("div", { staticClass: "time" }, [
+                            _c("i", { staticClass: "ace-icon fa fa-clock-o" }),
+                            _vm._v(" "),
+                            _c("span", { staticClass: "orange" }, [
+                              _vm._v("2 min")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "name" }, [
+                            _c("a", { attrs: { href: "#" } }, [_vm._v("Bob")]),
+                            _vm._v(" "),
+                            _c(
+                              "span",
+                              {
+                                staticClass:
+                                  "label label-info arrowed arrowed-in-right"
+                              },
+                              [_vm._v("admin")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text" }, [
+                            _vm._v(
+                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis."
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "tools" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-minier btn-info",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "icon-only ace-icon fa fa-share"
+                                })
+                              ]
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "itemdiv dialogdiv" }, [
+                        _c("div", { staticClass: "user" }, [
+                          _c("img", {
+                            attrs: {
+                              alt: "Jim's Avatar",
+                              src: "assets/images/avatars/avatar4.png"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "body" }, [
+                          _c("div", { staticClass: "time" }, [
+                            _c("i", { staticClass: "ace-icon fa fa-clock-o" }),
+                            _vm._v(" "),
+                            _c("span", { staticClass: "grey" }, [
+                              _vm._v("3 min")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "name" }, [
+                            _c("a", { attrs: { href: "#" } }, [_vm._v("Jim")])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text" }, [
+                            _vm._v(
+                              "Raw denim you probably haven't heard of them jean shorts Austin."
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "tools" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-minier btn-info",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "icon-only ace-icon fa fa-share"
+                                })
+                              ]
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "itemdiv dialogdiv" }, [
+                        _c("div", { staticClass: "user" }, [
+                          _c("img", {
+                            attrs: {
+                              alt: "Alexa's Avatar",
+                              src: "assets/images/avatars/avatar1.png"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "body" }, [
+                          _c("div", { staticClass: "time" }, [
+                            _c("i", { staticClass: "ace-icon fa fa-clock-o" }),
+                            _vm._v(" "),
+                            _c("span", { staticClass: "green" }, [
+                              _vm._v("4 min")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "name" }, [
+                            _c("a", { attrs: { href: "#" } }, [_vm._v("Alexa")])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text" }, [
+                            _vm._v(
+                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "tools" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-minier btn-info",
+                                attrs: { href: "#" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "icon-only ace-icon fa fa-share"
+                                })
+                              ]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("form", [
+                      _c("div", { staticClass: "form-actions" }, [
+                        _c("div", { staticClass: "input-group" }, [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              placeholder: "Type your message here ...",
+                              type: "text",
+                              name: "message"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("span", { staticClass: "input-group-btn" }, [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "btn btn-sm btn-info no-radius",
+                                attrs: { type: "button" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "ace-icon fa fa-share"
+                                }),
+                                _vm._v(
+                                  "\n                                                        Send\n                                                    "
+                                )
+                              ]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/inset/insethome.vue?vue&type=template&id=d7ef3cde&":
 /*!*************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/inset/insethome.vue?vue&type=template&id=d7ef3cde& ***!
@@ -50346,7 +51820,36 @@ var render = function() {
                   _c("tr", [
                     _c("td", {}, [_vm._v("2")]),
                     _vm._v(" "),
-                    _c("td", {}, [_vm._v("Aualification Upgradation")]),
+                    _c("td", {}, [_vm._v("Qualification Upgradation")]),
+                    _vm._v(" "),
+                    _c("td", {}, [_vm._v("Further Study")]),
+                    _vm._v(" "),
+                    _c("td", {}, [_vm._v("University Name")]),
+                    _vm._v(" "),
+                    _c("td", {}, [_vm._v("2018-10-12")]),
+                    _vm._v(" "),
+                    _c("td", {}, [_vm._v("2020-10-12")]),
+                    _vm._v(" "),
+                    _c("td", {}, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-block btn-primary btn-sm",
+                          on: {
+                            click: function($event) {
+                              return _vm.showdetails("qualification")
+                            }
+                          }
+                        },
+                        [_c("i", { staticClass: "fa fa-eye" }), _vm._v(" View")]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("td", {}, [_vm._v("3")]),
+                    _vm._v(" "),
+                    _c("td", {}, [_vm._v("Other Name")]),
                     _vm._v(" "),
                     _c("td", {}, [_vm._v("Further Study")]),
                     _vm._v(" "),
@@ -50387,6 +51890,200 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/school.vue?vue&type=template&id=8b670c52&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/school.vue?vue&type=template&id=8b670c52& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "page-content" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-xs-12" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("div", { staticClass: "table-header" }, [
+            _vm._v(
+              '\n                    Results for "Latest Registered Domains"\n                '
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "table",
+            {
+              staticClass: "table table-striped table-bordered table-hover",
+              attrs: { id: "dynamic-table" }
+            },
+            [
+              _vm._m(2),
+              _vm._v(" "),
+              _c("tbody", [
+                _c("tr", [
+                  _c("td", {}, [_vm._v("1")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("Professional Development Program")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("Training Name")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("Training Institution Name")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("2019-10-12")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("2020-10-12")]),
+                  _vm._v(" "),
+                  _c("td", {}, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-block btn-primary btn-sm",
+                        on: {
+                          click: function($event) {
+                            return _vm.showdetails("professional")
+                          }
+                        }
+                      },
+                      [_c("i", { staticClass: "fa fa-eye" }), _vm._v(" View")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", {}, [_vm._v("2")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("Qualification Upgradation")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("Further Study")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("University Name")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("2018-10-12")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("2020-10-12")]),
+                  _vm._v(" "),
+                  _c("td", {}, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-block btn-primary btn-sm",
+                        on: {
+                          click: function($event) {
+                            return _vm.showdetails("qualification")
+                          }
+                        }
+                      },
+                      [_c("i", { staticClass: "fa fa-eye" }), _vm._v(" View")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", {}, [_vm._v("3")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("Other Name")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("Further Study")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("University Name")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("2018-10-12")]),
+                  _vm._v(" "),
+                  _c("td", {}, [_vm._v("2020-10-12")]),
+                  _vm._v(" "),
+                  _c("td", {}, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-block btn-primary btn-sm",
+                        on: {
+                          click: function($event) {
+                            return _vm.showdetails("qualification")
+                          }
+                        }
+                      },
+                      [_c("i", { staticClass: "fa fa-eye" }), _vm._v(" View")]
+                    )
+                  ])
+                ])
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "breadcrumbs ace-save-state",
+        attrs: { id: "breadcrumbs" }
+      },
+      [
+        _c("ul", { staticClass: "breadcrumb" }, [
+          _c("li", [
+            _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
+            _vm._v(" "),
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "active" }, [_vm._v("School")])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "clearfix" }, [
+      _c("div", { staticClass: "pull-right tableTools-container" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("No.")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Level")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Training/worksho Name")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Institute/Vanue")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Start Date")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("End Date")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Action")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/user_dashboard.vue?vue&type=template&id=061d38e9&":
 /*!************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/user_dashboard.vue?vue&type=template&id=061d38e9& ***!
@@ -50403,2839 +52100,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("app-layout", [
-    _c("div", [
-      _c("div", {}, [
-        _c("div", {}, [
-          _c(
-            "div",
-            {
-              staticClass: "breadcrumbs ace-save-state",
-              attrs: { id: "breadcrumbs" }
-            },
-            [
-              _c("ul", { staticClass: "breadcrumb" }, [
-                _c("li", [
-                  _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
-                  _vm._v(" "),
-                  _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "active" }, [_vm._v("Dashboard")])
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "nav-search", attrs: { id: "nav-search" } },
-                [
-                  _c("form", { staticClass: "form-search" }, [
-                    _c("span", { staticClass: "input-icon" }, [
-                      _c("input", {
-                        staticClass: "nav-search-input",
-                        attrs: {
-                          type: "text",
-                          placeholder: "Search ...",
-                          id: "nav-search-input",
-                          autocomplete: "off"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("i", {
-                        staticClass: "ace-icon fa fa-search nav-search-icon"
-                      })
-                    ])
-                  ])
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "page-content" }, [
-            _c(
-              "div",
-              {
-                staticClass: "ace-settings-container",
-                attrs: { id: "ace-settings-container" }
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "btn btn-app btn-xs btn-warning ace-settings-btn",
-                    attrs: { id: "ace-settings-btn" }
-                  },
-                  [_c("i", { staticClass: "ace-icon fa fa-cog bigger-130" })]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "ace-settings-box clearfix",
-                    attrs: { id: "ace-settings-box" }
-                  },
-                  [
-                    _c("div", { staticClass: "pull-left width-50" }, [
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("div", { staticClass: "pull-left" }, [
-                          _c(
-                            "select",
-                            {
-                              staticClass: "hide",
-                              attrs: { id: "skin-colorpicker" }
-                            },
-                            [
-                              _c(
-                                "option",
-                                {
-                                  attrs: {
-                                    "data-skin": "no-skin",
-                                    value: "#438EB9"
-                                  }
-                                },
-                                [_vm._v("#438EB9")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "option",
-                                {
-                                  attrs: {
-                                    "data-skin": "skin-1",
-                                    value: "#222A2D"
-                                  }
-                                },
-                                [_vm._v("#222A2D")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "option",
-                                {
-                                  attrs: {
-                                    "data-skin": "skin-2",
-                                    value: "#C6487E"
-                                  }
-                                },
-                                [_vm._v("#C6487E")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "option",
-                                {
-                                  attrs: {
-                                    "data-skin": "skin-3",
-                                    value: "#D0D0D0"
-                                  }
-                                },
-                                [_vm._v("#D0D0D0")]
-                              )
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("span", [_vm._v("  Choose Skin")])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2 ace-save-state",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-navbar",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-navbar" }
-                          },
-                          [_vm._v(" Fixed Navbar")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2 ace-save-state",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-sidebar",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-sidebar" }
-                          },
-                          [_vm._v(" Fixed Sidebar")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2 ace-save-state",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-breadcrumbs",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-breadcrumbs" }
-                          },
-                          [_vm._v(" Fixed Breadcrumbs")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-rtl",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-rtl" }
-                          },
-                          [_vm._v(" Right To Left (rtl)")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2 ace-save-state",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-add-container",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-add-container" }
-                          },
-                          [
-                            _vm._v(
-                              "\n\t\t\t\t\t\t\t\t\t\t\tInside\n\t\t\t\t\t\t\t\t\t\t\t"
-                            ),
-                            _c("b", [_vm._v(".container")])
-                          ]
-                        )
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "pull-left width-50" }, [
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-hover",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-hover" }
-                          },
-                          [_vm._v(" Submenu on Hover")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-compact",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-compact" }
-                          },
-                          [_vm._v(" Compact Sidebar")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ace-settings-item" }, [
-                        _c("input", {
-                          staticClass: "ace ace-checkbox-2",
-                          attrs: {
-                            type: "checkbox",
-                            id: "ace-settings-highlight",
-                            autocomplete: "off"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "lbl",
-                            attrs: { for: "ace-settings-highlight" }
-                          },
-                          [_vm._v(" Alt. Active Item")]
-                        )
-                      ])
-                    ])
-                  ]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "page-header" }, [
-              _c("h1", [
-                _vm._v("\n\t\t\t\t\t\t\t\tDashboard\n\t\t\t\t\t\t\t\t"),
-                _c("small", [
-                  _c("i", { staticClass: "ace-icon fa fa-angle-double-right" }),
-                  _vm._v(
-                    "\n\t\t\t\t\t\t\t\t\toverview & stats\n\t\t\t\t\t\t\t\t"
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-xs-12" }, [
-                _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "space-6" }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-sm-7 infobox-container" }, [
-                    _c("div", { staticClass: "infobox infobox-green" }, [
-                      _c("div", { staticClass: "infobox-icon" }, [
-                        _c("i", { staticClass: "ace-icon fa fa-comments" })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-data" }, [
-                        _c("span", { staticClass: "infobox-data-number" }, [
-                          _vm._v("32")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-content" }, [
-                          _vm._v("comments + 2 reviews")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "stat stat-success" }, [
-                        _vm._v("8%")
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox infobox-blue" }, [
-                      _c("div", { staticClass: "infobox-icon" }, [
-                        _c("i", { staticClass: "ace-icon fa fa-twitter" })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-data" }, [
-                        _c("span", { staticClass: "infobox-data-number" }, [
-                          _vm._v("11")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-content" }, [
-                          _vm._v("new followers")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "badge badge-success" }, [
-                        _vm._v(
-                          "\n\t\t\t\t\t\t\t\t\t\t\t\t+32%\n\t\t\t\t\t\t\t\t\t\t\t\t"
-                        ),
-                        _c("i", { staticClass: "ace-icon fa fa-arrow-up" })
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox infobox-pink" }, [
-                      _c("div", { staticClass: "infobox-icon" }, [
-                        _c("i", { staticClass: "ace-icon fa fa-shopping-cart" })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-data" }, [
-                        _c("span", { staticClass: "infobox-data-number" }, [
-                          _vm._v("8")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-content" }, [
-                          _vm._v("new orders")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "stat stat-important" }, [
-                        _vm._v("4%")
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox infobox-red" }, [
-                      _c("div", { staticClass: "infobox-icon" }, [
-                        _c("i", { staticClass: "ace-icon fa fa-flask" })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-data" }, [
-                        _c("span", { staticClass: "infobox-data-number" }, [
-                          _vm._v("7")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-content" }, [
-                          _vm._v("experiments")
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox infobox-orange2" }, [
-                      _c("div", { staticClass: "infobox-chart" }, [
-                        _c("span", {
-                          staticClass: "sparkline",
-                          attrs: {
-                            "data-values": "196,128,202,177,154,94,100,170,224"
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-data" }, [
-                        _c("span", { staticClass: "infobox-data-number" }, [
-                          _vm._v("6,251")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-content" }, [
-                          _vm._v("pageviews")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "badge badge-success" }, [
-                        _vm._v(
-                          "\n\t\t\t\t\t\t\t\t\t\t\t\t7.2%\n\t\t\t\t\t\t\t\t\t\t\t\t"
-                        ),
-                        _c("i", { staticClass: "ace-icon fa fa-arrow-up" })
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox infobox-blue2" }, [
-                      _c("div", { staticClass: "infobox-progress" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "easy-pie-chart percentage",
-                            attrs: { "data-percent": "42", "data-size": "46" }
-                          },
-                          [
-                            _c("span", { staticClass: "percent" }, [
-                              _vm._v("42")
-                            ]),
-                            _vm._v("%\n\t\t\t\t\t\t\t\t\t\t\t\t")
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-data" }, [
-                        _c("span", { staticClass: "infobox-text" }, [
-                          _vm._v("traffic used")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-content" }, [
-                          _c("span", { staticClass: "bigger-110" }, [
-                            _vm._v("~")
-                          ]),
-                          _vm._v(
-                            "\n\t\t\t\t\t\t\t\t\t\t\t\t\t58GB remaining\n\t\t\t\t\t\t\t\t\t\t\t\t"
-                          )
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "space-6" }),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "infobox infobox-green infobox-small infobox-dark"
-                      },
-                      [
-                        _c("div", { staticClass: "infobox-progress" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass: "easy-pie-chart percentage",
-                              attrs: { "data-percent": "61", "data-size": "39" }
-                            },
-                            [
-                              _c("span", { staticClass: "percent" }, [
-                                _vm._v("61")
-                              ]),
-                              _vm._v("%\n\t\t\t\t\t\t\t\t\t\t\t\t")
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-data" }, [
-                          _c("div", { staticClass: "infobox-content" }, [
-                            _vm._v("Task")
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "infobox-content" }, [
-                            _vm._v("Completion")
-                          ])
-                        ])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "infobox infobox-blue infobox-small infobox-dark"
-                      },
-                      [
-                        _c("div", { staticClass: "infobox-chart" }, [
-                          _c("span", {
-                            staticClass: "sparkline",
-                            attrs: { "data-values": "3,4,2,3,4,4,2,2" }
-                          })
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-data" }, [
-                          _c("div", { staticClass: "infobox-content" }, [
-                            _vm._v("Earnings")
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "infobox-content" }, [
-                            _vm._v("$32,000")
-                          ])
-                        ])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "infobox infobox-grey infobox-small infobox-dark"
-                      },
-                      [
-                        _c("div", { staticClass: "infobox-icon" }, [
-                          _c("i", { staticClass: "ace-icon fa fa-download" })
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "infobox-data" }, [
-                          _c("div", { staticClass: "infobox-content" }, [
-                            _vm._v("Downloads")
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "infobox-content" }, [
-                            _vm._v("1,205")
-                          ])
-                        ])
-                      ]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "vspace-12-sm" }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-sm-5" }, [
-                    _c("div", { staticClass: "widget-box transparent" }, [
-                      _c("div", { staticClass: "widget-body" }, [
-                        _c("div", { staticClass: "widget-main no-padding" }, [
-                          _c(
-                            "table",
-                            {
-                              staticClass: "table table-bordered table-striped"
-                            },
-                            [
-                              _c(
-                                "thead",
-                                { staticClass: "thin-border-bottom" },
-                                [
-                                  _c("tr", [
-                                    _c("th", [
-                                      _c("i", {
-                                        staticClass:
-                                          "ace-icon fa fa-caret-right blue"
-                                      }),
-                                      _vm._v(
-                                        "name\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("th", [
-                                      _c("i", {
-                                        staticClass:
-                                          "ace-icon fa fa-caret-right blue"
-                                      }),
-                                      _vm._v(
-                                        "price\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("th", { staticClass: "hidden-480" }, [
-                                      _c("i", {
-                                        staticClass:
-                                          "ace-icon fa fa-caret-right blue"
-                                      }),
-                                      _vm._v(
-                                        "status\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c("tbody", [
-                                _c("tr", [
-                                  _c("td", [_vm._v("internet.com")]),
-                                  _vm._v(" "),
-                                  _c("td", [
-                                    _c("small", [
-                                      _c("s", { staticClass: "red" }, [
-                                        _vm._v("$29.99")
-                                      ])
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("b", { staticClass: "green" }, [
-                                      _vm._v("$19.99")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("td", { staticClass: "hidden-480" }, [
-                                    _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "label label-info arrowed-right arrowed-in"
-                                      },
-                                      [_vm._v("on sale")]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("tr", [
-                                  _c("td", [_vm._v("online.com")]),
-                                  _vm._v(" "),
-                                  _c("td", [
-                                    _c("b", { staticClass: "blue" }, [
-                                      _vm._v("$16.45")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("td", { staticClass: "hidden-480" }, [
-                                    _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "label label-success arrowed-in arrowed-in-right"
-                                      },
-                                      [_vm._v("approved")]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("tr", [
-                                  _c("td", [_vm._v("newnet.com")]),
-                                  _vm._v(" "),
-                                  _c("td", [
-                                    _c("b", { staticClass: "blue" }, [
-                                      _vm._v("$15.00")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("td", { staticClass: "hidden-480" }, [
-                                    _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "label label-danger arrowed"
-                                      },
-                                      [_vm._v("pending")]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("tr", [
-                                  _c("td", [_vm._v("web.com")]),
-                                  _vm._v(" "),
-                                  _c("td", [
-                                    _c("small", [
-                                      _c("s", { staticClass: "red" }, [
-                                        _vm._v("$24.99")
-                                      ])
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("b", { staticClass: "green" }, [
-                                      _vm._v("$19.95")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("td", { staticClass: "hidden-480" }, [
-                                    _c(
-                                      "span",
-                                      { staticClass: "label arrowed" },
-                                      [_c("s", [_vm._v("out of stock")])]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("tr", [
-                                  _c("td", [_vm._v("domain.com")]),
-                                  _vm._v(" "),
-                                  _c("td", [
-                                    _c("b", { staticClass: "blue" }, [
-                                      _vm._v("$12.00")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("td", { staticClass: "hidden-480" }, [
-                                    _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "label label-warning arrowed arrowed-right"
-                                      },
-                                      [_vm._v("SOLD")]
-                                    )
-                                  ])
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      ])
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "hr hr32 hr-dotted" }),
-                _vm._v(" "),
-                _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-sm-6" }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass: "widget-box transparent",
-                        attrs: { id: "recent-box" }
-                      },
-                      [
-                        _c("div", { staticClass: "widget-header" }, [
-                          _c(
-                            "h4",
-                            { staticClass: "widget-title lighter smaller" },
-                            [
-                              _c("i", {
-                                staticClass: "ace-icon fa fa-rss orange"
-                              }),
-                              _vm._v("RECENT\n\t\t\t\t\t\t\t\t\t\t\t\t")
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            { staticClass: "widget-toolbar no-border" },
-                            [
-                              _c(
-                                "ul",
-                                {
-                                  staticClass: "nav nav-tabs",
-                                  attrs: { id: "recent-tab" }
-                                },
-                                [
-                                  _c("li", { staticClass: "active" }, [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          "data-toggle": "tab",
-                                          href: "#task-tab"
-                                        }
-                                      },
-                                      [_vm._v("Tasks")]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          "data-toggle": "tab",
-                                          href: "#member-tab"
-                                        }
-                                      },
-                                      [_vm._v("Members")]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          "data-toggle": "tab",
-                                          href: "#comment-tab"
-                                        }
-                                      },
-                                      [_vm._v("Comments")]
-                                    )
-                                  ])
-                                ]
-                              )
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "widget-body" }, [
-                          _c("div", { staticClass: "widget-main padding-4" }, [
-                            _c(
-                              "div",
-                              { staticClass: "tab-content padding-8" },
-                              [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass: "tab-pane active",
-                                    attrs: { id: "task-tab" }
-                                  },
-                                  [
-                                    _c(
-                                      "h4",
-                                      { staticClass: "smaller lighter green" },
-                                      [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-list"
-                                        }),
-                                        _vm._v(
-                                          "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSortable Lists\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "ul",
-                                      {
-                                        staticClass: "item-list",
-                                        attrs: { id: "tasks" }
-                                      },
-                                      [
-                                        _c(
-                                          "li",
-                                          {
-                                            staticClass: "item-orange clearfix"
-                                          },
-                                          [
-                                            _c(
-                                              "label",
-                                              { staticClass: "inline" },
-                                              [
-                                                _c("input", {
-                                                  staticClass: "ace",
-                                                  attrs: { type: "checkbox" }
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "lbl" },
-                                                  [
-                                                    _vm._v(
-                                                      " Answering customer questions"
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "pull-right easy-pie-chart percentage",
-                                                attrs: {
-                                                  "data-size": "30",
-                                                  "data-color": "#ECCB71",
-                                                  "data-percent": "42"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "percent" },
-                                                  [_vm._v("42")]
-                                                ),
-                                                _vm._v(
-                                                  "%\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "li",
-                                          { staticClass: "item-red clearfix" },
-                                          [
-                                            _c(
-                                              "label",
-                                              { staticClass: "inline" },
-                                              [
-                                                _c("input", {
-                                                  staticClass: "ace",
-                                                  attrs: { type: "checkbox" }
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "lbl" },
-                                                  [_vm._v(" Fixing bugs")]
-                                                )
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "pull-right action-buttons"
-                                              },
-                                              [
-                                                _c(
-                                                  "a",
-                                                  {
-                                                    staticClass: "blue",
-                                                    attrs: { href: "#" }
-                                                  },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-pencil bigger-130"
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c("span", {
-                                                  staticClass: "vbar"
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "a",
-                                                  {
-                                                    staticClass: "red",
-                                                    attrs: { href: "#" }
-                                                  },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-trash-o bigger-130"
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c("span", {
-                                                  staticClass: "vbar"
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "a",
-                                                  {
-                                                    staticClass: "green",
-                                                    attrs: { href: "#" }
-                                                  },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-flag bigger-130"
-                                                    })
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "li",
-                                          {
-                                            staticClass: "item-default clearfix"
-                                          },
-                                          [
-                                            _c(
-                                              "label",
-                                              { staticClass: "inline" },
-                                              [
-                                                _c("input", {
-                                                  staticClass: "ace",
-                                                  attrs: { type: "checkbox" }
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "lbl" },
-                                                  [
-                                                    _vm._v(
-                                                      " Adding new features"
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "pull-right pos-rel dropdown-hover"
-                                              },
-                                              [
-                                                _c(
-                                                  "button",
-                                                  {
-                                                    staticClass:
-                                                      "btn btn-minier bigger btn-primary"
-                                                  },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-cog icon-only bigger-120"
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "ul",
-                                                  {
-                                                    staticClass:
-                                                      "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-caret dropdown-close dropdown-menu-right"
-                                                  },
-                                                  [
-                                                    _c("li", [
-                                                      _c(
-                                                        "a",
-                                                        {
-                                                          staticClass:
-                                                            "tooltip-success",
-                                                          attrs: {
-                                                            href: "#",
-                                                            "data-rel":
-                                                              "tooltip",
-                                                            title:
-                                                              "Mark&nbsp;as&nbsp;done"
-                                                          }
-                                                        },
-                                                        [
-                                                          _c(
-                                                            "span",
-                                                            {
-                                                              staticClass:
-                                                                "green"
-                                                            },
-                                                            [
-                                                              _c("i", {
-                                                                staticClass:
-                                                                  "ace-icon fa fa-check bigger-110"
-                                                              })
-                                                            ]
-                                                          )
-                                                        ]
-                                                      )
-                                                    ]),
-                                                    _vm._v(" "),
-                                                    _c("li", [
-                                                      _c(
-                                                        "a",
-                                                        {
-                                                          staticClass:
-                                                            "tooltip-error",
-                                                          attrs: {
-                                                            href: "#",
-                                                            "data-rel":
-                                                              "tooltip",
-                                                            title: "Delete"
-                                                          }
-                                                        },
-                                                        [
-                                                          _c(
-                                                            "span",
-                                                            {
-                                                              staticClass: "red"
-                                                            },
-                                                            [
-                                                              _c("i", {
-                                                                staticClass:
-                                                                  "ace-icon fa fa-trash-o bigger-110"
-                                                              })
-                                                            ]
-                                                          )
-                                                        ]
-                                                      )
-                                                    ])
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "li",
-                                          { staticClass: "item-blue clearfix" },
-                                          [
-                                            _c(
-                                              "label",
-                                              { staticClass: "inline" },
-                                              [
-                                                _c("input", {
-                                                  staticClass: "ace",
-                                                  attrs: { type: "checkbox" }
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "lbl" },
-                                                  [
-                                                    _vm._v(
-                                                      " Upgrading scripts used in template"
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "li",
-                                          { staticClass: "item-grey clearfix" },
-                                          [
-                                            _c(
-                                              "label",
-                                              { staticClass: "inline" },
-                                              [
-                                                _c("input", {
-                                                  staticClass: "ace",
-                                                  attrs: { type: "checkbox" }
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "lbl" },
-                                                  [_vm._v(" Adding new skins")]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "li",
-                                          {
-                                            staticClass: "item-green clearfix"
-                                          },
-                                          [
-                                            _c(
-                                              "label",
-                                              { staticClass: "inline" },
-                                              [
-                                                _c("input", {
-                                                  staticClass: "ace",
-                                                  attrs: { type: "checkbox" }
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "lbl" },
-                                                  [
-                                                    _vm._v(
-                                                      " Updating server software up"
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "li",
-                                          { staticClass: "item-pink clearfix" },
-                                          [
-                                            _c(
-                                              "label",
-                                              { staticClass: "inline" },
-                                              [
-                                                _c("input", {
-                                                  staticClass: "ace",
-                                                  attrs: { type: "checkbox" }
-                                                }),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "span",
-                                                  { staticClass: "lbl" },
-                                                  [_vm._v(" Cleaning up")]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass: "tab-pane",
-                                    attrs: { id: "member-tab" }
-                                  },
-                                  [
-                                    _c("div", { staticClass: "clearfix" }, [
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Bob Doe's avatar",
-                                                src:
-                                                  "assets/images/avatars/user.jpg"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Bob Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("20 min")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-warning label-sm"
-                                                },
-                                                [_vm._v("pending")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "inline position-relative"
-                                                },
-                                                [
-                                                  _c(
-                                                    "button",
-                                                    {
-                                                      staticClass:
-                                                        "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
-                                                      attrs: {
-                                                        "data-toggle":
-                                                          "dropdown",
-                                                        "data-position": "auto"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c("i", {
-                                                        staticClass:
-                                                          "ace-icon fa fa-angle-down icon-only bigger-120"
-                                                      })
-                                                    ]
-                                                  ),
-                                                  _vm._v(" "),
-                                                  _c(
-                                                    "ul",
-                                                    {
-                                                      staticClass:
-                                                        "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
-                                                    },
-                                                    [
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-success",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Approve"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "green"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-check bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]),
-                                                      _vm._v(" "),
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-warning",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Reject"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "orange"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-times bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]),
-                                                      _vm._v(" "),
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-error",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Delete"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "red"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-trash-o bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ])
-                                                    ]
-                                                  )
-                                                ]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Joe Doe's avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar2.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Joe Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("1 hour")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-warning label-sm"
-                                                },
-                                                [_vm._v("pending")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "inline position-relative"
-                                                },
-                                                [
-                                                  _c(
-                                                    "button",
-                                                    {
-                                                      staticClass:
-                                                        "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
-                                                      attrs: {
-                                                        "data-toggle":
-                                                          "dropdown",
-                                                        "data-position": "auto"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c("i", {
-                                                        staticClass:
-                                                          "ace-icon fa fa-angle-down icon-only bigger-120"
-                                                      })
-                                                    ]
-                                                  ),
-                                                  _vm._v(" "),
-                                                  _c(
-                                                    "ul",
-                                                    {
-                                                      staticClass:
-                                                        "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
-                                                    },
-                                                    [
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-success",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Approve"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "green"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-check bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]),
-                                                      _vm._v(" "),
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-warning",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Reject"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "orange"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-times bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]),
-                                                      _vm._v(" "),
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-error",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Delete"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "red"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-trash-o bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ])
-                                                    ]
-                                                  )
-                                                ]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Jim Doe's avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Jim Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("2 hour")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-warning label-sm"
-                                                },
-                                                [_vm._v("pending")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "inline position-relative"
-                                                },
-                                                [
-                                                  _c(
-                                                    "button",
-                                                    {
-                                                      staticClass:
-                                                        "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
-                                                      attrs: {
-                                                        "data-toggle":
-                                                          "dropdown",
-                                                        "data-position": "auto"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c("i", {
-                                                        staticClass:
-                                                          "ace-icon fa fa-angle-down icon-only bigger-120"
-                                                      })
-                                                    ]
-                                                  ),
-                                                  _vm._v(" "),
-                                                  _c(
-                                                    "ul",
-                                                    {
-                                                      staticClass:
-                                                        "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
-                                                    },
-                                                    [
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-success",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Approve"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "green"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-check bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]),
-                                                      _vm._v(" "),
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-warning",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Reject"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "orange"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-times bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]),
-                                                      _vm._v(" "),
-                                                      _c("li", [
-                                                        _c(
-                                                          "a",
-                                                          {
-                                                            staticClass:
-                                                              "tooltip-error",
-                                                            attrs: {
-                                                              href: "#",
-                                                              "data-rel":
-                                                                "tooltip",
-                                                              title: "Delete"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "span",
-                                                              {
-                                                                staticClass:
-                                                                  "red"
-                                                              },
-                                                              [
-                                                                _c("i", {
-                                                                  staticClass:
-                                                                    "ace-icon fa fa-trash-o bigger-110"
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ])
-                                                    ]
-                                                  )
-                                                ]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Alex Doe's avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar5.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Alex Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("3 hour")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-danger label-sm"
-                                                },
-                                                [_vm._v("blocked")]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Bob Doe's avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar2.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Bob Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("6 hour")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-success label-sm arrowed-in"
-                                                },
-                                                [_vm._v("approved")]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Susan's avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar3.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Susan")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("yesterday")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-success label-sm arrowed-in"
-                                                },
-                                                [_vm._v("approved")]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Phil Doe's avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar4.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Phil Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("2 days ago")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-info label-sm arrowed-in arrowed-in-right"
-                                                },
-                                                [_vm._v("online")]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv memberdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Alexa Doe's avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar1.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Alexa Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("3 days ago")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", [
-                                              _c(
-                                                "span",
-                                                {
-                                                  staticClass:
-                                                    "label label-success label-sm arrowed-in"
-                                                },
-                                                [_vm._v("approved")]
-                                              )
-                                            ])
-                                          ])
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "space-4" }),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "center" }, [
-                                      _c("i", {
-                                        staticClass:
-                                          "ace-icon fa fa-users fa-2x green middle"
-                                      }),
-                                      _vm._v(
-                                        "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                      ),
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "btn btn-sm btn-white btn-info",
-                                          attrs: { href: "#" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSee all members  \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                          ),
-                                          _c("i", {
-                                            staticClass:
-                                              "ace-icon fa fa-arrow-right"
-                                          })
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", {
-                                      staticClass: "hr hr-double hr8"
-                                    })
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass: "tab-pane",
-                                    attrs: { id: "comment-tab" }
-                                  },
-                                  [
-                                    _c("div", { staticClass: "comments" }, [
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv commentdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Bob Doe's Avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Bob Doe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "green" },
-                                                [_vm._v("6 min")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "text" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-quote-left"
-                                              }),
-                                              _vm._v(
-                                                "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                              )
-                                            ])
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "tools" }, [
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "inline position-relative"
-                                              },
-                                              [
-                                                _c(
-                                                  "button",
-                                                  {
-                                                    staticClass:
-                                                      "btn btn-minier bigger btn-yellow dropdown-toggle",
-                                                    attrs: {
-                                                      "data-toggle": "dropdown"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-angle-down icon-only bigger-120"
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "ul",
-                                                  {
-                                                    staticClass:
-                                                      "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
-                                                  },
-                                                  [
-                                                    _c("li", [
-                                                      _c(
-                                                        "a",
-                                                        {
-                                                          staticClass:
-                                                            "tooltip-success",
-                                                          attrs: {
-                                                            href: "#",
-                                                            "data-rel":
-                                                              "tooltip",
-                                                            title: "Approve"
-                                                          }
-                                                        },
-                                                        [
-                                                          _c(
-                                                            "span",
-                                                            {
-                                                              staticClass:
-                                                                "green"
-                                                            },
-                                                            [
-                                                              _c("i", {
-                                                                staticClass:
-                                                                  "ace-icon fa fa-check bigger-110"
-                                                              })
-                                                            ]
-                                                          )
-                                                        ]
-                                                      )
-                                                    ]),
-                                                    _vm._v(" "),
-                                                    _c("li", [
-                                                      _c(
-                                                        "a",
-                                                        {
-                                                          staticClass:
-                                                            "tooltip-warning",
-                                                          attrs: {
-                                                            href: "#",
-                                                            "data-rel":
-                                                              "tooltip",
-                                                            title: "Reject"
-                                                          }
-                                                        },
-                                                        [
-                                                          _c(
-                                                            "span",
-                                                            {
-                                                              staticClass:
-                                                                "orange"
-                                                            },
-                                                            [
-                                                              _c("i", {
-                                                                staticClass:
-                                                                  "ace-icon fa fa-times bigger-110"
-                                                              })
-                                                            ]
-                                                          )
-                                                        ]
-                                                      )
-                                                    ]),
-                                                    _vm._v(" "),
-                                                    _c("li", [
-                                                      _c(
-                                                        "a",
-                                                        {
-                                                          staticClass:
-                                                            "tooltip-error",
-                                                          attrs: {
-                                                            href: "#",
-                                                            "data-rel":
-                                                              "tooltip",
-                                                            title: "Delete"
-                                                          }
-                                                        },
-                                                        [
-                                                          _c(
-                                                            "span",
-                                                            {
-                                                              staticClass: "red"
-                                                            },
-                                                            [
-                                                              _c("i", {
-                                                                staticClass:
-                                                                  "ace-icon fa fa-trash-o bigger-110"
-                                                              })
-                                                            ]
-                                                          )
-                                                        ]
-                                                      )
-                                                    ])
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv commentdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Jennifer's Avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar1.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Jennifer")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "blue" },
-                                                [_vm._v("15 min")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "text" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-quote-left"
-                                              }),
-                                              _vm._v(
-                                                "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                              )
-                                            ])
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "tools" }, [
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "action-buttons bigger-125"
-                                              },
-                                              [
-                                                _c(
-                                                  "a",
-                                                  { attrs: { href: "#" } },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-pencil blue"
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "a",
-                                                  { attrs: { href: "#" } },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-trash-o red"
-                                                    })
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv commentdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Joe's Avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar2.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Joe")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "orange" },
-                                                [_vm._v("22 min")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "text" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-quote-left"
-                                              }),
-                                              _vm._v(
-                                                "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                              )
-                                            ])
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "tools" }, [
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "action-buttons bigger-125"
-                                              },
-                                              [
-                                                _c(
-                                                  "a",
-                                                  { attrs: { href: "#" } },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-pencil blue"
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "a",
-                                                  { attrs: { href: "#" } },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-trash-o red"
-                                                    })
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ])
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "itemdiv commentdiv" },
-                                        [
-                                          _c("div", { staticClass: "user" }, [
-                                            _c("img", {
-                                              attrs: {
-                                                alt: "Rita's Avatar",
-                                                src:
-                                                  "assets/images/avatars/avatar3.png"
-                                              }
-                                            })
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "body" }, [
-                                            _c("div", { staticClass: "name" }, [
-                                              _c(
-                                                "a",
-                                                { attrs: { href: "#" } },
-                                                [_vm._v("Rita")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "time" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-clock-o"
-                                              }),
-                                              _vm._v(" "),
-                                              _c(
-                                                "span",
-                                                { staticClass: "red" },
-                                                [_vm._v("50 min")]
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", { staticClass: "text" }, [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-quote-left"
-                                              }),
-                                              _vm._v(
-                                                "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis …\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                              )
-                                            ])
-                                          ]),
-                                          _vm._v(" "),
-                                          _c("div", { staticClass: "tools" }, [
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "action-buttons bigger-125"
-                                              },
-                                              [
-                                                _c(
-                                                  "a",
-                                                  { attrs: { href: "#" } },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-pencil blue"
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "a",
-                                                  { attrs: { href: "#" } },
-                                                  [
-                                                    _c("i", {
-                                                      staticClass:
-                                                        "ace-icon fa fa-trash-o red"
-                                                    })
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ])
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hr hr8" }),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "center" }, [
-                                      _c("i", {
-                                        staticClass:
-                                          "ace-icon fa fa-comments-o fa-2x green middle"
-                                      }),
-                                      _vm._v(
-                                        "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                      ),
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "btn btn-sm btn-white btn-info",
-                                          attrs: { href: "#" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSee all comments  \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                          ),
-                                          _c("i", {
-                                            staticClass:
-                                              "ace-icon fa fa-arrow-right"
-                                          })
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", {
-                                      staticClass: "hr hr-double hr8"
-                                    })
-                                  ]
-                                )
-                              ]
-                            )
-                          ])
-                        ])
-                      ]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-sm-6" }, [
-                    _c("div", { staticClass: "widget-box" }, [
-                      _c("div", { staticClass: "widget-header" }, [
-                        _c(
-                          "h4",
-                          { staticClass: "widget-title lighter smaller" },
-                          [
-                            _c("i", {
-                              staticClass: "ace-icon fa fa-comment blue"
-                            }),
-                            _vm._v(
-                              "\n\t\t\t\t\t\t\t\t\t\t\t\t\tConversation\n\t\t\t\t\t\t\t\t\t\t\t\t"
-                            )
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "widget-body" }, [
-                        _c("div", { staticClass: "widget-main no-padding" }, [
-                          _c("div", { staticClass: "dialogs" }, [
-                            _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                              _c("div", { staticClass: "user" }, [
-                                _c("img", {
-                                  attrs: {
-                                    alt: "Alexa's Avatar",
-                                    src: "assets/images/avatars/avatar1.png"
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "body" }, [
-                                _c("div", { staticClass: "time" }, [
-                                  _c("i", {
-                                    staticClass: "ace-icon fa fa-clock-o"
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "green" }, [
-                                    _vm._v("4 sec")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "name" }, [
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _vm._v("Alexa")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "text" }, [
-                                  _vm._v(
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "tools" }, [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "btn btn-minier btn-info",
-                                      attrs: { href: "#" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "icon-only ace-icon fa fa-share"
-                                      })
-                                    ]
-                                  )
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                              _c("div", { staticClass: "user" }, [
-                                _c("img", {
-                                  attrs: {
-                                    alt: "John's Avatar",
-                                    src: "assets/images/avatars/avatar.png"
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "body" }, [
-                                _c("div", { staticClass: "time" }, [
-                                  _c("i", {
-                                    staticClass: "ace-icon fa fa-clock-o"
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "blue" }, [
-                                    _vm._v("38 sec")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "name" }, [
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _vm._v("John")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "text" }, [
-                                  _vm._v(
-                                    "Raw denim you probably haven't heard of them jean shorts Austin."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "tools" }, [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "btn btn-minier btn-info",
-                                      attrs: { href: "#" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "icon-only ace-icon fa fa-share"
-                                      })
-                                    ]
-                                  )
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                              _c("div", { staticClass: "user" }, [
-                                _c("img", {
-                                  attrs: {
-                                    alt: "Bob's Avatar",
-                                    src: "assets/images/avatars/user.jpg"
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "body" }, [
-                                _c("div", { staticClass: "time" }, [
-                                  _c("i", {
-                                    staticClass: "ace-icon fa fa-clock-o"
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "orange" }, [
-                                    _vm._v("2 min")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "name" }, [
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _vm._v("Bob")
-                                  ]),
-                                  _vm._v(" "),
-                                  _c(
-                                    "span",
-                                    {
-                                      staticClass:
-                                        "label label-info arrowed arrowed-in-right"
-                                    },
-                                    [_vm._v("admin")]
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "text" }, [
-                                  _vm._v(
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "tools" }, [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "btn btn-minier btn-info",
-                                      attrs: { href: "#" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "icon-only ace-icon fa fa-share"
-                                      })
-                                    ]
-                                  )
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                              _c("div", { staticClass: "user" }, [
-                                _c("img", {
-                                  attrs: {
-                                    alt: "Jim's Avatar",
-                                    src: "assets/images/avatars/avatar4.png"
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "body" }, [
-                                _c("div", { staticClass: "time" }, [
-                                  _c("i", {
-                                    staticClass: "ace-icon fa fa-clock-o"
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "grey" }, [
-                                    _vm._v("3 min")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "name" }, [
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _vm._v("Jim")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "text" }, [
-                                  _vm._v(
-                                    "Raw denim you probably haven't heard of them jean shorts Austin."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "tools" }, [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "btn btn-minier btn-info",
-                                      attrs: { href: "#" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "icon-only ace-icon fa fa-share"
-                                      })
-                                    ]
-                                  )
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                              _c("div", { staticClass: "user" }, [
-                                _c("img", {
-                                  attrs: {
-                                    alt: "Alexa's Avatar",
-                                    src: "assets/images/avatars/avatar1.png"
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "body" }, [
-                                _c("div", { staticClass: "time" }, [
-                                  _c("i", {
-                                    staticClass: "ace-icon fa fa-clock-o"
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "green" }, [
-                                    _vm._v("4 min")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "name" }, [
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _vm._v("Alexa")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "text" }, [
-                                  _vm._v(
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "tools" }, [
-                                  _c(
-                                    "a",
-                                    {
-                                      staticClass: "btn btn-minier btn-info",
-                                      attrs: { href: "#" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass:
-                                          "icon-only ace-icon fa fa-share"
-                                      })
-                                    ]
-                                  )
-                                ])
-                              ])
-                            ])
-                          ]),
-                          _vm._v(" "),
-                          _c("form", [
-                            _c("div", { staticClass: "form-actions" }, [
-                              _c("div", { staticClass: "input-group" }, [
-                                _c("input", {
-                                  staticClass: "form-control",
-                                  attrs: {
-                                    placeholder: "Type your message here ...",
-                                    type: "text",
-                                    name: "message"
-                                  }
-                                }),
-                                _vm._v(" "),
-                                _c("span", { staticClass: "input-group-btn" }, [
-                                  _c(
-                                    "button",
-                                    {
-                                      staticClass:
-                                        "btn btn-sm btn-info no-radius",
-                                      attrs: { type: "button" }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "ace-icon fa fa-share"
-                                      }),
-                                      _vm._v(
-                                        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSend\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                                      )
-                                    ]
-                                  )
-                                ])
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ])
-        ])
-      ])
-    ])
+    _c("div", { attrs: { id: "app" } }, [_c("router-view")], 1)
   ])
 }
 var staticRenderFns = []
@@ -70020,6 +68885,59 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Layouts/footer.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/Layouts/footer.vue ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _footer_vue_vue_type_template_id_791b897f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.vue?vue&type=template&id=791b897f& */ "./resources/js/Layouts/footer.vue?vue&type=template&id=791b897f&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _footer_vue_vue_type_template_id_791b897f___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _footer_vue_vue_type_template_id_791b897f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Layouts/footer.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Layouts/footer.vue?vue&type=template&id=791b897f&":
+/*!************************************************************************!*\
+  !*** ./resources/js/Layouts/footer.vue?vue&type=template&id=791b897f& ***!
+  \************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_791b897f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=template&id=791b897f& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Layouts/footer.vue?vue&type=template&id=791b897f&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_791b897f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_791b897f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/Layouts/head.vue":
 /*!***************************************!*\
   !*** ./resources/js/Layouts/head.vue ***!
@@ -70205,8 +69123,12 @@ var map = {
 	"./Profile/UpdatePasswordForm.vue": "./resources/js/Pages/Profile/UpdatePasswordForm.vue",
 	"./Profile/UpdateProfileInformationForm": "./resources/js/Pages/Profile/UpdateProfileInformationForm.vue",
 	"./Profile/UpdateProfileInformationForm.vue": "./resources/js/Pages/Profile/UpdateProfileInformationForm.vue",
+	"./dashboard_data": "./resources/js/Pages/dashboard_data.vue",
+	"./dashboard_data.vue": "./resources/js/Pages/dashboard_data.vue",
 	"./inset/insethome": "./resources/js/Pages/inset/insethome.vue",
 	"./inset/insethome.vue": "./resources/js/Pages/inset/insethome.vue",
+	"./organization/school": "./resources/js/Pages/organization/school.vue",
+	"./organization/school.vue": "./resources/js/Pages/organization/school.vue",
 	"./user_dashboard": "./resources/js/Pages/user_dashboard.vue",
 	"./user_dashboard.vue": "./resources/js/Pages/user_dashboard.vue"
 };
@@ -70854,6 +69776,59 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/dashboard_data.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/Pages/dashboard_data.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _dashboard_data_vue_vue_type_template_id_6ed8f1be___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dashboard_data.vue?vue&type=template&id=6ed8f1be& */ "./resources/js/Pages/dashboard_data.vue?vue&type=template&id=6ed8f1be&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _dashboard_data_vue_vue_type_template_id_6ed8f1be___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _dashboard_data_vue_vue_type_template_id_6ed8f1be___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/dashboard_data.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/dashboard_data.vue?vue&type=template&id=6ed8f1be&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/Pages/dashboard_data.vue?vue&type=template&id=6ed8f1be& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_dashboard_data_vue_vue_type_template_id_6ed8f1be___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./dashboard_data.vue?vue&type=template&id=6ed8f1be& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/dashboard_data.vue?vue&type=template&id=6ed8f1be&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_dashboard_data_vue_vue_type_template_id_6ed8f1be___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_dashboard_data_vue_vue_type_template_id_6ed8f1be___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/inset/insethome.vue":
 /*!************************************************!*\
   !*** ./resources/js/Pages/inset/insethome.vue ***!
@@ -70918,6 +69893,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_insethome_vue_vue_type_template_id_d7ef3cde___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_insethome_vue_vue_type_template_id_d7ef3cde___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/organization/school.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/Pages/organization/school.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _school_vue_vue_type_template_id_8b670c52___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./school.vue?vue&type=template&id=8b670c52& */ "./resources/js/Pages/organization/school.vue?vue&type=template&id=8b670c52&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _school_vue_vue_type_template_id_8b670c52___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _school_vue_vue_type_template_id_8b670c52___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/organization/school.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/organization/school.vue?vue&type=template&id=8b670c52&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/Pages/organization/school.vue?vue&type=template&id=8b670c52& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_school_vue_vue_type_template_id_8b670c52___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./school.vue?vue&type=template&id=8b670c52& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/school.vue?vue&type=template&id=8b670c52&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_school_vue_vue_type_template_id_8b670c52___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_school_vue_vue_type_template_id_8b670c52___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -71032,10 +70060,24 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.mixin({
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1__["InertiaApp"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(laravel_jetstream__WEBPACK_IMPORTED_MODULE_2__["InertiaForm"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(portal_vue__WEBPACK_IMPORTED_MODULE_3___default.a);
+var routes = [{
+  path: '/',
+  name: 'Dashboard',
+  component: __webpack_require__(/*! ./Pages/dashboard_data.vue */ "./resources/js/Pages/dashboard_data.vue")["default"]
+}, {
+  path: '/schoolIndex',
+  name: 'School Index',
+  component: __webpack_require__(/*! ./Pages/organization/school.vue */ "./resources/js/Pages/organization/school.vue")["default"]
+}];
+var router = new vue_router__WEBPACK_IMPORTED_MODULE_4__["default"]({
+  routes: routes // short for `routes: routes`
+
+});
 var app = document.getElementById('app');
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('headcss', __webpack_require__(/*! ./Layouts/head.vue */ "./resources/js/Layouts/head.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('headnav', __webpack_require__(/*! ./Layouts/nav.vue */ "./resources/js/Layouts/nav.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('sidenav', __webpack_require__(/*! ./Layouts/side.vue */ "./resources/js/Layouts/side.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footerpage', __webpack_require__(/*! ./Layouts/footer.vue */ "./resources/js/Layouts/footer.vue")["default"]);
 new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   render: function render(h) {
     return h(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1__["InertiaApp"], {
@@ -71046,7 +70088,8 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
         }
       }
     });
-  }
+  },
+  router: router
 }).$mount(app);
 
 /***/ }),

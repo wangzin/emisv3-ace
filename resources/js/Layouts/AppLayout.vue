@@ -4,16 +4,19 @@
         <body class="no-skin">
             <headnav />
             <div class="main-container ace-save-state" id="main-container">
-                <main>
-                    <div id="sidebar" class="sidebar responsive ace-save-state">
-                        <sidenav />
+                <div id="sidebar" class="sidebar responsive ace-save-state">
+                    <sidenav />
+                </div>
+                <div class="main-content">
+                    <div class="main-content-inner">
+                        <main><slot></slot></main> 
                     </div>
-                    <div class="main-content">
-                        <div class="main-content-inner">
-                            <slot></slot>
+                    <div class="footer">
+                        <div class="footer-inner">
+                            <footerpage />
                         </div>
-                    </div>
-                </main>
+                    </div>  
+                </div>   
                 <portal-target name="modal" multiple>
                 </portal-target>
             </div>
@@ -27,7 +30,6 @@
     import JetDropdownLink from '@/Jetstream/DropdownLink'
     import JetNavLink from '@/Jetstream/NavLink'
     import JetResponsiveNavLink from '@/Jetstream/ResponsiveNavLink'
-
     export default {
         components: {
             JetApplicationMark,

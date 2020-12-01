@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div id="navbar" class="navbar navbar-default          ace-save-state">
+        <div id="navbar" class="navbar navbar-default ace-save-state">
 			<div class="navbar-container ace-save-state" id="navbar-container">
 				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
 					<span class="sr-only">Toggle sidebar</span>
@@ -23,13 +23,11 @@
 								<i class="ace-icon fa fa-bell icon-animated-bell"></i>
 								<span class="badge badge-important">8</span>
 							</a>
-
 							<ul class="dropdown-menu-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-close">
 								<li class="dropdown-header">
 									<i class="ace-icon fa fa-exclamation-triangle"></i>
 									8 Notifications
 								</li>
-
 								<li class="dropdown-content">
 									<ul class="dropdown-menu dropdown-navbar navbar-pink">
 										<li>
@@ -76,7 +74,6 @@
 										</li>
 									</ul>
 								</li>
-
 								<li class="dropdown-footer">
 									<a href="#">
 										See all notifications
@@ -85,7 +82,6 @@
 								</li>
 							</ul>
 						</li>
-
 						<li class="green dropdown-modal">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>

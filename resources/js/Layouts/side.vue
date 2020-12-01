@@ -32,10 +32,17 @@
                 <b class="arrow"></b>
                 <ul class="submenu">
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
+                        <router-link to="/schoolIndex" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <span class="menu-text">
+                                <i class="menu-icon fa fa-home"></i>
+                                <b>&nbsp;&nbsp;School</b>
+                            </span>
+                        </router-link>
+                        <!-- <a href="#" class="dropdown-toggle">
                             <i class="menu-icon fa fa-caret-right"></i>
                             School
-                        </a>
+                        </a> -->
                     </li>
                      <li class="">
                         <a href="#" class="dropdown-toggle">
