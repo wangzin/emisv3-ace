@@ -14,14 +14,40 @@
             </div>
         </div>
         <ul class="nav nav-list">
-            <li class="active">
+            <li class="active" id="dashboard">
                 <a href="/userdashboard">
                     <i class="menu-icon fa fa-tachometer"></i>
                     <span class="menu-text"> Dashboard </span>
                 </a>
                 <b class="arrow"></b>
             </li>
-            <li class="">
+            <li class="" id="globalid">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-database"></i>
+                    <span class="menu-text">
+                       Global Masters
+                    </span>
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+                <b class="arrow"></b>
+                <ul class="submenu">
+                    <li class="" id="dzongkhaglink">
+                        <router-link to="/dzongmasters" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <span class="">
+                                <b>&nbsp;&nbsp;Dzongkhag Master</b>
+                            </span> 
+                        </router-link>
+                    </li>
+                     <li class="">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Gewog Master
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="" id="organizationmenu">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-home"></i>
                     <span class="menu-text">
@@ -30,7 +56,60 @@
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
                 <b class="arrow"></b>
-                <ul class="submenu">
+                <ul class="submenu" >
+                    <li class="" id="orgmaster">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <b>Org. Masters</b>
+                            <b class="arrow fa fa-angle-down"></b>
+                        </a>
+                        <b class="arrow"></b>
+                        <ul class="submenu">
+                            <li class="" id="schoollevel">
+                                <router-link to="/orgmasterlevel" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp;School Level</b>
+                                    </span> 
+                                </router-link>
+                                <b class="arrow"></b>
+                            </li>
+                            <li class="" id="orglocationmaster">
+                                <router-link to="/orglocationmaster" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp;Org Location Type</b>
+                                    </span> 
+                                </router-link>
+                                <b class="arrow"></b>
+                            </li>
+                           
+                            <li class="" id="orgstatus">
+                                <router-link to="/orgstatus" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp; School/Org Status</b>
+                                    </span> 
+                                </router-link>
+                            </li>
+                            <li class="" id="climatetype">
+                                <router-link to="/climatetype" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp;  Climate Type</b>
+                                    </span> 
+                                </router-link>
+                            </li>
+                            <li class="" id="roadtype">
+                                <router-link to="/roadtype" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp; Road Type</b>
+                                    </span> 
+                                </router-link>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="">
                         <router-link to="/schoolIndex" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                             <i class="menu-icon fa fa-caret-right"></i>

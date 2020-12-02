@@ -1,5 +1,5 @@
 <template>
-    <app-layout>
+    <div>
         <div class="breadcrumbs ace-save-state" id="breadcrumbs">
             <ul class="breadcrumb">
                 <li>
@@ -1063,6 +1063,5 @@
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.page-content -->
-				
-    </app-layout>
+    </div>
 </template>

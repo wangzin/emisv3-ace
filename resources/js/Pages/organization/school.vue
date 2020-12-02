@@ -6,8 +6,11 @@
                     <i class="ace-icon fa fa-home home-icon"></i>
                     <a href="#">Home</a>
                 </li>
-                <li class="active">School</li>
+                <li class="active">Organization Details</li>
             </ul>
+            <div class="nav-search">
+               <button class="btn-success"> Add New Organiation</button>
+            </div>
         </div>
         <div class="page-content">
             <div class="row">

@@ -1,6 +1,3 @@
-let jquery=document.createElement('script');
-jquery.setAttribute('src', 'assets/js/jquery-2.1.4.min.js');
-document.head.appendChild(jquery);
 require('./bootstrap');
 
 require('moment');
@@ -20,6 +17,12 @@ Vue.use(PortalVue);
 let routes = [
     { path: '/', name: 'Dashboard', component: require('./Pages/dashboard_data.vue').default },
     { path: '/schoolIndex', name: 'School Index', component: require('./Pages/organization/school.vue').default },
+    { path: '/orgmasterlevel', name: 'Level Master', component: require('./Pages/organization/masters/masterlevel.vue').default },
+    { path: '/orglocationmaster', name: 'Location Master', component: require('./Pages/organization/masters/locationmaster.vue').default },
+    { path: '/orgstatus', name: 'Status Master', component: require('./Pages/organization/masters/orgstatus.vue').default },
+    { path: '/climatetype', name: 'Climate Master', component: require('./Pages/organization/masters/climatetype.vue').default },
+    { path: '/roadtype', name: 'Roadtype Master', component: require('./Pages/organization/masters/roadtype.vue').default },
+    { path: '/dzongmasters', name: 'Roadtype Master', component: require('./Pages/globalmaster/dzongmasters.vue').default },
 ]
 const router = new VueRouter({
     routes // short for `routes: routes`
