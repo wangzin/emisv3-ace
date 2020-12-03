@@ -23,6 +23,12 @@ let routes = [
     { path: '/climatetype', name: 'Climate Master', component: require('./Pages/organization/masters/climatetype.vue').default },
     { path: '/roadtype', name: 'Roadtype Master', component: require('./Pages/organization/masters/roadtype.vue').default },
     { path: '/dzongmasters', name: 'Roadtype Master', component: require('./Pages/globalmaster/dzongmasters.vue').default },
+
+    // staff routes
+    { path: '/personalInformation', name: 'Personal Information', component: require('./Pages/staff/personalInformation.vue').default },
+    { path: '/appointment', name: 'Appointment', component: require('./Pages/staff/appointment.vue').default },
+
+
 ]
 const router = new VueRouter({
     routes // short for `routes: routes`

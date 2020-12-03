@@ -149,10 +149,22 @@
                 <b class="arrow"></b>
                 <ul class="submenu">
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
+                        <router-link to="/personalInformation" class="dropdown-toggle" data-toggle="awesome_tooltip" title="staff">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            Staff Management
-                        </a>
+                            <span class="menu-text">
+                                <!-- <i class="menu-icon fa fa-group"></i> -->
+                                <b>&nbsp;&nbsp;Personal Information</b>
+                            </span>
+                        </router-link>
+                    </li>
+                    <li class="">
+                        <router-link to="/appointment" class="dropdown-toggle" data-toggle="awesome_tooltip" title="staff">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <span class="menu-text">
+                                <!-- <i class="menu-icon fa fa-group"></i> -->
+                                <b>&nbsp;&nbsp;Appointment</b>
+                            </span>
+                        </router-link>
                     </li>
                      <li class="">
                         <a href="#" class="dropdown-toggle">
