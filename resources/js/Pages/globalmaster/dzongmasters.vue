@@ -231,16 +231,6 @@ export default {
 		},
     },
     mounted() {
-		$('#globalid').addClass('active open');
-        $('#orgmaster').removeClass('active open').addClass('dropdown-toggle');
-        $('#organizationmenu').removeClass('active open').addClass('dropdown-toggle');
-        $('#dzongkhaglink').addClass('active');
-        $('#dashboard').removeClass('active');
-        $('#schoollevel').removeClass('active');
-        $('#orgstatus').removeClass('active');
-        $('#climatetype').removeClass('active');
-        $('#orglocationmaster').removeClass('active');
-        $('#roadtype').removeClass('active');
         jQuery(function($) {
 			var myTable = $('#dynamic-table')
 			.DataTable( {
