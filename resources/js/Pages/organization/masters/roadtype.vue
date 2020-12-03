@@ -161,15 +161,6 @@ export default {
 		},
     },
     mounted() {
-        $('#globalid').removeClass('active open');
-		$('#organizationmenu').addClass('active open');
-		$('#orgmaster').addClass('active open');
-		$('#roadtype').addClass('active');
-        $('#dashboard').removeClass('active');
-        $('#schoollevel').removeClass('active');
-        $('#orgstatus').removeClass('active');
-        $('#climatetype').removeClass('active');
-        $('#orglocationmaster').removeClass('active');
         jQuery(function($) {
 			var myTable = $('#dynamic-table')
 			.DataTable( {

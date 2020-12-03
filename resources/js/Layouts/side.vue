@@ -30,20 +30,23 @@
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
                 <b class="arrow"></b>
-                <ul class="submenu">
-                    <li class="" id="dzongkhaglink">
-                        <router-link to="/dzongmasters" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
+                <ul class="submenu" id="globalmastersub">
+                    <li class="" id="dzongkhaglink" @click="manageclasses('globalid','globalmastersub','','','dzongkhaglink')"> 
+                        <router-link to="/dzongmasters"   class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                             <i class="menu-icon fa fa-caret-right"></i>
                             <span class="">
                                 <b>&nbsp;&nbsp;Dzongkhag Master</b>
                             </span> 
                         </router-link>
                     </li>
-                     <li class="">
-                        <a href="#" class="dropdown-toggle">
+                     <li class="" id="gewogmasters" @click="manageclasses('globalid','globalmastersub','','','gewogmasters')">
+                        <router-link to="/gewogmasters" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            Gewog Master
-                        </a>
+                            <span class="">
+                                <b>&nbsp;&nbsp;Gewog Master</b>
+                            </span> 
+                        </router-link>
+                        
                     </li>
                 </ul>
             </li>
@@ -56,7 +59,7 @@
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
                 <b class="arrow"></b>
-                <ul class="submenu" >
+                <ul class="submenu" id="organizationsubmenu">
                     <li class="" id="orgmaster">
                         <a href="#" class="dropdown-toggle">
                             <i class="menu-icon fa fa-caret-right"></i>
@@ -64,8 +67,8 @@
                             <b class="arrow fa fa-angle-down"></b>
                         </a>
                         <b class="arrow"></b>
-                        <ul class="submenu">
-                            <li class="" id="schoollevel">
+                        <ul class="submenu" id="rogmastersubmenu">
+                            <li class="" id="schoollevel" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','schoollevel')">
                                 <router-link to="/orgmasterlevel" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     <span class="">
@@ -74,7 +77,7 @@
                                 </router-link>
                                 <b class="arrow"></b>
                             </li>
-                            <li class="" id="orglocationmaster">
+                            <li class="" id="orglocationmaster" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','orglocationmaster')">
                                 <router-link to="/orglocationmaster" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     <span class="">
@@ -83,8 +86,7 @@
                                 </router-link>
                                 <b class="arrow"></b>
                             </li>
-                           
-                            <li class="" id="orgstatus">
+                            <li class="" id="orgstatus" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','orgstatus')">
                                 <router-link to="/orgstatus" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     <span class="">
@@ -92,7 +94,7 @@
                                     </span> 
                                 </router-link>
                             </li>
-                            <li class="" id="climatetype">
+                            <li class="" id="climatetype" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','climatetype')">
                                 <router-link to="/climatetype" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     <span class="">
@@ -100,7 +102,7 @@
                                     </span> 
                                 </router-link>
                             </li>
-                            <li class="" id="roadtype">
+                            <li class="" id="roadtype" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','roadtype')">
                                 <router-link to="/roadtype" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     <span class="">
@@ -110,18 +112,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="">
+                    <li class="" id="schoolId" @click="manageclasses('organizationmenu','organizationsubmenu','','','schoolId')">
                         <router-link to="/schoolIndex" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                             <i class="menu-icon fa fa-caret-right"></i>
                             <span class="menu-text">
-                                <i class="menu-icon fa fa-home"></i>
-                                <b>&nbsp;&nbsp;School</b>
+                                <b>&nbsp;&nbsp;Schools</b>
                             </span>
                         </router-link>
-                        <!-- <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            School
-                        </a> -->
                     </li>
                      <li class="">
                         <a href="#" class="dropdown-toggle">
@@ -198,3 +195,36 @@
         </div>
     </div> 
 </template> 
+<script>
+export default {
+    methods: {
+		manageclasses(mainmenuid,mainulid,submenuid,subulid,linkid){
+            $('#dashboard').removeClass('active');
+            
+            $('#globalid').removeClass('active open');
+            $('#globalmastersub').hide();
+            $('#dzongkhaglink').removeClass('active');
+            $('#gewogmasters').removeClass('active');
+
+            $('#orgmaster').removeClass('active open');
+            $('#organizationsubmenu').hide();
+            $('#organizationmenu').removeClass('active open');
+            $('#rogmastersubmenu').hide();
+            
+            $('#schoollevel').removeClass('active');
+            $('#orgstatus').removeClass('active');
+            $('#climatetype').removeClass('active');
+            $('#orglocationmaster').removeClass('active');
+            $('#roadtype').removeClass('active');
+            $('#schoolId').removeClass('active');
+
+            $('#'+mainmenuid).addClass('active open');
+            $('#'+mainulid).show();
+            $('#'+submenuid).addClass('active open');
+            $('#'+subulid).show();
+            $('#'+linkid).addClass('active');
+		},
+    },
+    
+}
+</script>
