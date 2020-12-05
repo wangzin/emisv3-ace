@@ -3089,6 +3089,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     manageclasses: function manageclasses(mainmenuid, mainulid, submenuid, subulid, linkid) {
@@ -3096,17 +3098,21 @@ __webpack_require__.r(__webpack_exports__);
       $('#globalid').removeClass('active open');
       $('#globalmastersub').hide();
       $('#dzongkhaglink').removeClass('active');
-      $('#gewogmasters').removeClass('active');
-      $('#orgmaster').removeClass('active open');
-      $('#organizationsubmenu').hide();
-      $('#organizationmenu').removeClass('active open');
-      $('#rogmastersubmenu').hide();
-      $('#schoollevel').removeClass('active');
-      $('#orgstatus').removeClass('active');
-      $('#climatetype').removeClass('active');
-      $('#orglocationmaster').removeClass('active');
-      $('#roadtype').removeClass('active');
+      $('#gewogmasters').removeClass('active'); // $('#orgmaster').removeClass('active open');
+      // $('#organizationsubmenu').hide();
+      // $('#organizationmenu').removeClass('active open');
+      // $('#rogmastersubmenu').hide();
+      // $('#schoollevel').removeClass('active');
+      // $('#orgstatus').removeClass('active');
+      // $('#climatetype').removeClass('active');
+      // $('#orglocationmaster').removeClass('active');
+      // $('#roadtype').removeClass('active');
+
       $('#schoolId').removeClass('active');
+      $('#mdcalist').removeClass('active');
+      $('#stafflink').removeClass('active open');
+      $('#staffsubmenu').hide();
+      $('#staffmanagent').removeClass('active');
       $('#' + mainmenuid).addClass('active open');
       $('#' + mainulid).show();
       $('#' + submenuid).addClass('active open');
@@ -5559,6 +5565,127 @@ if ('ontouchstart' in document.documentElement) document.write("<script src='ass
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Jetstream_Input_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../Jetstream/Input.vue */ "./resources/js/Jetstream/Input.vue");
+/* harmony import */ var _Jetstream_Label_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../Jetstream/Label.vue */ "./resources/js/Jetstream/Label.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+if ('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Input: _Jetstream_Input_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      count: 5
+    };
+  },
+  methods: {
+    showmodal: function showmodal() {
+      $('#samplemodal').modal('show');
+    },
+    addrecords: function addrecords() {
+      var tablestr = "";
+      this.count++;
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, '0');
+      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+
+      var yyyy = today.getFullYear();
+      today = yyyy + '-' + mm + '-' + dd;
+      tablestr = "<tr id='record" + this.count + "'><td>" + this.count + "</td><td>" + $('#newlevelname').val() + "</td><td><span class='label label-success label-sm'>Active</span></td><td>" + today + "</td><td> <button class='btn btn-primary btn-xs'><i class='fa fa-edit'></i> Edit</button><button class='btn btn-danger btn-xs'><i class='fa fa-trash'></i> Delete</button></td></tr>";
+      $('#dynamic-table').append(tablestr);
+      $('#samplemodal').modal('hide');
+    },
+    showdelete: function showdelete(id) {
+      $('#deleterecordid').val(id);
+      $('#deletemodal').modal('show');
+    },
+    deleterecords: function deleterecords() {
+      $('#record' + $('#deleterecordid').val()).remove();
+      $('#deletemodal').modal('hide');
+    }
+  },
+  mounted: function mounted() {
+    jQuery(function ($) {
+      var myTable = $('#dynamic-table').DataTable({
+        bAutoWidth: false,
+        "aoColumns": [{
+          "bSortable": false
+        }, null, null, null, {
+          "bSortable": false
+        }],
+        "aaSorting": [],
+        select: {
+          style: 'multi'
+        }
+      });
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgstatus.vue?vue&type=script&lang=js&":
 /*!************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/masters/orgstatus.vue?vue&type=script&lang=js& ***!
@@ -6073,6 +6200,401 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -6085,7 +6607,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     showmodal: function showmodal() {
-      $('#samplemodal').modal('show');
+      $('#addmodal').modal('show');
     },
     addrecords: function addrecords() {
       var tablestr = "";
@@ -6098,7 +6620,7 @@ __webpack_require__.r(__webpack_exports__);
       today = yyyy + '-' + mm + '-' + dd;
       tablestr = "<tr id='record" + this.count + "'><td>" + this.count + "</td><td>" + $('#dzongkahgid').val() + "</td><td>" + $('#newlevelname').val() + "</td><td><span class='label label-success label-sm'>Active</span></td><td>" + today + "</td><td> <button class='btn btn-primary btn-xs'><i class='fa fa-edit'></i> Edit</button><button class='btn btn-danger btn-xs'><i class='fa fa-trash'></i> Delete</button></td></tr>";
       $('#dynamic-table').append(tablestr);
-      $('#samplemodal').modal('hide');
+      $('#addmodal').modal('hide');
     },
     showdelete: function showdelete(id) {
       $('#deleterecordid').val(id);
@@ -6110,6 +6632,7 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
+    $('[data-rel=tooltip]').tooltip();
     jQuery(function ($) {
       var myTable = $('#dynamic-table').DataTable({
         bAutoWidth: false,
@@ -49022,222 +49545,46 @@ var render = function() {
           "ul",
           { staticClass: "submenu", attrs: { id: "organizationsubmenu" } },
           [
-            _c("li", { attrs: { id: "orgmaster" } }, [
-              _vm._m(4),
-              _vm._v(" "),
-              _c("b", { staticClass: "arrow" }),
-              _vm._v(" "),
-              _c(
-                "ul",
-                { staticClass: "submenu", attrs: { id: "rogmastersubmenu" } },
-                [
-                  _c(
-                    "li",
-                    {
-                      attrs: { id: "schoollevel" },
-                      on: {
-                        click: function($event) {
-                          return _vm.manageclasses(
-                            "organizationmenu",
-                            "organizationsubmenu",
-                            "orgmaster",
-                            "rogmastersubmenu",
-                            "schoollevel"
-                          )
-                        }
-                      }
-                    },
-                    [
-                      _c(
-                        "router-link",
-                        {
-                          staticClass: "dropdown-toggle",
-                          attrs: {
-                            to: "/orgmasterlevel",
-                            "data-toggle": "awesome_tooltip",
-                            title: "Organization"
-                          }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "menu-icon fa fa-caret-right"
-                          }),
-                          _vm._v(" "),
-                          _c("span", {}, [_c("b", [_vm._v("  School Level")])])
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("b", { staticClass: "arrow" })
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      attrs: { id: "orglocationmaster" },
-                      on: {
-                        click: function($event) {
-                          return _vm.manageclasses(
-                            "organizationmenu",
-                            "organizationsubmenu",
-                            "orgmaster",
-                            "rogmastersubmenu",
-                            "orglocationmaster"
-                          )
-                        }
-                      }
-                    },
-                    [
-                      _c(
-                        "router-link",
-                        {
-                          staticClass: "dropdown-toggle",
-                          attrs: {
-                            to: "/orglocationmaster",
-                            "data-toggle": "awesome_tooltip",
-                            title: "Organization"
-                          }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "menu-icon fa fa-caret-right"
-                          }),
-                          _vm._v(" "),
-                          _c("span", {}, [
-                            _c("b", [_vm._v("  Org Location Type")])
-                          ])
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("b", { staticClass: "arrow" })
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      attrs: { id: "orgstatus" },
-                      on: {
-                        click: function($event) {
-                          return _vm.manageclasses(
-                            "organizationmenu",
-                            "organizationsubmenu",
-                            "orgmaster",
-                            "rogmastersubmenu",
-                            "orgstatus"
-                          )
-                        }
-                      }
-                    },
-                    [
-                      _c(
-                        "router-link",
-                        {
-                          staticClass: "dropdown-toggle",
-                          attrs: {
-                            to: "/orgstatus",
-                            "data-toggle": "awesome_tooltip",
-                            title: "Organization"
-                          }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "menu-icon fa fa-caret-right"
-                          }),
-                          _vm._v(" "),
-                          _c("span", {}, [
-                            _c("b", [_vm._v("   School/Org Status")])
-                          ])
-                        ]
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      attrs: { id: "climatetype" },
-                      on: {
-                        click: function($event) {
-                          return _vm.manageclasses(
-                            "organizationmenu",
-                            "organizationsubmenu",
-                            "orgmaster",
-                            "rogmastersubmenu",
-                            "climatetype"
-                          )
-                        }
-                      }
-                    },
-                    [
-                      _c(
-                        "router-link",
-                        {
-                          staticClass: "dropdown-toggle",
-                          attrs: {
-                            to: "/climatetype",
-                            "data-toggle": "awesome_tooltip",
-                            title: "Organization"
-                          }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "menu-icon fa fa-caret-right"
-                          }),
-                          _vm._v(" "),
-                          _c("span", {}, [
-                            _c("b", [_vm._v("    Climate Type")])
-                          ])
-                        ]
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      attrs: { id: "roadtype" },
-                      on: {
-                        click: function($event) {
-                          return _vm.manageclasses(
-                            "organizationmenu",
-                            "organizationsubmenu",
-                            "orgmaster",
-                            "rogmastersubmenu",
-                            "roadtype"
-                          )
-                        }
-                      }
-                    },
-                    [
-                      _c(
-                        "router-link",
-                        {
-                          staticClass: "dropdown-toggle",
-                          attrs: {
-                            to: "/roadtype",
-                            "data-toggle": "awesome_tooltip",
-                            title: "Organization"
-                          }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "menu-icon fa fa-caret-right"
-                          }),
-                          _vm._v(" "),
-                          _c("span", {}, [_c("b", [_vm._v("   Road Type")])])
-                        ]
-                      )
-                    ],
-                    1
-                  )
-                ]
-              )
-            ]),
+            _c(
+              "li",
+              {
+                attrs: { id: "orgmaster" },
+                on: {
+                  click: function($event) {
+                    return _vm.manageclasses(
+                      "organizationmenu",
+                      "organizationsubmenu",
+                      "",
+                      "",
+                      "orgmaster"
+                    )
+                  }
+                }
+              },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "dropdown-toggle",
+                    attrs: {
+                      to: "/orgmastermanagement",
+                      "data-toggle": "awesome_tooltip",
+                      title: "Organization"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+                    _vm._v(" "),
+                    _c("span", {}, [_c("b", [_vm._v("  Org. Mastersl")])]),
+                    _vm._v(" "),
+                    _c("b", { staticClass: "arrow fa fa-folder-open" })
+                  ]
+                ),
+                _vm._v(" "),
+                _c("b", { staticClass: "arrow" })
+              ],
+              1
+            ),
             _vm._v(" "),
             _c(
               "li",
@@ -49278,23 +49625,61 @@ var render = function() {
               1
             ),
             _vm._v(" "),
-            _vm._m(5),
+            _vm._m(4),
             _vm._v(" "),
-            _vm._m(6)
+            _vm._m(5)
           ]
         )
       ]),
       _vm._v(" "),
-      _vm._m(7),
-      _vm._v(" "),
-      _vm._m(8),
+      _c("li", { attrs: { id: "stafflink" } }, [
+        _vm._m(6),
+        _vm._v(" "),
+        _c("b", { staticClass: "arrow" }),
+        _vm._v(" "),
+        _c("ul", { staticClass: "submenu", attrs: { id: "staffsubmenu" } }, [
+          _c(
+            "li",
+            {
+              attrs: { id: "staffmanagent" },
+              on: {
+                click: function($event) {
+                  return _vm.manageclasses(
+                    "stafflink",
+                    "staffsubmenu",
+                    "",
+                    "",
+                    "staffmanagent"
+                  )
+                }
+              }
+            },
+            [_vm._m(7)]
+          ),
+          _vm._v(" "),
+          _vm._m(8)
+        ])
+      ]),
       _vm._v(" "),
       _vm._m(9),
       _vm._v(" "),
-      _vm._m(10)
+      _vm._m(10),
+      _vm._v(" "),
+      _c(
+        "li",
+        {
+          attrs: { id: "mdcalist" },
+          on: {
+            click: function($event) {
+              return _vm.manageclasses("", "", "", "", "mdcalist")
+            }
+          }
+        },
+        [_vm._m(11)]
+      )
     ]),
     _vm._v(" "),
-    _vm._m(11)
+    _vm._m(12)
   ])
 }
 var staticRenderFns = [
@@ -49382,18 +49767,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-      _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-      _vm._v(" "),
-      _c("b", [_vm._v("Org. Masters")]),
-      _vm._v(" "),
-      _c("b", { staticClass: "arrow fa fa-angle-down" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("li", {}, [
       _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
         _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
@@ -49418,37 +49791,35 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", {}, [
-      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-        _c("i", { staticClass: "menu-icon fa fa-users" }),
-        _vm._v(" "),
-        _c("span", { staticClass: "menu-text" }, [
-          _vm._v("\n                   Staff and Students\n                ")
-        ]),
-        _vm._v(" "),
-        _c("b", { staticClass: "arrow fa fa-angle-down" })
+    return _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+      _c("i", { staticClass: "menu-icon fa fa-users" }),
+      _vm._v(" "),
+      _c("span", { staticClass: "menu-text" }, [
+        _vm._v("\n                   Staff and Students\n                ")
       ]),
       _vm._v(" "),
-      _c("b", { staticClass: "arrow" }),
-      _vm._v(" "),
-      _c("ul", { staticClass: "submenu" }, [
-        _c("li", {}, [
-          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-            _vm._v(
-              "\n                        Staff Management\n                    "
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", {}, [
-          _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-            _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
-            _vm._v(
-              "\n                        Student Management\n                    "
-            )
-          ])
-        ])
+      _c("b", { staticClass: "arrow fa fa-angle-down" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+      _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+      _vm._v("\n                        Staff Management\n                    ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", {}, [
+      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
+        _vm._v(
+          "\n                        Student Management\n                    "
+        )
       ])
     ])
   },
@@ -49480,12 +49851,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", {}, [
-      _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
-        _c("i", { staticClass: "menu-icon fa fa-database" }),
-        _vm._v(" "),
-        _c("span", { staticClass: "menu-text" }, [_vm._v(" MDCA")])
-      ])
+    return _c("a", { staticClass: "dropdown-toggle", attrs: { href: "#" } }, [
+      _c("i", { staticClass: "menu-icon fa fa-database" }),
+      _vm._v(" "),
+      _c("span", { staticClass: "menu-text" }, [_vm._v(" MDCA")])
     ])
   },
   function() {
@@ -51583,285 +51952,17 @@ var staticRenderFns = [
             _c("li", { staticClass: "active" }, [_vm._v("Dashboard")])
           ]),
           _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "nav-search", attrs: { id: "nav-search" } },
-            [
-              _c("form", { staticClass: "form-search" }, [
-                _c("span", { staticClass: "input-icon" }, [
-                  _c("input", {
-                    staticClass: "nav-search-input",
-                    attrs: {
-                      type: "text",
-                      placeholder: "Search ...",
-                      id: "nav-search-input",
-                      autocomplete: "off"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("i", {
-                    staticClass: "ace-icon fa fa-search nav-search-icon"
-                  })
-                ])
-              ])
-            ]
-          )
+          _c("div", { staticClass: "nav-search", attrs: { id: "nav-search" } })
         ]
       ),
       _vm._v(" "),
       _c("div", { staticClass: "page-content" }, [
-        _c(
-          "div",
-          {
-            staticClass: "ace-settings-container",
-            attrs: { id: "ace-settings-container" }
-          },
-          [
-            _c(
-              "div",
-              {
-                staticClass: "btn btn-app btn-xs btn-warning ace-settings-btn",
-                attrs: { id: "ace-settings-btn" }
-              },
-              [_c("i", { staticClass: "ace-icon fa fa-cog bigger-130" })]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "ace-settings-box clearfix",
-                attrs: { id: "ace-settings-box" }
-              },
-              [
-                _c("div", { staticClass: "pull-left width-50" }, [
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("div", { staticClass: "pull-left" }, [
-                      _c(
-                        "select",
-                        {
-                          staticClass: "hide",
-                          attrs: { id: "skin-colorpicker" }
-                        },
-                        [
-                          _c(
-                            "option",
-                            {
-                              attrs: {
-                                "data-skin": "no-skin",
-                                value: "#438EB9"
-                              }
-                            },
-                            [_vm._v("#438EB9")]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "option",
-                            {
-                              attrs: { "data-skin": "skin-1", value: "#222A2D" }
-                            },
-                            [_vm._v("#222A2D")]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "option",
-                            {
-                              attrs: { "data-skin": "skin-2", value: "#C6487E" }
-                            },
-                            [_vm._v("#C6487E")]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "option",
-                            {
-                              attrs: { "data-skin": "skin-3", value: "#D0D0D0" }
-                            },
-                            [_vm._v("#D0D0D0")]
-                          )
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("  Choose Skin")])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2 ace-save-state",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-navbar",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-navbar" }
-                      },
-                      [_vm._v(" Fixed Navbar")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2 ace-save-state",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-sidebar",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-sidebar" }
-                      },
-                      [_vm._v(" Fixed Sidebar")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2 ace-save-state",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-breadcrumbs",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-breadcrumbs" }
-                      },
-                      [_vm._v(" Fixed Breadcrumbs")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-rtl",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-rtl" }
-                      },
-                      [_vm._v(" Right To Left (rtl)")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2 ace-save-state",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-add-container",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-add-container" }
-                      },
-                      [
-                        _vm._v(
-                          "\n                            Inside\n                            "
-                        ),
-                        _c("b", [_vm._v(".container")])
-                      ]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "pull-left width-50" }, [
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-hover",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-hover" }
-                      },
-                      [_vm._v(" Submenu on Hover")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-compact",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-compact" }
-                      },
-                      [_vm._v(" Compact Sidebar")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ace-settings-item" }, [
-                    _c("input", {
-                      staticClass: "ace ace-checkbox-2",
-                      attrs: {
-                        type: "checkbox",
-                        id: "ace-settings-highlight",
-                        autocomplete: "off"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "lbl",
-                        attrs: { for: "ace-settings-highlight" }
-                      },
-                      [_vm._v(" Alt. Active Item")]
-                    )
-                  ])
-                ])
-              ]
-            )
-          ]
-        ),
-        _vm._v(" "),
         _c("div", { staticClass: "page-header" }, [
           _c("h1", [
             _vm._v("\n                Dashboard\n                "),
             _c("small", [
               _c("i", { staticClass: "ace-icon fa fa-angle-double-right" }),
-              _vm._v("\n                    overview & stats\n                ")
+              _vm._v("\n                    overview \n                ")
             ])
           ])
         ]),
@@ -51869,385 +51970,183 @@ var staticRenderFns = [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-xs-12" }, [
             _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "space-6" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-sm-7 infobox-container" }, [
-                _c("div", { staticClass: "infobox infobox-green" }, [
-                  _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-comments" })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "infobox-data" }, [
-                    _c("span", { staticClass: "infobox-data-number" }, [
-                      _vm._v("32")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("comments + 2 reviews")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "stat stat-success" }, [
-                    _vm._v("8%")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "infobox infobox-blue" }, [
-                  _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-twitter" })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "infobox-data" }, [
-                    _c("span", { staticClass: "infobox-data-number" }, [
-                      _vm._v("11")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("new followers")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "badge badge-success" }, [
-                    _vm._v(
-                      "\n                                +32%\n                                "
-                    ),
-                    _c("i", { staticClass: "ace-icon fa fa-arrow-up" })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "infobox infobox-pink" }, [
-                  _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-shopping-cart" })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "infobox-data" }, [
-                    _c("span", { staticClass: "infobox-data-number" }, [
-                      _vm._v("8")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("new orders")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "stat stat-important" }, [
-                    _vm._v("4%")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "infobox infobox-red" }, [
-                  _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-flask" })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "infobox-data" }, [
-                    _c("span", { staticClass: "infobox-data-number" }, [
-                      _vm._v("7")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("experiments")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "infobox infobox-orange2" }, [
-                  _c("div", { staticClass: "infobox-chart" }, [
-                    _c("span", {
-                      staticClass: "sparkline",
-                      attrs: {
-                        "data-values": "196,128,202,177,154,94,100,170,224"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "infobox-data" }, [
-                    _c("span", { staticClass: "infobox-data-number" }, [
-                      _vm._v("6,251")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("pageviews")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "badge badge-success" }, [
-                    _vm._v(
-                      "\n                                7.2%\n                                "
-                    ),
-                    _c("i", { staticClass: "ace-icon fa fa-arrow-up" })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "infobox infobox-blue2" }, [
-                  _c("div", { staticClass: "infobox-progress" }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass: "easy-pie-chart percentage",
-                        attrs: { "data-percent": "42", "data-size": "46" }
-                      },
-                      [
-                        _c("span", { staticClass: "percent" }, [_vm._v("42")]),
-                        _vm._v("%\n                                ")
-                      ]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "infobox-data" }, [
-                    _c("span", { staticClass: "infobox-text" }, [
-                      _vm._v("traffic used")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-content" }, [
-                      _c("span", { staticClass: "bigger-110" }, [_vm._v("~")]),
-                      _vm._v(
-                        "\n                                    58GB remaining\n                                "
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "space-6" }),
-                _vm._v(" "),
+              _c("div", { staticClass: "col-sm-6 infobox-container" }, [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "infobox infobox-green infobox-small infobox-dark"
-                  },
-                  [
-                    _c("div", { staticClass: "infobox-progress" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "easy-pie-chart percentage",
-                          attrs: { "data-percent": "61", "data-size": "39" }
-                        },
-                        [
-                          _c("span", { staticClass: "percent" }, [
-                            _vm._v("61")
-                          ]),
-                          _vm._v("%\n                                ")
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-data" }, [
-                      _c("div", { staticClass: "infobox-content" }, [
-                        _vm._v("Task")
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-content" }, [
-                        _vm._v("Completion")
-                      ])
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "infobox infobox-blue infobox-small infobox-dark"
-                  },
-                  [
-                    _c("div", { staticClass: "infobox-chart" }, [
-                      _c("span", {
-                        staticClass: "sparkline",
-                        attrs: { "data-values": "3,4,2,3,4,4,2,2" }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "infobox-data" }, [
-                      _c("div", { staticClass: "infobox-content" }, [
-                        _vm._v("Earnings")
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "infobox-content" }, [
-                        _vm._v("$32,000")
-                      ])
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "infobox infobox-grey infobox-small infobox-dark"
+                      "infobox infobox-black infobox-small infobox-dark width-95"
                   },
                   [
                     _c("div", { staticClass: "infobox-icon" }, [
-                      _c("i", { staticClass: "ace-icon fa fa-download" })
+                      _c("i", { staticClass: "ace-icon fa fa-bank" })
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "infobox-data" }, [
-                      _c("div", { staticClass: "infobox-content" }, [
-                        _vm._v("Downloads")
+                      _c("span", { staticClass: "infobox-data-number" }, [
+                        _vm._v("609")
                       ]),
                       _vm._v(" "),
                       _c("div", { staticClass: "infobox-content" }, [
-                        _vm._v("1,205")
+                        _vm._v("Organizations")
                       ])
                     ])
                   ]
-                )
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "space-6" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-green width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-home" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("570")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Public Schools")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-blue width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-home" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("39")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Private Schools")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-pink width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-home" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("23")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("ECCD Centers ")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-red width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-home" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("43")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Other Organizations")
+                    ])
+                  ])
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "vspace-12-sm" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-sm-5" }, [
-                _c("div", { staticClass: "widget-box transparent" }, [
-                  _c("div", { staticClass: "widget-body" }, [
-                    _c("div", { staticClass: "widget-main no-padding" }, [
-                      _c(
-                        "table",
-                        { staticClass: "table table-bordered table-striped" },
-                        [
-                          _c("thead", { staticClass: "thin-border-bottom" }, [
-                            _c("tr", [
-                              _c("th", [
-                                _c("i", {
-                                  staticClass: "ace-icon fa fa-caret-right blue"
-                                }),
-                                _vm._v(
-                                  "name\n                                                "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("th", [
-                                _c("i", {
-                                  staticClass: "ace-icon fa fa-caret-right blue"
-                                }),
-                                _vm._v(
-                                  "price\n                                                "
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("th", { staticClass: "hidden-480" }, [
-                                _c("i", {
-                                  staticClass: "ace-icon fa fa-caret-right blue"
-                                }),
-                                _vm._v(
-                                  "status\n                                                "
-                                )
-                              ])
-                            ])
-                          ]),
-                          _vm._v(" "),
-                          _c("tbody", [
-                            _c("tr", [
-                              _c("td", [_vm._v("internet.com")]),
-                              _vm._v(" "),
-                              _c("td", [
-                                _c("small", [
-                                  _c("s", { staticClass: "red" }, [
-                                    _vm._v("$29.99")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("b", { staticClass: "green" }, [
-                                  _vm._v("$19.99")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "hidden-480" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "label label-info arrowed-right arrowed-in"
-                                  },
-                                  [_vm._v("on sale")]
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("tr", [
-                              _c("td", [_vm._v("online.com")]),
-                              _vm._v(" "),
-                              _c("td", [
-                                _c("b", { staticClass: "blue" }, [
-                                  _vm._v("$16.45")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "hidden-480" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "label label-success arrowed-in arrowed-in-right"
-                                  },
-                                  [_vm._v("approved")]
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("tr", [
-                              _c("td", [_vm._v("newnet.com")]),
-                              _vm._v(" "),
-                              _c("td", [
-                                _c("b", { staticClass: "blue" }, [
-                                  _vm._v("$15.00")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "hidden-480" }, [
-                                _c(
-                                  "span",
-                                  { staticClass: "label label-danger arrowed" },
-                                  [_vm._v("pending")]
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("tr", [
-                              _c("td", [_vm._v("web.com")]),
-                              _vm._v(" "),
-                              _c("td", [
-                                _c("small", [
-                                  _c("s", { staticClass: "red" }, [
-                                    _vm._v("$24.99")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("b", { staticClass: "green" }, [
-                                  _vm._v("$19.95")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "hidden-480" }, [
-                                _c("span", { staticClass: "label arrowed" }, [
-                                  _c("s", [_vm._v("out of stock")])
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("tr", [
-                              _c("td", [_vm._v("domain.com")]),
-                              _vm._v(" "),
-                              _c("td", [
-                                _c("b", { staticClass: "blue" }, [
-                                  _vm._v("$12.00")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("td", { staticClass: "hidden-480" }, [
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "label label-warning arrowed arrowed-right"
-                                  },
-                                  [_vm._v("SOLD")]
-                                )
-                              ])
-                            ])
-                          ])
-                        ]
-                      )
+              _c("div", { staticClass: "col-sm-6 infobox-container" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "infobox infobox-green2 infobox-small infobox-dark width-95"
+                  },
+                  [
+                    _c("div", { staticClass: "infobox-icon" }, [
+                      _c("i", { staticClass: "ace-icon fa fa-book" })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-data" }, [
+                      _c("span", { staticClass: "infobox-data-number" }, [
+                        _vm._v("10106")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "infobox-content" }, [
+                        _vm._v("Teachers")
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "space-6" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-green width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-user" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("10106")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Public Teacher")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-blue width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-user" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("12438")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Private Teachers")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-pink width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-user" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("600")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Teachers with Disability")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-red width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-user" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("400")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("ECCD & ECR Teachers")
                     ])
                   ])
                 ])
@@ -52257,7 +52156,189 @@ var staticRenderFns = [
             _c("div", { staticClass: "hr hr32 hr-dotted" }),
             _vm._v(" "),
             _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-sm-6" }, [
+              _c("div", { staticClass: "col-sm-6 infobox-container" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "infobox infobox-blue infobox-small infobox-dark width-95"
+                  },
+                  [
+                    _c("div", { staticClass: "infobox-icon" }, [
+                      _c("i", { staticClass: "ace-icon fa fa-graduation-cap" })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-data" }, [
+                      _c("span", { staticClass: "infobox-data-number" }, [
+                        _vm._v("170725")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "infobox-content" }, [
+                        _vm._v("Students")
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "space-6" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-green width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("158287")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Regular Students")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-blue width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("12438")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Private Students")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-pink width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("600")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Student with Disability")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-red width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("400")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("ECCD & ECR Students")
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-sm-6 infobox-container" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "infobox infobox-green infobox-small infobox-dark width-95"
+                  },
+                  [
+                    _c("div", { staticClass: "infobox-icon" }, [
+                      _c("i", { staticClass: "ace-icon fa fa-list" })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-data" }, [
+                      _c("span", { staticClass: "infobox-data-number" }, [
+                        _vm._v("Others")
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "space-6" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-green width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("158287")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Regular Students")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-blue width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("12438")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Private Students")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-pink width-45" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("600")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("Student with Disability")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "infobox infobox-red width-50" }, [
+                  _c("div", { staticClass: "infobox-icon" }, [
+                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "infobox-data" }, [
+                    _c("span", { staticClass: "infobox-data-number" }, [
+                      _vm._v("400")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "infobox-content" }, [
+                      _vm._v("ECCD & ECR Students")
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "hr hr32 hr-dotted" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-sm-12" }, [
                 _c(
                   "div",
                   {
@@ -52270,8 +52351,10 @@ var staticRenderFns = [
                         "h4",
                         { staticClass: "widget-title lighter smaller" },
                         [
-                          _c("i", { staticClass: "ace-icon fa fa-rss orange" }),
-                          _vm._v("RECENT\n                                ")
+                          _c("i", {
+                            staticClass: "ace-icon fa fa-database orange"
+                          }),
+                          _vm._v("Reports\n                                ")
                         ]
                       ),
                       _vm._v(" "),
@@ -52292,7 +52375,7 @@ var staticRenderFns = [
                                     href: "#task-tab"
                                   }
                                 },
-                                [_vm._v("Tasks")]
+                                [_vm._v("Reports on Staff")]
                               )
                             ]),
                             _vm._v(" "),
@@ -52305,7 +52388,7 @@ var staticRenderFns = [
                                     href: "#member-tab"
                                   }
                                 },
-                                [_vm._v("Members")]
+                                [_vm._v("Reports on ECCCD")]
                               )
                             ]),
                             _vm._v(" "),
@@ -52318,7 +52401,20 @@ var staticRenderFns = [
                                     href: "#comment-tab"
                                   }
                                 },
-                                [_vm._v("Comments")]
+                                [_vm._v("Reports on Organisation")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                {
+                                  attrs: {
+                                    "data-toggle": "tab",
+                                    href: "#student-tab"
+                                  }
+                                },
+                                [_vm._v("Reports on Student")]
                               )
                             ])
                           ]
@@ -52337,312 +52433,122 @@ var staticRenderFns = [
                             },
                             [
                               _c(
-                                "h4",
-                                { staticClass: "smaller lighter green" },
-                                [
-                                  _c("i", {
-                                    staticClass: "ace-icon fa fa-list"
-                                  }),
-                                  _vm._v(
-                                    "\n                                                Sortable Lists\n                                            "
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "ul",
+                                "table",
                                 {
-                                  staticClass: "item-list",
-                                  attrs: { id: "tasks" }
+                                  staticClass:
+                                    "table table-bordered table-striped"
                                 },
                                 [
                                   _c(
-                                    "li",
-                                    { staticClass: "item-orange clearfix" },
+                                    "thead",
+                                    { staticClass: "thin-border-bottom" },
                                     [
-                                      _c("label", { staticClass: "inline" }, [
-                                        _c("input", {
-                                          staticClass: "ace",
-                                          attrs: { type: "checkbox" }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "lbl" }, [
+                                      _c("tr", [
+                                        _c("th", [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-caret-right blue"
+                                          }),
                                           _vm._v(
-                                            " Answering customer questions"
+                                            "Report Name\n                                                        "
                                           )
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          staticClass:
-                                            "pull-right easy-pie-chart percentage",
-                                          attrs: {
-                                            "data-size": "30",
-                                            "data-color": "#ECCB71",
-                                            "data-percent": "42"
-                                          }
-                                        },
-                                        [
-                                          _c(
-                                            "span",
-                                            { staticClass: "percent" },
-                                            [_vm._v("42")]
-                                          ),
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("th", [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-caret-right blue"
+                                          }),
                                           _vm._v(
-                                            "%\n                                                    "
+                                            "Overall Count\n                                                        "
                                           )
-                                        ]
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "li",
-                                    { staticClass: "item-red clearfix" },
-                                    [
-                                      _c("label", { staticClass: "inline" }, [
-                                        _c("input", {
-                                          staticClass: "ace",
-                                          attrs: { type: "checkbox" }
-                                        }),
+                                        ]),
                                         _vm._v(" "),
-                                        _c("span", { staticClass: "lbl" }, [
-                                          _vm._v(" Fixing bugs")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          staticClass:
-                                            "pull-right action-buttons"
-                                        },
-                                        [
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "blue",
-                                              attrs: { href: "#" }
-                                            },
-                                            [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-pencil bigger-130"
-                                              })
-                                            ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c("span", { staticClass: "vbar" }),
-                                          _vm._v(" "),
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "red",
-                                              attrs: { href: "#" }
-                                            },
-                                            [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-trash-o bigger-130"
-                                              })
-                                            ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c("span", { staticClass: "vbar" }),
-                                          _vm._v(" "),
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "green",
-                                              attrs: { href: "#" }
-                                            },
-                                            [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-flag bigger-130"
-                                              })
-                                            ]
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "li",
-                                    { staticClass: "item-default clearfix" },
-                                    [
-                                      _c("label", { staticClass: "inline" }, [
-                                        _c("input", {
-                                          staticClass: "ace",
-                                          attrs: { type: "checkbox" }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "lbl" }, [
-                                          _vm._v(" Adding new features")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          staticClass:
-                                            "pull-right pos-rel dropdown-hover"
-                                        },
-                                        [
-                                          _c(
-                                            "button",
-                                            {
+                                        _c(
+                                          "th",
+                                          { staticClass: "hidden-480" },
+                                          [
+                                            _c("i", {
                                               staticClass:
-                                                "btn btn-minier bigger btn-primary"
-                                            },
-                                            [
-                                              _c("i", {
-                                                staticClass:
-                                                  "ace-icon fa fa-cog icon-only bigger-120"
-                                              })
-                                            ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "ul",
-                                            {
-                                              staticClass:
-                                                "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-caret dropdown-close dropdown-menu-right"
-                                            },
-                                            [
-                                              _c("li", [
-                                                _c(
-                                                  "a",
-                                                  {
-                                                    staticClass:
-                                                      "tooltip-success",
-                                                    attrs: {
-                                                      href: "#",
-                                                      "data-rel": "tooltip",
-                                                      title:
-                                                        "Mark&nbsp;as&nbsp;done"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "span",
-                                                      { staticClass: "green" },
-                                                      [
-                                                        _c("i", {
-                                                          staticClass:
-                                                            "ace-icon fa fa-check bigger-110"
-                                                        })
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("li", [
-                                                _c(
-                                                  "a",
-                                                  {
-                                                    staticClass:
-                                                      "tooltip-error",
-                                                    attrs: {
-                                                      href: "#",
-                                                      "data-rel": "tooltip",
-                                                      title: "Delete"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "span",
-                                                      { staticClass: "red" },
-                                                      [
-                                                        _c("i", {
-                                                          staticClass:
-                                                            "ace-icon fa fa-trash-o bigger-110"
-                                                        })
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "li",
-                                    { staticClass: "item-blue clearfix" },
-                                    [
-                                      _c("label", { staticClass: "inline" }, [
-                                        _c("input", {
-                                          staticClass: "ace",
-                                          attrs: { type: "checkbox" }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "lbl" }, [
-                                          _vm._v(
-                                            " Upgrading scripts used in template"
-                                          )
-                                        ])
+                                                "ace-icon fa fa-caret-right blue"
+                                            }),
+                                            _vm._v(
+                                              "Action\n                                                        "
+                                            )
+                                          ]
+                                        )
                                       ])
                                     ]
                                   ),
                                   _vm._v(" "),
-                                  _c(
-                                    "li",
-                                    { staticClass: "item-grey clearfix" },
-                                    [
-                                      _c("label", { staticClass: "inline" }, [
-                                        _c("input", {
-                                          staticClass: "ace",
-                                          attrs: { type: "checkbox" }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "lbl" }, [
-                                          _vm._v(" Adding new skins")
+                                  _c("tbody", [
+                                    _c("tr", [
+                                      _c("td", [
+                                        _vm._v(
+                                          "List of DEO/TEOs with Contact Details"
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", [
+                                        _c("b", { staticClass: "green" }, [
+                                          _vm._v("58")
                                         ])
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", { staticClass: "hidden-480" }, [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-xs btn-primary"
+                                          },
+                                          [_vm._v("Generete")]
+                                        )
                                       ])
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "li",
-                                    { staticClass: "item-green clearfix" },
-                                    [
-                                      _c("label", { staticClass: "inline" }, [
-                                        _c("input", {
-                                          staticClass: "ace",
-                                          attrs: { type: "checkbox" }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "lbl" }, [
-                                          _vm._v(" Updating server software up")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("tr", [
+                                      _c("td", [_vm._v("Principal List")]),
+                                      _vm._v(" "),
+                                      _c("td", [
+                                        _c("b", { staticClass: "blue" }, [
+                                          _vm._v("102")
                                         ])
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", { staticClass: "hidden-480" }, [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-xs btn-primary"
+                                          },
+                                          [_vm._v("Generete")]
+                                        )
                                       ])
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "li",
-                                    { staticClass: "item-pink clearfix" },
-                                    [
-                                      _c("label", { staticClass: "inline" }, [
-                                        _c("input", {
-                                          staticClass: "ace",
-                                          attrs: { type: "checkbox" }
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "lbl" }, [
-                                          _vm._v(" Cleaning up")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("tr", [
+                                      _c("td", [_vm._v("Vice Principal List")]),
+                                      _vm._v(" "),
+                                      _c("td", [
+                                        _c("b", { staticClass: "blue" }, [
+                                          _vm._v("102")
                                         ])
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", { staticClass: "hidden-480" }, [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-xs btn-primary"
+                                          },
+                                          [_vm._v("Generete")]
+                                        )
                                       ])
-                                    ]
-                                  )
+                                    ])
+                                  ])
                                 ]
                               )
                             ]
@@ -52655,757 +52561,123 @@ var staticRenderFns = [
                               attrs: { id: "member-tab" }
                             },
                             [
-                              _c("div", { staticClass: "clearfix" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Bob Doe's avatar",
-                                          src: "assets/images/avatars/user.jpg"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Bob Doe")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("20 min")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-warning label-sm"
-                                          },
-                                          [_vm._v("pending")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "inline position-relative"
-                                          },
-                                          [
-                                            _c(
-                                              "button",
-                                              {
-                                                staticClass:
-                                                  "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
-                                                attrs: {
-                                                  "data-toggle": "dropdown",
-                                                  "data-position": "auto"
-                                                }
-                                              },
-                                              [
-                                                _c("i", {
-                                                  staticClass:
-                                                    "ace-icon fa fa-angle-down icon-only bigger-120"
-                                                })
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "ul",
-                                              {
-                                                staticClass:
-                                                  "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
-                                              },
-                                              [
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-success",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Approve"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        {
-                                                          staticClass: "green"
-                                                        },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-check bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ]),
-                                                _vm._v(" "),
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-warning",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Reject"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        {
-                                                          staticClass: "orange"
-                                                        },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-times bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ]),
-                                                _vm._v(" "),
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-error",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Delete"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        { staticClass: "red" },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-trash-o bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ])
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Joe Doe's avatar",
-                                          src:
-                                            "assets/images/avatars/avatar2.png"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Joe Doe")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("1 hour")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-warning label-sm"
-                                          },
-                                          [_vm._v("pending")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "inline position-relative"
-                                          },
-                                          [
-                                            _c(
-                                              "button",
-                                              {
-                                                staticClass:
-                                                  "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
-                                                attrs: {
-                                                  "data-toggle": "dropdown",
-                                                  "data-position": "auto"
-                                                }
-                                              },
-                                              [
-                                                _c("i", {
-                                                  staticClass:
-                                                    "ace-icon fa fa-angle-down icon-only bigger-120"
-                                                })
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "ul",
-                                              {
-                                                staticClass:
-                                                  "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
-                                              },
-                                              [
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-success",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Approve"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        {
-                                                          staticClass: "green"
-                                                        },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-check bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ]),
-                                                _vm._v(" "),
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-warning",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Reject"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        {
-                                                          staticClass: "orange"
-                                                        },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-times bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ]),
-                                                _vm._v(" "),
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-error",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Delete"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        { staticClass: "red" },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-trash-o bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ])
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Jim Doe's avatar",
-                                          src:
-                                            "assets/images/avatars/avatar.png"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Jim Doe")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("2 hour")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-warning label-sm"
-                                          },
-                                          [_vm._v("pending")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "inline position-relative"
-                                          },
-                                          [
-                                            _c(
-                                              "button",
-                                              {
-                                                staticClass:
-                                                  "btn btn-minier btn-yellow btn-no-border dropdown-toggle",
-                                                attrs: {
-                                                  "data-toggle": "dropdown",
-                                                  "data-position": "auto"
-                                                }
-                                              },
-                                              [
-                                                _c("i", {
-                                                  staticClass:
-                                                    "ace-icon fa fa-angle-down icon-only bigger-120"
-                                                })
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "ul",
-                                              {
-                                                staticClass:
-                                                  "dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"
-                                              },
-                                              [
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-success",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Approve"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        {
-                                                          staticClass: "green"
-                                                        },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-check bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ]),
-                                                _vm._v(" "),
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-warning",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Reject"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        {
-                                                          staticClass: "orange"
-                                                        },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-times bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ]),
-                                                _vm._v(" "),
-                                                _c("li", [
-                                                  _c(
-                                                    "a",
-                                                    {
-                                                      staticClass:
-                                                        "tooltip-error",
-                                                      attrs: {
-                                                        href: "#",
-                                                        "data-rel": "tooltip",
-                                                        title: "Delete"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "span",
-                                                        { staticClass: "red" },
-                                                        [
-                                                          _c("i", {
-                                                            staticClass:
-                                                              "ace-icon fa fa-trash-o bigger-110"
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ])
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Alex Doe's avatar",
-                                          src:
-                                            "assets/images/avatars/avatar5.png"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Alex Doe")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("3 hour")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-danger label-sm"
-                                          },
-                                          [_vm._v("blocked")]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Bob Doe's avatar",
-                                          src:
-                                            "assets/images/avatars/avatar2.png"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Bob Doe")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("6 hour")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-success label-sm arrowed-in"
-                                          },
-                                          [_vm._v("approved")]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Susan's avatar",
-                                          src:
-                                            "assets/images/avatars/avatar3.png"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Susan")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("yesterday")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-success label-sm arrowed-in"
-                                          },
-                                          [_vm._v("approved")]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Phil Doe's avatar",
-                                          src:
-                                            "assets/images/avatars/avatar4.png"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Phil Doe")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("2 days ago")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-info label-sm arrowed-in arrowed-in-right"
-                                          },
-                                          [_vm._v("online")]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "itemdiv memberdiv" },
-                                  [
-                                    _c("div", { staticClass: "user" }, [
-                                      _c("img", {
-                                        attrs: {
-                                          alt: "Alexa Doe's avatar",
-                                          src:
-                                            "assets/images/avatars/avatar1.png"
-                                        }
-                                      })
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "body" }, [
-                                      _c("div", { staticClass: "name" }, [
-                                        _c("a", { attrs: { href: "#" } }, [
-                                          _vm._v("Alexa Doe")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "time" }, [
-                                        _c("i", {
-                                          staticClass: "ace-icon fa fa-clock-o"
-                                        }),
-                                        _vm._v(" "),
-                                        _c("span", { staticClass: "green" }, [
-                                          _vm._v("3 days ago")
-                                        ])
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("div", [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "label label-success label-sm arrowed-in"
-                                          },
-                                          [_vm._v("approved")]
-                                        )
-                                      ])
-                                    ])
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "space-4" }),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "center" }, [
-                                _c("i", {
+                              _c(
+                                "table",
+                                {
                                   staticClass:
-                                    "ace-icon fa fa-users fa-2x green middle"
-                                }),
-                                _vm._v(
-                                  "\n\n                                                 \n                                                "
-                                ),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "btn btn-sm btn-white btn-info",
-                                    attrs: { href: "#" }
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n                                                    See all members  \n                                                    "
-                                    ),
-                                    _c("i", {
-                                      staticClass: "ace-icon fa fa-arrow-right"
-                                    })
-                                  ]
-                                )
-                              ]),
+                                    "table table-bordered table-striped"
+                                },
+                                [
+                                  _c(
+                                    "thead",
+                                    { staticClass: "thin-border-bottom" },
+                                    [
+                                      _c("tr", [
+                                        _c("th", [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-caret-right blue"
+                                          }),
+                                          _vm._v(
+                                            "Report Name\n                                                        "
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("th", [
+                                          _c("i", {
+                                            staticClass:
+                                              "ace-icon fa fa-caret-right blue"
+                                          }),
+                                          _vm._v(
+                                            "Overall Count\n                                                        "
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c(
+                                          "th",
+                                          { staticClass: "hidden-480" },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ace-icon fa fa-caret-right blue"
+                                            }),
+                                            _vm._v(
+                                              "Action\n                                                        "
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("tbody", [
+                                    _c("tr", [
+                                      _c("td", [_vm._v("ECCD Centers")]),
+                                      _vm._v(" "),
+                                      _c("td", [
+                                        _c("b", { staticClass: "green" }, [
+                                          _vm._v("58")
+                                        ])
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", { staticClass: "hidden-480" }, [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-xs btn-primary"
+                                          },
+                                          [_vm._v("Generete")]
+                                        )
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("tr", [
+                                      _c("td", [_vm._v("ECCD Facilitators")]),
+                                      _vm._v(" "),
+                                      _c("td", [
+                                        _c("b", { staticClass: "blue" }, [
+                                          _vm._v("102")
+                                        ])
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", { staticClass: "hidden-480" }, [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-xs btn-primary"
+                                          },
+                                          [_vm._v("Generete")]
+                                        )
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("tr", [
+                                      _c("td", [
+                                        _vm._v("2019 ECCD Enrollment")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", [
+                                        _c("b", { staticClass: "blue" }, [
+                                          _vm._v("102")
+                                        ])
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("td", { staticClass: "hidden-480" }, [
+                                        _c(
+                                          "button",
+                                          {
+                                            staticClass:
+                                              "btn btn-xs btn-primary"
+                                          },
+                                          [_vm._v("Generete")]
+                                        )
+                                      ])
+                                    ])
+                                  ])
+                                ]
+                              ),
                               _vm._v(" "),
                               _c("div", { staticClass: "hr hr-double hr8" })
                             ]
@@ -53825,320 +53097,6 @@ var staticRenderFns = [
                     ])
                   ]
                 )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-sm-6" }, [
-                _c("div", { staticClass: "widget-box" }, [
-                  _c("div", { staticClass: "widget-header" }, [
-                    _c("h4", { staticClass: "widget-title lighter smaller" }, [
-                      _c("i", { staticClass: "ace-icon fa fa-comment blue" }),
-                      _vm._v(
-                        "\n                                    Conversation\n                                "
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "widget-body" }, [
-                    _c("div", { staticClass: "widget-main no-padding" }, [
-                      _c("div", { staticClass: "dialogs" }, [
-                        _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                          _c("div", { staticClass: "user" }, [
-                            _c("img", {
-                              attrs: {
-                                alt: "Alexa's Avatar",
-                                src: "assets/images/avatars/avatar1.png"
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "body" }, [
-                            _c("div", { staticClass: "time" }, [
-                              _c("i", {
-                                staticClass: "ace-icon fa fa-clock-o"
-                              }),
-                              _vm._v(" "),
-                              _c("span", { staticClass: "green" }, [
-                                _vm._v("4 sec")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "name" }, [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("Alexa")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "text" }, [
-                              _vm._v(
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis."
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "tools" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "btn btn-minier btn-info",
-                                  attrs: { href: "#" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "icon-only ace-icon fa fa-share"
-                                  })
-                                ]
-                              )
-                            ])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                          _c("div", { staticClass: "user" }, [
-                            _c("img", {
-                              attrs: {
-                                alt: "John's Avatar",
-                                src: "assets/images/avatars/avatar.png"
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "body" }, [
-                            _c("div", { staticClass: "time" }, [
-                              _c("i", {
-                                staticClass: "ace-icon fa fa-clock-o"
-                              }),
-                              _vm._v(" "),
-                              _c("span", { staticClass: "blue" }, [
-                                _vm._v("38 sec")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "name" }, [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("John")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "text" }, [
-                              _vm._v(
-                                "Raw denim you probably haven't heard of them jean shorts Austin."
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "tools" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "btn btn-minier btn-info",
-                                  attrs: { href: "#" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "icon-only ace-icon fa fa-share"
-                                  })
-                                ]
-                              )
-                            ])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                          _c("div", { staticClass: "user" }, [
-                            _c("img", {
-                              attrs: {
-                                alt: "Bob's Avatar",
-                                src: "assets/images/avatars/user.jpg"
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "body" }, [
-                            _c("div", { staticClass: "time" }, [
-                              _c("i", {
-                                staticClass: "ace-icon fa fa-clock-o"
-                              }),
-                              _vm._v(" "),
-                              _c("span", { staticClass: "orange" }, [
-                                _vm._v("2 min")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "name" }, [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("Bob")
-                              ]),
-                              _vm._v(" "),
-                              _c(
-                                "span",
-                                {
-                                  staticClass:
-                                    "label label-info arrowed arrowed-in-right"
-                                },
-                                [_vm._v("admin")]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "text" }, [
-                              _vm._v(
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis."
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "tools" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "btn btn-minier btn-info",
-                                  attrs: { href: "#" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "icon-only ace-icon fa fa-share"
-                                  })
-                                ]
-                              )
-                            ])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                          _c("div", { staticClass: "user" }, [
-                            _c("img", {
-                              attrs: {
-                                alt: "Jim's Avatar",
-                                src: "assets/images/avatars/avatar4.png"
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "body" }, [
-                            _c("div", { staticClass: "time" }, [
-                              _c("i", {
-                                staticClass: "ace-icon fa fa-clock-o"
-                              }),
-                              _vm._v(" "),
-                              _c("span", { staticClass: "grey" }, [
-                                _vm._v("3 min")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "name" }, [
-                              _c("a", { attrs: { href: "#" } }, [_vm._v("Jim")])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "text" }, [
-                              _vm._v(
-                                "Raw denim you probably haven't heard of them jean shorts Austin."
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "tools" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "btn btn-minier btn-info",
-                                  attrs: { href: "#" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "icon-only ace-icon fa fa-share"
-                                  })
-                                ]
-                              )
-                            ])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "itemdiv dialogdiv" }, [
-                          _c("div", { staticClass: "user" }, [
-                            _c("img", {
-                              attrs: {
-                                alt: "Alexa's Avatar",
-                                src: "assets/images/avatars/avatar1.png"
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "body" }, [
-                            _c("div", { staticClass: "time" }, [
-                              _c("i", {
-                                staticClass: "ace-icon fa fa-clock-o"
-                              }),
-                              _vm._v(" "),
-                              _c("span", { staticClass: "green" }, [
-                                _vm._v("4 min")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "name" }, [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("Alexa")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "text" }, [
-                              _vm._v(
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "tools" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "btn btn-minier btn-info",
-                                  attrs: { href: "#" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "icon-only ace-icon fa fa-share"
-                                  })
-                                ]
-                              )
-                            ])
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("form", [
-                        _c("div", { staticClass: "form-actions" }, [
-                          _c("div", { staticClass: "input-group" }, [
-                            _c("input", {
-                              staticClass: "form-control",
-                              attrs: {
-                                placeholder: "Type your message here ...",
-                                type: "text",
-                                name: "message"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("span", { staticClass: "input-group-btn" }, [
-                              _c(
-                                "button",
-                                {
-                                  staticClass: "btn btn-sm btn-info no-radius",
-                                  attrs: { type: "button" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass: "ace-icon fa fa-share"
-                                  }),
-                                  _vm._v(
-                                    "\n                                                        Send\n                                                    "
-                                  )
-                                ]
-                              )
-                            ])
-                          ])
-                        ])
-                      ])
-                    ])
-                  ])
-                ])
               ])
             ])
           ])
@@ -57627,6 +56585,152 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "breadcrumbs ace-save-state",
+          attrs: { id: "breadcrumbs" }
+        },
+        [
+          _c("ul", { staticClass: "breadcrumb" }, [
+            _c("li", [
+              _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("Master Management")])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "page-content" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-xs-12" }, [
+            _c("div", { staticClass: "tabbable" }, [
+              _c(
+                "ul",
+                { staticClass: "nav nav-tabs", attrs: { id: "myTab" } },
+                [
+                  _c("li", { staticClass: "dropdown" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "dropdown-toggle",
+                        attrs: {
+                          "data-toggle": "dropdown",
+                          href: "#",
+                          "aria-expanded": "false"
+                        }
+                      },
+                      [
+                        _c("i", {
+                          staticClass:
+                            "green ace-icon fa fa-database bigger-120"
+                        }),
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\t\tOrganization Master Management  \n\t\t\t\t\t\t\t\t\t"
+                        ),
+                        _c("i", {
+                          staticClass:
+                            "ace-icon fa fa-caret-down bigger-110 width-auto"
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "dropdown-menu dropdown-info" }, [
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            attrs: { "data-toggle": "tab", href: "#dropdown1" }
+                          },
+                          [_vm._v("School Level")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            attrs: { "data-toggle": "tab", href: "#dropdown2" }
+                          },
+                          [_vm._v("Ogganization Location Type")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            attrs: { "data-toggle": "tab", href: "#dropdown2" }
+                          },
+                          [_vm._v("Ogganization/School Stauts")]
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "tab-content" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "tab-pane fade active in",
+                    attrs: { id: "ogrmastermanagement" }
+                  },
+                  [
+                    _c("div", { staticClass: "clearfix" }, [
+                      _c("div", {
+                        staticClass: "pull-right tableTools-container"
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "table-header" }, [
+                      _vm._v(
+                        "\n\t\t\t\t\t\t\t\t\tManage all organization masters from here!\n\t\t\t\t\t\t\t\t"
+                      )
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgstatus.vue?vue&type=template&id=d00cc4f6&":
 /*!****************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/masters/orgstatus.vue?vue&type=template&id=d00cc4f6& ***!
@@ -58596,7 +57700,31 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _vm._m(0),
+    _c(
+      "div",
+      {
+        staticClass: "breadcrumbs ace-save-state",
+        attrs: { id: "breadcrumbs" }
+      },
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "nav-search" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn-success",
+              on: {
+                click: function($event) {
+                  return _vm.showmodal()
+                }
+              }
+            },
+            [_vm._v(" Add New Organiation")]
+          )
+        ])
+      ]
+    ),
     _vm._v(" "),
     _c("div", { staticClass: "page-content" }, [
       _c("div", { staticClass: "row" }, [
@@ -58605,7 +57733,7 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "table-header" }, [
             _vm._v(
-              "\n                    Results for Existing School\n                "
+              "\n                        Results for Existing School\n                    "
             )
           ]),
           _vm._v(" "),
@@ -58650,7 +57778,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-eye" }),
                         _vm._v(
-                          " View Details\n                                "
+                          " View Details\n                                    "
                         )
                       ]
                     ),
@@ -58668,7 +57796,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-edit" }),
                         _vm._v(
-                          " Edit Details\n                                "
+                          " Edit Details\n                                    "
                         )
                       ]
                     ),
@@ -58686,7 +57814,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-edit" }),
                         _vm._v(
-                          " Update Status\n                                "
+                          " Update Status\n                                    "
                         )
                       ]
                     )
@@ -58724,7 +57852,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-eye" }),
                         _vm._v(
-                          " View Details\n                                "
+                          " View Details\n                                    "
                         )
                       ]
                     ),
@@ -58742,7 +57870,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-edit" }),
                         _vm._v(
-                          " Edit Details\n                                "
+                          " Edit Details\n                                    "
                         )
                       ]
                     ),
@@ -58760,7 +57888,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-edit" }),
                         _vm._v(
-                          " Update Status\n                                "
+                          " Update Status\n                                    "
                         )
                       ]
                     )
@@ -58798,7 +57926,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-eye" }),
                         _vm._v(
-                          " View Details\n                                "
+                          " View Details\n                                    "
                         )
                       ]
                     ),
@@ -58816,7 +57944,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-edit" }),
                         _vm._v(
-                          " Edit Details\n                                "
+                          " Edit Details\n                                    "
                         )
                       ]
                     ),
@@ -58834,7 +57962,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "fa fa-edit" }),
                         _vm._v(
-                          " Update Status\n                                "
+                          " Update Status\n                                    "
                         )
                       ]
                     )
@@ -58845,7 +57973,9 @@ var render = function() {
           )
         ])
       ])
-    ])
+    ]),
+    _vm._v(" "),
+    _vm._m(3)
   ])
 }
 var staticRenderFns = [
@@ -58853,30 +57983,15 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "breadcrumbs ace-save-state",
-        attrs: { id: "breadcrumbs" }
-      },
-      [
-        _c("ul", { staticClass: "breadcrumb" }, [
-          _c("li", [
-            _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "active" }, [_vm._v("Organization Details")])
-        ]),
+    return _c("ul", { staticClass: "breadcrumb" }, [
+      _c("li", [
+        _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
         _vm._v(" "),
-        _c("div", { staticClass: "nav-search" }, [
-          _c("button", { staticClass: "btn-success" }, [
-            _vm._v(" Add New Organiation")
-          ])
-        ])
-      ]
-    )
+        _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "active" }, [_vm._v("Organization Details")])
+    ])
   },
   function() {
     var _vm = this
@@ -58911,6 +58026,1903 @@ var staticRenderFns = [
         _c("th", [_vm._v("Action")])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: { id: "addmodal", tabindex: "-1", role: "dialog" }
+      },
+      [
+        _c("div", { staticClass: "modal-dialog width-auto" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-body" }, [
+              _c("div", { staticClass: "bootbox-body" }, [
+                _c("form", { staticClass: "bootbox-form" }, [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-xs-12" }, [
+                      _c("div", { staticClass: "widget-box" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "widget-header widget-header-blue widget-header-flat"
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "bootbox-close-button close",
+                                attrs: {
+                                  type: "button",
+                                  "data-dismiss": "modal",
+                                  "aria-hidden": "true"
+                                }
+                              },
+                              [_vm._v("×")]
+                            ),
+                            _vm._v(" "),
+                            _c("h4", { staticClass: "widget-title lighter" }, [
+                              _vm._v("Adding New Organization")
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "widget-body" }, [
+                          _c("div", { staticClass: "widget-main" }, [
+                            _c(
+                              "div",
+                              { attrs: { id: "fuelux-wizard-container" } },
+                              [
+                                _c("div", [
+                                  _c("ul", { staticClass: "steps" }, [
+                                    _c(
+                                      "li",
+                                      {
+                                        staticClass: "active",
+                                        attrs: { "data-step": "1" }
+                                      },
+                                      [
+                                        _c("span", { staticClass: "step" }, [
+                                          _vm._v("1")
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("span", { staticClass: "title" }, [
+                                          _vm._v("Basic Details")
+                                        ])
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("li", { attrs: { "data-step": "2" } }, [
+                                      _c("span", { staticClass: "step" }, [
+                                        _vm._v("2")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "title" }, [
+                                        _vm._v("Structure")
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", { attrs: { "data-step": "3" } }, [
+                                      _c("span", { staticClass: "step" }, [
+                                        _vm._v("3")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "title" }, [
+                                        _vm._v("Equipment")
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", { attrs: { "data-step": "4" } }, [
+                                      _c("span", { staticClass: "step" }, [
+                                        _vm._v("4")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "title" }, [
+                                        _vm._v("Facility")
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", { attrs: { "data-step": "5" } }, [
+                                      _c("span", { staticClass: "step" }, [
+                                        _vm._v("5")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "title" }, [
+                                        _vm._v("Class Composition")
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", { attrs: { "data-step": "6" } }, [
+                                      _c("span", { staticClass: "step" }, [
+                                        _vm._v("6")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "title" }, [
+                                        _vm._v("Wash Facilities")
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", { attrs: { "data-step": "7" } }, [
+                                      _c("span", { staticClass: "step" }, [
+                                        _vm._v("7")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("span", { staticClass: "title" }, [
+                                        _vm._v("Accessibility")
+                                      ])
+                                    ])
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("hr"),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "step-content pos-rel" },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "step-pane active",
+                                        attrs: { "data-step": "1" }
+                                      },
+                                      [
+                                        _c(
+                                          "form",
+                                          {
+                                            staticClass: "form-horizontal",
+                                            attrs: { id: "sample-form" }
+                                          },
+                                          [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "row form-group has-info"
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-4 col-md-4 col-lg-4"
+                                                  },
+                                                  [
+                                                    _c("label", [
+                                                      _vm._v("School Category")
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("div", [
+                                                      _c(
+                                                        "label",
+                                                        {
+                                                          staticClass:
+                                                            "line-height-1 blue"
+                                                        },
+                                                        [
+                                                          _c("input", {
+                                                            staticClass: "ace",
+                                                            attrs: {
+                                                              name:
+                                                                "schoolcategory",
+                                                              value: "Private",
+                                                              type: "radio"
+                                                            }
+                                                          }),
+                                                          _vm._v(" "),
+                                                          _c(
+                                                            "span",
+                                                            {
+                                                              staticClass: "lbl"
+                                                            },
+                                                            [
+                                                              _vm._v(
+                                                                " Private Schools"
+                                                              )
+                                                            ]
+                                                          )
+                                                        ]
+                                                      ),
+                                                      _vm._v(
+                                                        "\n                                                                                   \n                                                                                "
+                                                      ),
+                                                      _c(
+                                                        "label",
+                                                        {
+                                                          staticClass:
+                                                            "line-height-1 blue"
+                                                        },
+                                                        [
+                                                          _c("input", {
+                                                            staticClass: "ace",
+                                                            attrs: {
+                                                              name:
+                                                                "schoolcategory",
+                                                              value: "Public",
+                                                              type: "radio"
+                                                            }
+                                                          }),
+                                                          _vm._v(" "),
+                                                          _c(
+                                                            "span",
+                                                            {
+                                                              staticClass: "lbl"
+                                                            },
+                                                            [
+                                                              _vm._v(
+                                                                " Public Schools"
+                                                              )
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ])
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-4 col-md-4 col-lg-4"
+                                                  },
+                                                  [
+                                                    _c("label", [
+                                                      _vm._v(
+                                                        "School Code (13 letters, like 028.201.00001, defined by MoE)"
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("input", {
+                                                      staticClass: "width-100",
+                                                      attrs: {
+                                                        type: "text",
+                                                        id: "schoolcode",
+                                                        name: "schoolcode"
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-4 col-md-4 col-lg-4"
+                                                  },
+                                                  [
+                                                    _c("label", [
+                                                      _vm._v(
+                                                        "School Name (please do not mention level)"
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("input", {
+                                                      staticClass: "width-100",
+                                                      attrs: {
+                                                        type: "text",
+                                                        id: "schoolname",
+                                                        name: "schoolname"
+                                                      }
+                                                    })
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("br"),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "row form-group has-info"
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-4 col-md-4 col-lg-4"
+                                                  },
+                                                  [
+                                                    _c("label", [
+                                                      _vm._v("School Level")
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "select",
+                                                      {
+                                                        staticClass:
+                                                          "width-100",
+                                                        attrs: {
+                                                          name: "schoollevel",
+                                                          id: "schoollevel"
+                                                        }
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: { value: "" }
+                                                          },
+                                                          [_vm._v(" Select ")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "1",
+                                                              label:
+                                                                "Community Primary School [01]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Community Primary School [01]"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "2",
+                                                              label:
+                                                                "Primary School [02]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Primary School [02]"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "3",
+                                                              label:
+                                                                "Lower Secondary School [03]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Lower Secondary School [03]"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "4",
+                                                              label:
+                                                                "Middle Secondary School [04]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Middle Secondary School [04]"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "5",
+                                                              label:
+                                                                "Higher Secondary School [05]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Higher Secondary School [05]"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "7",
+                                                              label:
+                                                                "Special Institute [06]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Special Institute [06]"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "8",
+                                                              label:
+                                                                "Extended Classroom [07]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Extended Classroom [07]"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "9",
+                                                              label:
+                                                                "Early Childhood Care & Development [09]"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Early Childhood Care & Development [09]"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-4 col-md-4 col-lg-4"
+                                                  },
+                                                  [
+                                                    _c("label", [
+                                                      _vm._v("School Location")
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "span",
+                                                      {
+                                                        staticClass:
+                                                          "block input-icon input-icon-right"
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "select",
+                                                          {
+                                                            staticClass:
+                                                              "width-100",
+                                                            attrs: {
+                                                              name:
+                                                                "MastersLocationID",
+                                                              id:
+                                                                "MastersLocationID"
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "",
+                                                                  label:
+                                                                    "- Please Select -"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "- Please Select -"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "1",
+                                                                  label:
+                                                                    "Urban Grade 1 [01]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Urban Grade 1 [01]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "2",
+                                                                  label:
+                                                                    "Urban Grade 2 [02]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Urban Grade 2 [02]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "3",
+                                                                  label:
+                                                                    "Semi-Urban [03]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Semi-Urban [03]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "4",
+                                                                  label:
+                                                                    "Semi-Remote [04]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Semi-Remote [04]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "5",
+                                                                  label:
+                                                                    "Remote [05]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Remote [05]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "6",
+                                                                  label:
+                                                                    "Very-Remote [06]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Very-Remote [06]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "7",
+                                                                  label:
+                                                                    "Difficult [07]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Difficult [07]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "9",
+                                                                  label:
+                                                                    "Rural [08]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Rural [08]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "10",
+                                                                  label:
+                                                                    "Semi-Rural [09]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Semi-Rural [09]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "11",
+                                                                  label:
+                                                                    "Urban [10]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Urban [10]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "8",
+                                                                  label:
+                                                                    "Unknown [99]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Unknown [99]"
+                                                                )
+                                                              ]
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-4 col-md-4 col-lg-4"
+                                                  },
+                                                  [
+                                                    _c("label", [
+                                                      _vm._v("School Status")
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "span",
+                                                      {
+                                                        staticClass:
+                                                          "block input-icon input-icon-right"
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "select",
+                                                          {
+                                                            staticClass:
+                                                              "width-100 select2",
+                                                            attrs: {
+                                                              name:
+                                                                "MastersOrgStatusID",
+                                                              id:
+                                                                "MastersOrgStatusID"
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "",
+                                                                  label:
+                                                                    "- Please Select -"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "- Please Select -"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "1",
+                                                                  label:
+                                                                    "Opened [1]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Opened [1]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "2",
+                                                                  label:
+                                                                    "Closed [2]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Closed [2]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "3",
+                                                                  label:
+                                                                    "Bifurcated [3]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Bifurcated [3]"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "4",
+                                                                  label:
+                                                                    "Merged [4]"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Merged [4]"
+                                                                )
+                                                              ]
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "form",
+                                          {
+                                            staticClass: "form-horizontal hide",
+                                            attrs: {
+                                              id: "validation-form",
+                                              method: "get"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "email" }
+                                                  },
+                                                  [_vm._v("Email Address:")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "clearfix"
+                                                      },
+                                                      [
+                                                        _c("input", {
+                                                          staticClass:
+                                                            "col-xs-12 col-sm-6",
+                                                          attrs: {
+                                                            type: "email",
+                                                            name: "email",
+                                                            id: "email"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-2"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "password" }
+                                                  },
+                                                  [_vm._v("Password:")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "clearfix"
+                                                      },
+                                                      [
+                                                        _c("input", {
+                                                          staticClass:
+                                                            "col-xs-12 col-sm-4",
+                                                          attrs: {
+                                                            type: "password",
+                                                            name: "password",
+                                                            id: "password"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-2"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "password2" }
+                                                  },
+                                                  [_vm._v("Confirm Password:")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "clearfix"
+                                                      },
+                                                      [
+                                                        _c("input", {
+                                                          staticClass:
+                                                            "col-xs-12 col-sm-4",
+                                                          attrs: {
+                                                            type: "password",
+                                                            name: "password2",
+                                                            id: "password2"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "hr hr-dotted"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "name" }
+                                                  },
+                                                  [_vm._v("Company Name:")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "clearfix"
+                                                      },
+                                                      [
+                                                        _c("input", {
+                                                          staticClass:
+                                                            "col-xs-12 col-sm-5",
+                                                          attrs: {
+                                                            type: "text",
+                                                            id: "name",
+                                                            name: "name"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-2"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "phone" }
+                                                  },
+                                                  [_vm._v("Phone Number:")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "input-group"
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "input-group-addon"
+                                                          },
+                                                          [
+                                                            _c("i", {
+                                                              staticClass:
+                                                                "ace-icon fa fa-phone"
+                                                            })
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c("input", {
+                                                          attrs: {
+                                                            type: "tel",
+                                                            id: "phone",
+                                                            name: "phone"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-2"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "url" }
+                                                  },
+                                                  [_vm._v("Company URL:")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "clearfix"
+                                                      },
+                                                      [
+                                                        _c("input", {
+                                                          staticClass:
+                                                            "col-xs-12 col-sm-8",
+                                                          attrs: {
+                                                            type: "url",
+                                                            id: "url",
+                                                            name: "url"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "hr hr-dotted"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right"
+                                                  },
+                                                  [_vm._v("Subscribe to")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c("div", [
+                                                      _c("label", [
+                                                        _c("input", {
+                                                          staticClass: "ace",
+                                                          attrs: {
+                                                            name:
+                                                              "subscription",
+                                                            value: "1",
+                                                            type: "checkbox"
+                                                          }
+                                                        }),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass: "lbl"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              " Latest news and announcements"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ])
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("div", [
+                                                      _c("label", [
+                                                        _c("input", {
+                                                          staticClass: "ace",
+                                                          attrs: {
+                                                            name:
+                                                              "subscription",
+                                                            value: "2",
+                                                            type: "checkbox"
+                                                          }
+                                                        }),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass: "lbl"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              " Product offers and discounts"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ])
+                                                    ])
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-2"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right"
+                                                  },
+                                                  [_vm._v("Gender")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c("div", [
+                                                      _c(
+                                                        "label",
+                                                        {
+                                                          staticClass:
+                                                            "line-height-1 blue"
+                                                        },
+                                                        [
+                                                          _c("input", {
+                                                            staticClass: "ace",
+                                                            attrs: {
+                                                              name: "gender",
+                                                              value: "1",
+                                                              type: "radio"
+                                                            }
+                                                          }),
+                                                          _vm._v(" "),
+                                                          _c(
+                                                            "span",
+                                                            {
+                                                              staticClass: "lbl"
+                                                            },
+                                                            [_vm._v(" Male")]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("div", [
+                                                      _c(
+                                                        "label",
+                                                        {
+                                                          staticClass:
+                                                            "line-height-1 blue"
+                                                        },
+                                                        [
+                                                          _c("input", {
+                                                            staticClass: "ace",
+                                                            attrs: {
+                                                              name: "gender",
+                                                              value: "2",
+                                                              type: "radio"
+                                                            }
+                                                          }),
+                                                          _vm._v(" "),
+                                                          _c(
+                                                            "span",
+                                                            {
+                                                              staticClass: "lbl"
+                                                            },
+                                                            [_vm._v(" Female")]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ])
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "hr hr-dotted"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "state" }
+                                                  },
+                                                  [_vm._v("State")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "select",
+                                                      {
+                                                        staticClass: "select2",
+                                                        attrs: {
+                                                          id: "state",
+                                                          name: "state",
+                                                          "data-placeholder":
+                                                            "Click to Choose..."
+                                                        }
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: { value: "" }
+                                                          },
+                                                          [_vm._v(" ")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "AL"
+                                                            }
+                                                          },
+                                                          [_vm._v("Alabama")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "AK"
+                                                            }
+                                                          },
+                                                          [_vm._v("Alaska")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "AZ"
+                                                            }
+                                                          },
+                                                          [_vm._v("Arizona")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "AR"
+                                                            }
+                                                          },
+                                                          [_vm._v("Arkansas")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "CA"
+                                                            }
+                                                          },
+                                                          [_vm._v("California")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "CO"
+                                                            }
+                                                          },
+                                                          [_vm._v("Colorado")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "CT"
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Connecticut"
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "DE"
+                                                            }
+                                                          },
+                                                          [_vm._v("Delaware")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "FL"
+                                                            }
+                                                          },
+                                                          [_vm._v("Florida")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "GA"
+                                                            }
+                                                          },
+                                                          [_vm._v("Georgia")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "HI"
+                                                            }
+                                                          },
+                                                          [_vm._v("Hawaii")]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "option",
+                                                          {
+                                                            attrs: {
+                                                              value: "ID"
+                                                            }
+                                                          },
+                                                          [_vm._v("Idaho")]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-2"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "platform" }
+                                                  },
+                                                  [_vm._v("Platform")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "clearfix"
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "select",
+                                                          {
+                                                            staticClass:
+                                                              "input-medium",
+                                                            attrs: {
+                                                              id: "platform",
+                                                              name: "platform"
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: ""
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "------------------"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "linux"
+                                                                }
+                                                              },
+                                                              [_vm._v("Linux")]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value:
+                                                                    "windows"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Windows"
+                                                                )
+                                                              ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "mac"
+                                                                }
+                                                              },
+                                                              [_vm._v("Mac OS")]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value: "ios"
+                                                                }
+                                                              },
+                                                              [_vm._v("iOS")]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "option",
+                                                              {
+                                                                attrs: {
+                                                                  value:
+                                                                    "android"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Android"
+                                                                )
+                                                              ]
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-2"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "control-label col-xs-12 col-sm-3 no-padding-right",
+                                                    attrs: { for: "comment" }
+                                                  },
+                                                  [_vm._v("Comment")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-9"
+                                                  },
+                                                  [
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "clearfix"
+                                                      },
+                                                      [
+                                                        _c("textarea", {
+                                                          staticClass:
+                                                            "input-xlarge",
+                                                          attrs: {
+                                                            name: "comment",
+                                                            id: "comment"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass: "space-8"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              { staticClass: "form-group" },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "col-xs-12 col-sm-4 col-sm-offset-3"
+                                                  },
+                                                  [
+                                                    _c("label", [
+                                                      _c("input", {
+                                                        staticClass: "ace",
+                                                        attrs: {
+                                                          name: "agree",
+                                                          id: "agree",
+                                                          type: "checkbox"
+                                                        }
+                                                      }),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "span",
+                                                        { staticClass: "lbl" },
+                                                        [
+                                                          _vm._v(
+                                                            " I accept the policy"
+                                                          )
+                                                        ]
+                                                      )
+                                                    ])
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "step-pane",
+                                        attrs: { "data-step": "2" }
+                                      },
+                                      [
+                                        _c("div", [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass: "alert alert-success"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass: "close",
+                                                  attrs: {
+                                                    type: "button",
+                                                    "data-dismiss": "alert"
+                                                  }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "ace-icon fa fa-times"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("strong", [
+                                                _c("i", {
+                                                  staticClass:
+                                                    "ace-icon fa fa-check"
+                                                }),
+                                                _vm._v(
+                                                  "\n                                                                            Well done!\n                                                                        "
+                                                )
+                                              ]),
+                                              _vm._v(
+                                                "\n\n                                                                        You successfully read this important alert message.\n                                                                        "
+                                              ),
+                                              _c("br")
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass: "alert alert-danger"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass: "close",
+                                                  attrs: {
+                                                    type: "button",
+                                                    "data-dismiss": "alert"
+                                                  }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "ace-icon fa fa-times"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("strong", [
+                                                _c("i", {
+                                                  staticClass:
+                                                    "ace-icon fa fa-times"
+                                                }),
+                                                _vm._v(
+                                                  "\n                                                                            Oh snap!\n                                                                        "
+                                                )
+                                              ]),
+                                              _vm._v(
+                                                "\n\n                                                                        Change a few things up and try submitting again.\n                                                                        "
+                                              ),
+                                              _c("br")
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass: "alert alert-warning"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass: "close",
+                                                  attrs: {
+                                                    type: "button",
+                                                    "data-dismiss": "alert"
+                                                  }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "ace-icon fa fa-times"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("strong", [
+                                                _vm._v("Warning!")
+                                              ]),
+                                              _vm._v(
+                                                "\n\n                                                                        Best check yo self, you're not looking too good.\n                                                                        "
+                                              ),
+                                              _c("br")
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            { staticClass: "alert alert-info" },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass: "close",
+                                                  attrs: {
+                                                    type: "button",
+                                                    "data-dismiss": "alert"
+                                                  }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "ace-icon fa fa-times"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("strong", [
+                                                _vm._v("Heads up!")
+                                              ]),
+                                              _vm._v(
+                                                "\n\n                                                                        This alert needs your attention, but it's not super important.\n                                                                        "
+                                              ),
+                                              _c("br")
+                                            ]
+                                          )
+                                        ])
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "step-pane",
+                                        attrs: { "data-step": "3" }
+                                      },
+                                      [
+                                        _c("div", { staticClass: "center" }, [
+                                          _c(
+                                            "h3",
+                                            { staticClass: "blue lighter" },
+                                            [_vm._v("This is step 3")]
+                                          )
+                                        ])
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "step-pane",
+                                        attrs: { "data-step": "4" }
+                                      },
+                                      [
+                                        _c("div", { staticClass: "center" }, [
+                                          _c("h3", { staticClass: "green" }, [
+                                            _vm._v("Congrats!")
+                                          ]),
+                                          _vm._v(
+                                            "\n                                                                    Your product is ready to ship! Click finish to continue!\n                                                                "
+                                          )
+                                        ])
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("hr"),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "wizard-actions" }, [
+                              _c("button", { staticClass: "btn btn-prev" }, [
+                                _c("i", {
+                                  staticClass: "ace-icon fa fa-arrow-left"
+                                }),
+                                _vm._v(
+                                  "\n                                                            Prev\n                                                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn btn-success btn-next",
+                                  attrs: { "data-last": "Finish" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                                            Next\n                                                            "
+                                  ),
+                                  _c("i", {
+                                    staticClass:
+                                      "ace-icon fa fa-arrow-right icon-on-right"
+                                  })
+                                ]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -75988,6 +77000,8 @@ var map = {
 	"./organization/masters/locationmaster.vue": "./resources/js/Pages/organization/masters/locationmaster.vue",
 	"./organization/masters/masterlevel": "./resources/js/Pages/organization/masters/masterlevel.vue",
 	"./organization/masters/masterlevel.vue": "./resources/js/Pages/organization/masters/masterlevel.vue",
+	"./organization/masters/orgmasterindex": "./resources/js/Pages/organization/masters/orgmasterindex.vue",
+	"./organization/masters/orgmasterindex.vue": "./resources/js/Pages/organization/masters/orgmasterindex.vue",
 	"./organization/masters/orgstatus": "./resources/js/Pages/organization/masters/orgstatus.vue",
 	"./organization/masters/orgstatus.vue": "./resources/js/Pages/organization/masters/orgstatus.vue",
 	"./organization/masters/roadtype": "./resources/js/Pages/organization/masters/roadtype.vue",
@@ -77108,6 +78122,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/organization/masters/orgmasterindex.vue":
+/*!********************************************************************!*\
+  !*** ./resources/js/Pages/organization/masters/orgmasterindex.vue ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _orgmasterindex_vue_vue_type_template_id_5ba0672d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./orgmasterindex.vue?vue&type=template&id=5ba0672d& */ "./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d&");
+/* harmony import */ var _orgmasterindex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./orgmasterindex.vue?vue&type=script&lang=js& */ "./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _orgmasterindex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _orgmasterindex_vue_vue_type_template_id_5ba0672d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _orgmasterindex_vue_vue_type_template_id_5ba0672d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/organization/masters/orgmasterindex.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterindex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./orgmasterindex.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterindex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d& ***!
+  \***************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterindex_vue_vue_type_template_id_5ba0672d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./orgmasterindex.vue?vue&type=template&id=5ba0672d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterindex_vue_vue_type_template_id_5ba0672d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterindex_vue_vue_type_template_id_5ba0672d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/organization/masters/orgstatus.vue":
 /*!***************************************************************!*\
   !*** ./resources/js/Pages/organization/masters/orgstatus.vue ***!
@@ -77428,6 +78511,10 @@ var routes = [{
   path: '/schoolIndex',
   name: 'School Index',
   component: __webpack_require__(/*! ./Pages/organization/school.vue */ "./resources/js/Pages/organization/school.vue")["default"]
+}, {
+  path: '/orgmastermanagement',
+  name: 'Organization Master Management',
+  component: __webpack_require__(/*! ./Pages/organization/masters/orgmasterindex.vue */ "./resources/js/Pages/organization/masters/orgmasterindex.vue")["default"]
 }, {
   path: '/orgmasterlevel',
   name: 'Level Master',
