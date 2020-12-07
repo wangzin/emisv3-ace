@@ -1,6 +1,6 @@
 <template>
     <div>
-        <headcss/>
+        <!-- <headcss/> -->
         <body class="no-skin">
             <headnav />
             <div class="main-container ace-save-state" id="main-container">

@@ -3113,12 +3113,12 @@ __webpack_require__.r(__webpack_exports__);
       $('#dzongkhaglink').removeClass('active');
       $('#gewogmasters').removeClass('active');
       $('#administrationid').removeClass('active open');
-      $('#administrationsubmenuid').hide(); // $('#organizationmenu').removeClass('active open');
-      // $('#rogmastersubmenu').hide();
-
+      $('#administrationsubmenuid').hide();
+      $('#organizationmenu').removeClass('active open');
+      $('#organizationsubmenu').hide();
       $('#userRegistration').removeClass('active');
-      $('#rolesAndPreviledges').removeClass('active'); // $('#climatetype').removeClass('active');
-      // $('#orglocationmaster').removeClass('active');
+      $('#rolesAndPreviledges').removeClass('active');
+      $('#orgmaster').removeClass('active'); // $('#orglocationmaster').removeClass('active');
       // $('#roadtype').removeClass('active');
 
       $('#schoolId').removeClass('active');
@@ -49247,59 +49247,53 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("headcss"),
-      _vm._v(" "),
-      _c(
-        "body",
-        { staticClass: "no-skin" },
-        [
-          _c("headnav"),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "main-container ace-save-state",
-              attrs: { id: "main-container" }
-            },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "sidebar responsive ace-save-state",
-                  attrs: { id: "sidebar" }
-                },
-                [_c("sidenav")],
-                1
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "main-content" }, [
-                _c("div", { staticClass: "main-content-inner" }, [
-                  _c("main", [_vm._t("default")], 2)
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "footer" }, [
-                  _c(
-                    "div",
-                    { staticClass: "footer-inner" },
-                    [_c("footerpage")],
-                    1
-                  )
-                ])
+  return _c("div", [
+    _c(
+      "body",
+      { staticClass: "no-skin" },
+      [
+        _c("headnav"),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "main-container ace-save-state",
+            attrs: { id: "main-container" }
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "sidebar responsive ace-save-state",
+                attrs: { id: "sidebar" }
+              },
+              [_c("sidenav")],
+              1
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "main-content" }, [
+              _c("div", { staticClass: "main-content-inner" }, [
+                _c("main", [_vm._t("default")], 2)
               ]),
               _vm._v(" "),
-              _c("portal-target", { attrs: { name: "modal", multiple: "" } })
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
+              _c("div", { staticClass: "footer" }, [
+                _c(
+                  "div",
+                  { staticClass: "footer-inner" },
+                  [_c("footerpage")],
+                  1
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("portal-target", { attrs: { name: "modal", multiple: "" } })
+          ],
+          1
+        )
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -49391,41 +49385,6 @@ var staticRenderFns = [
             name: "viewport",
             content: "width=device-width, initial-scale=1.0, maximum-scale=1.0"
           }
-        }),
-        _vm._v(" "),
-        _c("link", {
-          attrs: { rel: "stylesheet", href: "assets/css/bootstrap.min.css" }
-        }),
-        _vm._v(" "),
-        _c("link", {
-          attrs: {
-            rel: "stylesheet",
-            href: "assets/font-awesome/4.5.0/css/font-awesome.min.css"
-          }
-        }),
-        _vm._v(" "),
-        _c("link", {
-          attrs: {
-            rel: "stylesheet",
-            href: "assets/css/fonts.googleapis.com.css"
-          }
-        }),
-        _vm._v(" "),
-        _c("link", {
-          staticClass: "ace-main-stylesheet",
-          attrs: {
-            rel: "stylesheet",
-            href: "assets/css/ace.min.css",
-            id: "main-ace-style"
-          }
-        }),
-        _vm._v(" "),
-        _c("link", {
-          attrs: { rel: "stylesheet", href: "assets/css/ace-skins.min.css" }
-        }),
-        _vm._v(" "),
-        _c("link", {
-          attrs: { rel: "stylesheet", href: "assets/css/ace-rtl.min.css" }
         })
       ])
     ])
@@ -50367,7 +50326,7 @@ var render = function() {
                     _c("i", { staticClass: "menu-icon fa fa-caret-right" }),
                     _vm._v(" "),
                     _c("span", { staticClass: "menu-text" }, [
-                      _c("b", [_vm._v("  Schools")])
+                      _c("b", [_vm._v("  Org. & Schools")])
                     ])
                   ]
                 )
@@ -58256,6 +58215,27 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "breadcrumbs ace-save-state",
+          attrs: { id: "breadcrumbs" }
+        },
+        [
+          _c("ul", { staticClass: "breadcrumb" }, [
+            _c("li", [
+              _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("Organization")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("Master Management")])
+          ])
+        ]
+      ),
+      _vm._v(" "),
       _c(
         "div",
         {
@@ -82454,8 +82434,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\development\emisv3-ace\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\development\emisv3-ace\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! D:\office\EMIS Enhancement\emisv3-ace\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\office\EMIS Enhancement\emisv3-ace\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

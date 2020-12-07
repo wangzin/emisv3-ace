@@ -113,7 +113,7 @@
                         <router-link to="/schoolIndex" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                             <i class="menu-icon fa fa-caret-right"></i>
                             <span class="menu-text">
-                                <b>&nbsp;&nbsp;Schools</b>
+                                <b>&nbsp;&nbsp;Org. & Schools</b>
                             </span>
                         </router-link>
                     </li>
@@ -211,12 +211,11 @@ export default {
      
             $('#administrationid').removeClass('active open');
             $('#administrationsubmenuid').hide();
-            // $('#organizationmenu').removeClass('active open');
-            // $('#rogmastersubmenu').hide();
-            
+            $('#organizationmenu').removeClass('active open');
+            $('#organizationsubmenu').hide();
             $('#userRegistration').removeClass('active');
             $('#rolesAndPreviledges').removeClass('active');
-            // $('#climatetype').removeClass('active');
+            $('#orgmaster').removeClass('active');
             // $('#orglocationmaster').removeClass('active');
             // $('#roadtype').removeClass('active');
             $('#schoolId').removeClass('active');
