@@ -122,14 +122,16 @@
                 </a>
                 <b class="arrow"></b>
                 <ul class="submenu" id="organizationsubmenu">
-                    <li class="" id="orgmaster">
-                        <a href="#" class="dropdown-toggle">
+                    <li class="" id="orgmaster" @click="manageclasses('organizationmenu','organizationsubmenu','','','orgmaster')">
+                        <router-link to="/orgmastermanagement" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            <b>Org. Masters</b>
-                            <b class="arrow fa fa-angle-down"></b>
-                        </a>
+                            <span class="">
+                                <b>&nbsp;&nbsp;Org. Mastersl</b>
+                            </span> 
+                            <b class="arrow fa fa-folder-open"></b>
+                        </router-link>
                         <b class="arrow"></b>
-                        <ul class="submenu" id="rogmastersubmenu">
+                        <!-- <ul class="submenu" id="rogmastersubmenu">
                             <li class="" id="schoollevel" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','schoollevel')">
                                 <router-link to="/orgmasterlevel" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
                                     <i class="menu-icon fa fa-caret-right"></i>
@@ -172,7 +174,7 @@
                                     </span> 
                                 </router-link>
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="" id="schoolId" @click="manageclasses('organizationmenu','organizationsubmenu','','','schoolId')">
                         <router-link to="/schoolIndex" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
@@ -197,7 +199,7 @@
                 </ul>
             </li>
 
-            <li class="">
+            <li class="" id="stafflink">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-users"></i>
                     <span class="menu-text">
@@ -206,8 +208,8 @@
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
                 <b class="arrow"></b>
-                 <ul class="submenu" id="staffsubmenu">
-                    <li class="" id="staffMaster">
+                <ul class="submenu" id="staffsubmenu">
+                    <li class="" id="staffmanagent"  @click="manageclasses('stafflink','staffsubmenu','','','staffmanagent')">
                         <a href="#" class="dropdown-toggle">
                             <i class="menu-icon fa fa-caret-right"></i>
                             <b>Staff Masters</b>
@@ -251,7 +253,7 @@
                     <span class="menu-text"> Result Processing</span>
                 </a>
             </li>
-            <li class="">
+            <li class="" id="mdcalist" @click="manageclasses('','','','','mdcalist')">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-database"></i>
                     <span class="menu-text"> MDCA</span>
@@ -274,17 +276,23 @@ export default {
             $('#dzongkhaglink').removeClass('active');
             $('#gewogmasters').removeClass('active');
 
-            $('#orgmaster').removeClass('active open');
-            $('#organizationsubmenu').hide();
-            $('#organizationmenu').removeClass('active open');
-            $('#rogmastersubmenu').hide();
+            // $('#orgmaster').removeClass('active open');
+            // $('#organizationsubmenu').hide();
+            // $('#organizationmenu').removeClass('active open');
+            // $('#rogmastersubmenu').hide();
             
-            $('#schoollevel').removeClass('active');
-            $('#orgstatus').removeClass('active');
-            $('#climatetype').removeClass('active');
-            $('#orglocationmaster').removeClass('active');
-            $('#roadtype').removeClass('active');
+            // $('#schoollevel').removeClass('active');
+            // $('#orgstatus').removeClass('active');
+            // $('#climatetype').removeClass('active');
+            // $('#orglocationmaster').removeClass('active');
+            // $('#roadtype').removeClass('active');
             $('#schoolId').removeClass('active');
+            $('#mdcalist').removeClass('active');
+
+            $('#stafflink').removeClass('active open');
+            $('#staffsubmenu').hide();
+            $('#staffmanagent').removeClass('active');
+            
 
             $('#'+mainmenuid).addClass('active open');
             $('#'+mainulid).show();
