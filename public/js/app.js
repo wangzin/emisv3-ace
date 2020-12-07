@@ -3104,8 +3104,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     manageclasses: function manageclasses(mainmenuid, mainulid, submenuid, subulid, linkid) {
@@ -52744,6 +52742,100 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue?vue&type=template&id=37a845d4&":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue?vue&type=template&id=37a845d4& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "breadcrumbs ace-save-state",
+          attrs: { id: "breadcrumbs" }
+        },
+        [
+          _c("ul", { staticClass: "breadcrumb" }, [
+            _c("li", [
+              _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("Security Admin")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [
+              _vm._v("Roles and previledges")
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "page-content" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-xs-12" }, [
+            _c("div", { staticClass: "clearfix" }, [
+              _c("div", { staticClass: "pull-right tableTools-container" })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "table-header" }, [
+              _vm._v(
+                "\n                        Roles and previledges\n                    "
+              )
+            ]),
+            _vm._v(" "),
+            _c("form", [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-4 form-group" }, [
+                  _c("label", [_vm._v("Role")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-4 form-group" }, [
+                  _c("label", [_vm._v("Description")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "" }
+                  })
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/administration/usermanagement/external.vue?vue&type=template&id=a9c105f8&":
 /*!************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/administration/usermanagement/external.vue?vue&type=template&id=a9c105f8& ***!
@@ -53438,6 +53530,30 @@ var staticRenderFns = [
     ])
   }
 ]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/administration/workflow/workflow.vue?vue&type=template&id=7bd90127&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/administration/workflow/workflow.vue?vue&type=template&id=7bd90127& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div")
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -61555,124 +61671,6 @@ var staticRenderFns = [
     )
   }
 ]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/sa/rolesAndPriviledges.vue?vue&type=template&id=3efa735c&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/sa/rolesAndPriviledges.vue?vue&type=template&id=3efa735c& ***!
-  \********************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        {
-          staticClass: "breadcrumbs ace-save-state",
-          attrs: { id: "breadcrumbs" }
-        },
-        [
-          _c("ul", { staticClass: "breadcrumb" }, [
-            _c("li", [
-              _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "active" }, [_vm._v("Security Admin")]),
-            _vm._v(" "),
-            _c("li", { staticClass: "active" }, [
-              _vm._v("Roles and previledges")
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "page-content" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-xs-12" }, [
-            _c("div", { staticClass: "clearfix" }, [
-              _c("div", { staticClass: "pull-right tableTools-container" })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "table-header" }, [
-              _vm._v(
-                "\n                        Roles and previledges\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("form", [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-md-4 form-group" }, [
-                  _c("label", [_vm._v("Role")]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: { type: "text", id: "" }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-md-4 form-group" }, [
-                  _c("label", [_vm._v("Description")]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: { type: "text", id: "" }
-                  })
-                ])
-              ])
-            ])
-          ])
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/sa/workflow.vue?vue&type=template&id=c0c35932&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/sa/workflow.vue?vue&type=template&id=c0c35932& ***!
-  \*********************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div")
-}
-var staticRenderFns = []
 render._withStripped = true
 
 
@@ -80213,6 +80211,8 @@ var map = {
 	"./Profile/UpdatePasswordForm.vue": "./resources/js/Pages/Profile/UpdatePasswordForm.vue",
 	"./Profile/UpdateProfileInformationForm": "./resources/js/Pages/Profile/UpdateProfileInformationForm.vue",
 	"./Profile/UpdateProfileInformationForm.vue": "./resources/js/Pages/Profile/UpdateProfileInformationForm.vue",
+	"./administration/roleAndPrivileges/rolesAndPriviledges": "./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue",
+	"./administration/roleAndPrivileges/rolesAndPriviledges.vue": "./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue",
 	"./administration/usermanagement/external": "./resources/js/Pages/administration/usermanagement/external.vue",
 	"./administration/usermanagement/external.vue": "./resources/js/Pages/administration/usermanagement/external.vue",
 	"./administration/usermanagement/staff": "./resources/js/Pages/administration/usermanagement/staff.vue",
@@ -80221,6 +80221,8 @@ var map = {
 	"./administration/usermanagement/usermanagement.vue": "./resources/js/Pages/administration/usermanagement/usermanagement.vue",
 	"./administration/usermanagement/usermanagementindex": "./resources/js/Pages/administration/usermanagement/usermanagementindex.vue",
 	"./administration/usermanagement/usermanagementindex.vue": "./resources/js/Pages/administration/usermanagement/usermanagementindex.vue",
+	"./administration/workflow/workflow": "./resources/js/Pages/administration/workflow/workflow.vue",
+	"./administration/workflow/workflow.vue": "./resources/js/Pages/administration/workflow/workflow.vue",
 	"./dashboard_data": "./resources/js/Pages/dashboard_data.vue",
 	"./dashboard_data.vue": "./resources/js/Pages/dashboard_data.vue",
 	"./globalmaster/dzongmasters": "./resources/js/Pages/globalmaster/dzongmasters.vue",
@@ -80245,10 +80247,6 @@ var map = {
 	"./organization/masters/roadtype.vue": "./resources/js/Pages/organization/masters/roadtype.vue",
 	"./organization/school": "./resources/js/Pages/organization/school.vue",
 	"./organization/school.vue": "./resources/js/Pages/organization/school.vue",
-	"./sa/rolesAndPriviledges": "./resources/js/Pages/sa/rolesAndPriviledges.vue",
-	"./sa/rolesAndPriviledges.vue": "./resources/js/Pages/sa/rolesAndPriviledges.vue",
-	"./sa/workflow": "./resources/js/Pages/sa/workflow.vue",
-	"./sa/workflow.vue": "./resources/js/Pages/sa/workflow.vue",
 	"./staff/appointment": "./resources/js/Pages/staff/appointment.vue",
 	"./staff/appointment.vue": "./resources/js/Pages/staff/appointment.vue",
 	"./staff/masters/serviceType": "./resources/js/Pages/staff/masters/serviceType.vue",
@@ -80902,6 +80900,59 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _rolesAndPriviledges_vue_vue_type_template_id_37a845d4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./rolesAndPriviledges.vue?vue&type=template&id=37a845d4& */ "./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue?vue&type=template&id=37a845d4&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _rolesAndPriviledges_vue_vue_type_template_id_37a845d4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _rolesAndPriviledges_vue_vue_type_template_id_37a845d4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue?vue&type=template&id=37a845d4&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue?vue&type=template&id=37a845d4& ***!
+  \********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_rolesAndPriviledges_vue_vue_type_template_id_37a845d4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./rolesAndPriviledges.vue?vue&type=template&id=37a845d4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/administration/roleAndPrivileges/rolesAndPriviledges.vue?vue&type=template&id=37a845d4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_rolesAndPriviledges_vue_vue_type_template_id_37a845d4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_rolesAndPriviledges_vue_vue_type_template_id_37a845d4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/administration/usermanagement/external.vue":
 /*!***********************************************************************!*\
   !*** ./resources/js/Pages/administration/usermanagement/external.vue ***!
@@ -81125,6 +81176,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_usermanagementindex_vue_vue_type_template_id_5c73f5ca___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_usermanagementindex_vue_vue_type_template_id_5c73f5ca___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/administration/workflow/workflow.vue":
+/*!*****************************************************************!*\
+  !*** ./resources/js/Pages/administration/workflow/workflow.vue ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _workflow_vue_vue_type_template_id_7bd90127___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./workflow.vue?vue&type=template&id=7bd90127& */ "./resources/js/Pages/administration/workflow/workflow.vue?vue&type=template&id=7bd90127&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _workflow_vue_vue_type_template_id_7bd90127___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _workflow_vue_vue_type_template_id_7bd90127___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/administration/workflow/workflow.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/administration/workflow/workflow.vue?vue&type=template&id=7bd90127&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/Pages/administration/workflow/workflow.vue?vue&type=template&id=7bd90127& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_workflow_vue_vue_type_template_id_7bd90127___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./workflow.vue?vue&type=template&id=7bd90127& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/administration/workflow/workflow.vue?vue&type=template&id=7bd90127&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_workflow_vue_vue_type_template_id_7bd90127___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_workflow_vue_vue_type_template_id_7bd90127___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -81931,51 +82035,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./resources/js/Pages/sa/rolesAndPriviledges.vue ***!
   \*******************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _rolesAndPriviledges_vue_vue_type_template_id_3efa735c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./rolesAndPriviledges.vue?vue&type=template&id=3efa735c& */ "./resources/js/Pages/sa/rolesAndPriviledges.vue?vue&type=template&id=3efa735c&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _rolesAndPriviledges_vue_vue_type_template_id_3efa735c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _rolesAndPriviledges_vue_vue_type_template_id_3efa735c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/Pages/sa/rolesAndPriviledges.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/sa/rolesAndPriviledges.vue?vue&type=template&id=3efa735c&":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/Pages/sa/rolesAndPriviledges.vue?vue&type=template&id=3efa735c& ***!
-  \**************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_rolesAndPriviledges_vue_vue_type_template_id_3efa735c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./rolesAndPriviledges.vue?vue&type=template&id=3efa735c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/sa/rolesAndPriviledges.vue?vue&type=template&id=3efa735c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_rolesAndPriviledges_vue_vue_type_template_id_3efa735c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_rolesAndPriviledges_vue_vue_type_template_id_3efa735c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
+throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\office\\EMIS Enhancement\\emisv3-ace\\resources\\js\\Pages\\sa\\rolesAndPriviledges.vue'");
 
 /***/ }),
 
@@ -81984,51 +82046,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./resources/js/Pages/sa/workflow.vue ***!
   \********************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _workflow_vue_vue_type_template_id_c0c35932___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./workflow.vue?vue&type=template&id=c0c35932& */ "./resources/js/Pages/sa/workflow.vue?vue&type=template&id=c0c35932&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _workflow_vue_vue_type_template_id_c0c35932___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _workflow_vue_vue_type_template_id_c0c35932___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/Pages/sa/workflow.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/sa/workflow.vue?vue&type=template&id=c0c35932&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/Pages/sa/workflow.vue?vue&type=template&id=c0c35932& ***!
-  \***************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_workflow_vue_vue_type_template_id_c0c35932___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./workflow.vue?vue&type=template&id=c0c35932& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/sa/workflow.vue?vue&type=template&id=c0c35932&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_workflow_vue_vue_type_template_id_c0c35932___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_workflow_vue_vue_type_template_id_c0c35932___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
+throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\office\\EMIS Enhancement\\emisv3-ace\\resources\\js\\Pages\\sa\\workflow.vue'");
 
 /***/ }),
 

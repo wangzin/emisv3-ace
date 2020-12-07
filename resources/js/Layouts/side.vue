@@ -67,7 +67,7 @@
                                 <b>&nbsp;&nbsp;Roles and priviledges</b>
                             </span>
                         </router-link>
-                    </li>
+                    </li>  
                     <li class="" id="userRegistration" @click="manageclasses('administrationid','administrationsubmenuid','','','userRegistration')">
                         <router-link to="/usermanagement" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff User">
                             <i class="menu-icon fa fa-caret-right"></i>
@@ -76,9 +76,7 @@
                             </span> 
                             <b class="arrow fa fa-folder-open"></b>
                         </router-link>
-                        <!-- <ul class="submenu" id="userRegistrationSubmenu">
-                            
-                        </ul> -->
+                       
                     </li>
                     <li class="" id="workFlow" @click="manageclasses('','','','','')">
                         <router-link to="/workFlow" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Wok Flow">
