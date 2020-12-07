@@ -53556,7 +53556,9 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
             ]),
             _vm._v(" "),
-            _c("li", { staticClass: "active" }, [_vm._v("Dashboard")])
+            _c("li", { staticClass: "active" }, [_vm._v("Dashboard")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("overview")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "nav-search", attrs: { id: "nav-search" } })
@@ -53564,16 +53566,6 @@ var staticRenderFns = [
       ),
       _vm._v(" "),
       _c("div", { staticClass: "page-content" }, [
-        _c("div", { staticClass: "page-header" }, [
-          _c("h1", [
-            _vm._v("\n                Dashboard\n                "),
-            _c("small", [
-              _c("i", { staticClass: "ace-icon fa fa-angle-double-right" }),
-              _vm._v("\n                    overview \n                ")
-            ])
-          ])
-        ]),
-        _vm._v(" "),
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-xs-12" }, [
             _c("div", { staticClass: "row" }, [
@@ -53878,23 +53870,23 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "infobox infobox-green width-45" }, [
                   _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                    _c("i", { staticClass: "ace-icon fa fa-user-plus" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "infobox-data" }, [
                     _c("span", { staticClass: "infobox-data-number" }, [
-                      _vm._v("158287")
+                      _vm._v("14")
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("Regular Students")
+                      _vm._v("External Users")
                     ])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "infobox infobox-blue width-50" }, [
                   _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                    _c("i", { staticClass: "ace-icon fa fa-user-secret" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "infobox-data" }, [
@@ -53903,14 +53895,14 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("Private Students")
+                      _vm._v("Active Users")
                     ])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "infobox infobox-pink width-45" }, [
                   _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                    _c("i", { staticClass: "ace-icon fa fa-user-times" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "infobox-data" }, [
@@ -53919,23 +53911,23 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("Student with Disability")
+                      _vm._v("Inactive users")
                     ])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "infobox infobox-red width-50" }, [
                   _c("div", { staticClass: "infobox-icon" }, [
-                    _c("i", { staticClass: "ace-icon fa fa-users" })
+                    _c("i", { staticClass: "ace-icon fa fa-user-md" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "infobox-data" }, [
                     _c("span", { staticClass: "infobox-data-number" }, [
-                      _vm._v("400")
+                      _vm._v("1500")
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "infobox-content" }, [
-                      _vm._v("ECCD & ECR Students")
+                      _vm._v("Total System Users")
                     ])
                   ])
                 ])

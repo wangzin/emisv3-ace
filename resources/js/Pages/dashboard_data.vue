@@ -7,6 +7,7 @@
                     <a href="#">Home</a>
                 </li>
                 <li class="active">Dashboard</li>
+                <li class="active">overview</li>
             </ul>
             <div class="nav-search" id="nav-search">
                 <!-- <form class="form-search">
@@ -19,7 +20,7 @@
         </div>
 
         <div class="page-content">
-            <div class="page-header">
+            <!-- <div class="page-header">
                 <h1>
                     Dashboard
                     <small>
@@ -27,7 +28,7 @@
                         overview 
                     </small>
                 </h1>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div class="col-xs-12">
@@ -192,38 +193,38 @@
                             <div class="space-6"></div> 
                             <div class="infobox infobox-green width-45">
                                 <div class="infobox-icon"> 
-                                    <i class="ace-icon fa fa-users"></i>
+                                    <i class="ace-icon fa fa-user-plus"></i>
                                 </div>
                                 <div class="infobox-data">
-                                    <span class="infobox-data-number">158287</span>
-                                    <div class="infobox-content">Regular Students</div>
+                                    <span class="infobox-data-number">14</span>
+                                    <div class="infobox-content">External Users</div>
                                 </div>
                             </div>
                             <div class="infobox infobox-blue width-50">
                                 <div class="infobox-icon"> 
-                                    <i class="ace-icon fa fa-users"></i>
+                                    <i class="ace-icon fa fa-user-secret"></i>
                                 </div>
-                                <div class="infobox-data">
+                                <div class="infobox-data"> 
                                     <span class="infobox-data-number">12438</span>
-                                    <div class="infobox-content">Private Students</div>
+                                    <div class="infobox-content">Active Users</div>
                                 </div>
                             </div>
                             <div class="infobox infobox-pink width-45">
                                 <div class="infobox-icon">
-                                    <i class="ace-icon fa fa-users"></i>
+                                    <i class="ace-icon fa fa-user-times"></i>
                                 </div>
                                 <div class="infobox-data">
                                     <span class="infobox-data-number">600</span>
-                                    <div class="infobox-content">Student with Disability</div>
+                                    <div class="infobox-content">Inactive users</div>
                                 </div>
                             </div>
                             <div class="infobox infobox-red width-50">
                                 <div class="infobox-icon">
-                                    <i class="ace-icon fa fa-users"></i>
+                                    <i class="ace-icon fa fa-user-md"></i>
                                 </div>
                                 <div class="infobox-data">
-                                    <span class="infobox-data-number">400</span>
-                                    <div class="infobox-content">ECCD & ECR Students</div>
+                                    <span class="infobox-data-number">1500</span>
+                                    <div class="infobox-content">Total System Users</div>
                                 </div>
                             </div> 
                         </div>
