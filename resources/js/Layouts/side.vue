@@ -47,22 +47,20 @@
                                 <b>&nbsp;&nbsp;Gewog Master</b>
                             </span> 
                         </router-link>
-                        
                     </li>
                 </ul>
             </li>
-             <li class="">
+             <li class="" id="administrationid">
                 <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-users"></i>
+                    <i class="menu-icon fa fa-area-chart"></i>
                     <span class="menu-text">
-                       Security Admin
+                       Adminstration
                     </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
                 <b class="arrow"></b>
-                 <ul class="submenu" id="staffsubmenu">
-                   
-                    <li class="" id="rolesAndPreviledges" @click="manageclasses('','','','','')">
+                <ul class="submenu" id="administrationsubmenuid">
+                    <li class="" id="rolesAndPreviledges" @click="manageclasses('administrationid','administrationsubmenuid','','','rolesAndPreviledges')">
                         <router-link to="/rolesAndPriviledges" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff">
                             <i class="menu-icon fa fa-caret-right"></i>
                             <span class="menu-text">
@@ -70,7 +68,18 @@
                             </span>
                         </router-link>
                     </li>
-
+                    <li class="" id="userRegistration" @click="manageclasses('administrationid','administrationsubmenuid','','','userRegistration')">
+                        <router-link to="/usermanagement" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff User">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <span class="">
+                                <b>User Registration</b>
+                            </span> 
+                            <b class="arrow fa fa-folder-open"></b>
+                        </router-link>
+                        <!-- <ul class="submenu" id="userRegistrationSubmenu">
+                            
+                        </ul> -->
+                    </li>
                     <li class="" id="workFlow" @click="manageclasses('','','','','')">
                         <router-link to="/workFlow" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Wok Flow">
                             <i class="menu-icon fa fa-caret-right"></i>
@@ -79,36 +88,6 @@
                             </span>
                         </router-link>
                     </li>
-
-                     <li class="" id="userRegistration">
-                        <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            <b>User Registration</b>
-                            <b class="arrow fa fa-angle-down"></b>
-                        </a>
-                        <b class="arrow"></b>
-                        <ul class="submenu" id="userRegistrationSubmenu">
-                            <li class="" id="staffUser" @click="manageclasses('','','','','')">
-                                <router-link to="/staffUser" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff User">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    <span class="">
-                                        <b>&nbsp;&nbsp;Staff User</b>
-                                    </span> 
-                                </router-link>
-                                <b class="arrow"></b>
-                            </li>                           
-                                                       
-                            <li class="" id="otherUser" @click="manageclasses('','','','','')">
-                                <router-link to="/externalUser" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Other User">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    <span class="">
-                                        <b>&nbsp;&nbsp; External User</b>
-                                    </span> 
-                                </router-link>
-                            </li>
-                        </ul>
-                    </li>
-
                 </ul>
 
             </li>
@@ -131,50 +110,6 @@
                             <b class="arrow fa fa-folder-open"></b>
                         </router-link>
                         <b class="arrow"></b>
-                        <!-- <ul class="submenu" id="rogmastersubmenu">
-                            <li class="" id="schoollevel" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','schoollevel')">
-                                <router-link to="/orgmasterlevel" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    <span class="">
-                                        <b>&nbsp;&nbsp;School Level</b>
-                                    </span> 
-                                </router-link>
-                                <b class="arrow"></b>
-                            </li>
-                            <li class="" id="orglocationmaster" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','orglocationmaster')">
-                                <router-link to="/orglocationmaster" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    <span class="">
-                                        <b>&nbsp;&nbsp;Org Location Type</b>
-                                    </span> 
-                                </router-link>
-                                <b class="arrow"></b>
-                            </li>
-                            <li class="" id="orgstatus" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','orgstatus')">
-                                <router-link to="/orgstatus" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    <span class="">
-                                        <b>&nbsp;&nbsp; School/Org Status</b>
-                                    </span> 
-                                </router-link>
-                            </li>
-                            <li class="" id="climatetype" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','climatetype')">
-                                <router-link to="/climatetype" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    <span class="">
-                                        <b>&nbsp;&nbsp;  Climate Type</b>
-                                    </span> 
-                                </router-link>
-                            </li>
-                            <li class="" id="roadtype" @click="manageclasses('organizationmenu','organizationsubmenu','orgmaster','rogmastersubmenu','roadtype')">
-                                <router-link to="/roadtype" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    <span class="">
-                                        <b>&nbsp;&nbsp; Road Type</b>
-                                    </span> 
-                                </router-link>
-                            </li>
-                        </ul> -->
                     </li>
                     <li class="" id="schoolId" @click="manageclasses('organizationmenu','organizationsubmenu','','','schoolId')">
                         <router-link to="/schoolIndex" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Organization">
@@ -275,14 +210,14 @@ export default {
             $('#globalmastersub').hide();
             $('#dzongkhaglink').removeClass('active');
             $('#gewogmasters').removeClass('active');
-
-            // $('#orgmaster').removeClass('active open');
-            // $('#organizationsubmenu').hide();
+     
+            $('#administrationid').removeClass('active open');
+            $('#administrationsubmenuid').hide();
             // $('#organizationmenu').removeClass('active open');
             // $('#rogmastersubmenu').hide();
             
-            // $('#schoollevel').removeClass('active');
-            // $('#orgstatus').removeClass('active');
+            $('#userRegistration').removeClass('active');
+            $('#rolesAndPreviledges').removeClass('active');
             // $('#climatetype').removeClass('active');
             // $('#orglocationmaster').removeClass('active');
             // $('#roadtype').removeClass('active');

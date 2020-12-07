@@ -28,16 +28,19 @@ let routes = [
             { path: '/roadtype', name: 'Roadtype Master', component: require('./Pages/organization/masters/roadtype.vue').default },
         ]    
     }, 
-    
-    
     { path: '/dzongmasters', name: 'Dzongkhag Master', component: require('./Pages/globalmaster/dzongmasters.vue').default },
     { path: '/gewogmasters', name: 'Gewog Master', component: require('./Pages/globalmaster/gewogmasters.vue').default },
     { path: '/serviceType', name: 'Service Type', component: require('./Pages/staff/masters/serviceType.vue').default },
     { path: '/rolesAndPriviledges', name: 'Roles and priviledges', component: require('./Pages/sa/rolesAndPriviledges.vue').default },
     { path: '/workFlow', name: 'Work Flow', component: require('./Pages/sa/workflow.vue').default },
-    { path: '/staffUser', name: 'Staff User', component: require('./Pages/sa/userRegistration/staff.vue').default },
-    { path: '/externalUser', name: 'External User', component: require('./Pages/sa/userRegistration/external.vue').default },
-
+    { path: '/usermanagement', name: 'Staff User', 
+        component: require('./Pages/administration/usermanagement/usermanagement.vue').default,
+        children: [
+            { path: '', component: require('./Pages/administration/usermanagement/usermanagementindex.vue').default },
+            { path: '/internaluser', component: require('./Pages/administration/usermanagement/staff.vue').default },
+            { path: '/externaluser', name: 'Level Master', component: require('./Pages/administration/usermanagement/external.vue').default },
+        ] 
+    },
 ]
 const router = new VueRouter({
     routes // short for `routes: routes`
