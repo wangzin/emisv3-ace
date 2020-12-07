@@ -82030,28 +82030,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Pages/sa/rolesAndPriviledges.vue":
-/*!*******************************************************!*\
-  !*** ./resources/js/Pages/sa/rolesAndPriviledges.vue ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\office\\EMIS Enhancement\\emisv3-ace\\resources\\js\\Pages\\sa\\rolesAndPriviledges.vue'");
-
-/***/ }),
-
-/***/ "./resources/js/Pages/sa/workflow.vue":
-/*!********************************************!*\
-  !*** ./resources/js/Pages/sa/workflow.vue ***!
-  \********************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/vue-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\office\\EMIS Enhancement\\emisv3-ace\\resources\\js\\Pages\\sa\\workflow.vue'");
-
-/***/ }),
-
 /***/ "./resources/js/Pages/staff/appointment.vue":
 /*!**************************************************!*\
   !*** ./resources/js/Pages/staff/appointment.vue ***!
@@ -82397,19 +82375,11 @@ var routes = [{
   name: 'Service Type',
   component: __webpack_require__(/*! ./Pages/staff/masters/serviceType.vue */ "./resources/js/Pages/staff/masters/serviceType.vue")["default"]
 }, {
-  path: '/rolesAndPriviledges',
-  name: 'Roles and priviledges',
-  component: __webpack_require__(/*! ./Pages/sa/rolesAndPriviledges.vue */ "./resources/js/Pages/sa/rolesAndPriviledges.vue")["default"]
-}, {
-  path: '/workFlow',
-  name: 'Work Flow',
-  component: __webpack_require__(/*! ./Pages/sa/workflow.vue */ "./resources/js/Pages/sa/workflow.vue")["default"]
-}, {
   path: '/usermanagement',
   name: 'Staff User',
   component: __webpack_require__(/*! ./Pages/administration/usermanagement/usermanagement.vue */ "./resources/js/Pages/administration/usermanagement/usermanagement.vue")["default"],
   children: [{
-    path: '',
+    path: '/',
     component: __webpack_require__(/*! ./Pages/administration/usermanagement/usermanagementindex.vue */ "./resources/js/Pages/administration/usermanagement/usermanagementindex.vue")["default"]
   }, {
     path: '/internaluser',
