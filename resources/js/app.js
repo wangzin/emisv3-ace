@@ -17,12 +17,19 @@ Vue.use(PortalVue);
 let routes = [
     { path: '/', name: 'Dashboard', component: require('./Pages/dashboard_data.vue').default },
     { path: '/schoolIndex', name: 'School Index', component: require('./Pages/organization/school.vue').default },
-    { path: '/orgmastermanagement', name: 'Organization Master Management', component: require('./Pages/organization/masters/orgmasterindex.vue').default },
-    { path: '/orgmasterlevel', name: 'Level Master', component: require('./Pages/organization/masters/masterlevel.vue').default },
-    { path: '/orglocationmaster', name: 'Location Master', component: require('./Pages/organization/masters/locationmaster.vue').default },
-    { path: '/orgstatus', name: 'Status Master', component: require('./Pages/organization/masters/orgstatus.vue').default },
-    { path: '/climatetype', name: 'Climate Master', component: require('./Pages/organization/masters/climatetype.vue').default },
-    { path: '/roadtype', name: 'Roadtype Master', component: require('./Pages/organization/masters/roadtype.vue').default },
+    { path: '/orgmastermanagement', name: 'Organization Master Management',
+        component: require('./Pages/organization/masters/orgmasterindex.vue').default,
+        children: [
+            { path: '', component: require('./Pages/organization/masters/orgmasterdata.vue').default },
+            { path: '/orgmasterlevel', name: 'Level Master', component: require('./Pages/organization/masters/masterlevel.vue').default },
+            { path: '/orglocationmaster', name: 'Location Master', component: require('./Pages/organization/masters/locationmaster.vue').default },
+            { path: '/orgstatus', name: 'Status Master', component: require('./Pages/organization/masters/orgstatus.vue').default },
+            { path: '/climatetype', name: 'Climate Master', component: require('./Pages/organization/masters/climatetype.vue').default },
+            { path: '/roadtype', name: 'Roadtype Master', component: require('./Pages/organization/masters/roadtype.vue').default },
+        ]    
+    }, 
+    
+    
     { path: '/dzongmasters', name: 'Dzongkhag Master', component: require('./Pages/globalmaster/dzongmasters.vue').default },
     { path: '/gewogmasters', name: 'Gewog Master', component: require('./Pages/globalmaster/gewogmasters.vue').default },
     

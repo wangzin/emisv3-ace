@@ -1,15 +1,5 @@
 <template>
     <div> 
-        <div class="breadcrumbs ace-save-state" id="breadcrumbs">
-            <ul class="breadcrumb">
-                <li>
-                    <i class="ace-icon fa fa-home home-icon"></i>
-                    <a href="#">Home</a>
-                </li>
-                <li class="active">Master Management</li>
-            </ul>
-            
-        </div>
         <div class="page-content">
             <div class="row">
                 <div class="col-xs-12">
@@ -23,26 +13,50 @@
 								</a>
 								<ul class="dropdown-menu dropdown-info">
 									<li>
-										<a data-toggle="tab" href="#dropdown1">School Level</a>
+										<router-link to="/orgmasterlevel" data-toggle="awesome_tooltip" title="Level">
+											<i class="menu-icon fa fa-caret-right"></i>
+											<span class="">
+												<b>&nbsp;&nbsp;School Level</b>
+											</span> 
+										</router-link>
 									</li>
 									<li>
-										<a data-toggle="tab" href="#dropdown2">Ogganization Location Type</a>
+										<router-link to="/orglocationmaster" data-toggle="awesome_tooltip" title="Location">
+											<i class="menu-icon fa fa-caret-right"></i>
+											<span class="">
+												<b>&nbsp;&nbsp;Org Location Type</b>
+											</span> 
+										</router-link>
 									</li>
 									<li>
-										<a data-toggle="tab" href="#dropdown2">Ogganization/School Stauts</a>
+										<router-link to="/orgstatus" data-toggle="awesome_tooltip" title="Status">
+											<i class="menu-icon fa fa-caret-right"></i>
+											<span class="">
+												<b>&nbsp;&nbsp; School/Org Status</b>
+											</span> 
+										</router-link>
+									</li>
+									<li>
+										<router-link to="/climatetype" data-toggle="awesome_tooltip" title="Organization">
+											<i class="menu-icon fa fa-caret-right"></i>
+											<span class="">
+												<b>&nbsp;&nbsp;  Climate Type</b>
+											</span> 
+										</router-link>
+									</li>
+									<li>
+										<router-link to="/roadtype" data-toggle="awesome_tooltip" title="Organization">
+											<i class="menu-icon fa fa-caret-right"></i>
+											<span class="">
+												<b>&nbsp;&nbsp; Road Type</b>
+											</span> 
+										</router-link>
 									</li>
 								</ul>
 							</li>
 						</ul>
 						<div class="tab-content">
-							<div id="ogrmastermanagement" class="tab-pane fade active in">
-								<div class="clearfix">
-									<div class="pull-right tableTools-container"></div>
-								</div> 
-								<div class="table-header">
-									Manage all organization masters from here!
-								</div>
-							</div>
+							<router-view></router-view>
 						</div>
 					</div>
                 </div>

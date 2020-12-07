@@ -5628,6 +5628,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 if ('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
@@ -56585,10 +56599,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d&":
-/*!*********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d& ***!
-  \*********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterdata.vue?vue&type=template&id=3a9d57c2&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/masters/orgmasterdata.vue?vue&type=template&id=3a9d57c2& ***!
+  \********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -56611,118 +56625,216 @@ var staticRenderFns = [
       _c(
         "div",
         {
-          staticClass: "breadcrumbs ace-save-state",
-          attrs: { id: "breadcrumbs" }
+          staticClass: "tab-pane fade active in",
+          attrs: { id: "ogrmastermanagement" }
         },
         [
-          _c("ul", { staticClass: "breadcrumb" }, [
-            _c("li", [
-              _c("i", { staticClass: "ace-icon fa fa-home home-icon" }),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Home")])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "active" }, [_vm._v("Master Management")])
+          _c("div", { staticClass: "clearfix" }, [
+            _c("div", { staticClass: "pull-right tableTools-container" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "table-header" }, [
+            _vm._v(
+              "\n            Manage all organization masters from here!\n        "
+            )
           ])
         ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "page-content" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-xs-12" }, [
-            _c("div", { staticClass: "tabbable" }, [
-              _c(
-                "ul",
-                { staticClass: "nav nav-tabs", attrs: { id: "myTab" } },
-                [
-                  _c("li", { staticClass: "dropdown" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "dropdown-toggle",
-                        attrs: {
-                          "data-toggle": "dropdown",
-                          href: "#",
-                          "aria-expanded": "false"
-                        }
-                      },
-                      [
-                        _c("i", {
-                          staticClass:
-                            "green ace-icon fa fa-database bigger-120"
-                        }),
-                        _vm._v(
-                          "\n\t\t\t\t\t\t\t\t\tOrganization Master Management  \n\t\t\t\t\t\t\t\t\t"
-                        ),
-                        _c("i", {
-                          staticClass:
-                            "ace-icon fa fa-caret-down bigger-110 width-auto"
-                        })
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "dropdown-menu dropdown-info" }, [
-                      _c("li", [
-                        _c(
-                          "a",
-                          {
-                            attrs: { "data-toggle": "tab", href: "#dropdown1" }
-                          },
-                          [_vm._v("School Level")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c(
-                          "a",
-                          {
-                            attrs: { "data-toggle": "tab", href: "#dropdown2" }
-                          },
-                          [_vm._v("Ogganization Location Type")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c(
-                          "a",
-                          {
-                            attrs: { "data-toggle": "tab", href: "#dropdown2" }
-                          },
-                          [_vm._v("Ogganization/School Stauts")]
-                        )
-                      ])
-                    ])
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "tab-content" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "tab-pane fade active in",
-                    attrs: { id: "ogrmastermanagement" }
-                  },
-                  [
-                    _c("div", { staticClass: "clearfix" }, [
-                      _c("div", {
-                        staticClass: "pull-right tableTools-container"
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "table-header" }, [
-                      _vm._v(
-                        "\n\t\t\t\t\t\t\t\t\tManage all organization masters from here!\n\t\t\t\t\t\t\t\t"
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/organization/masters/orgmasterindex.vue?vue&type=template&id=5ba0672d& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "page-content" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-xs-12" }, [
+          _c("div", { staticClass: "tabbable" }, [
+            _c("ul", { staticClass: "nav nav-tabs", attrs: { id: "myTab" } }, [
+              _c("li", { staticClass: "dropdown" }, [
+                _vm._m(0),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu dropdown-info" }, [
+                  _c(
+                    "li",
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          attrs: {
+                            to: "/orgmasterlevel",
+                            "data-toggle": "awesome_tooltip",
+                            title: "Level"
+                          }
+                        },
+                        [
+                          _c("i", {
+                            staticClass: "menu-icon fa fa-caret-right"
+                          }),
+                          _vm._v(" "),
+                          _c("span", {}, [_c("b", [_vm._v("  School Level")])])
+                        ]
                       )
-                    ])
-                  ]
-                )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          attrs: {
+                            to: "/orglocationmaster",
+                            "data-toggle": "awesome_tooltip",
+                            title: "Location"
+                          }
+                        },
+                        [
+                          _c("i", {
+                            staticClass: "menu-icon fa fa-caret-right"
+                          }),
+                          _vm._v(" "),
+                          _c("span", {}, [
+                            _c("b", [_vm._v("  Org Location Type")])
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          attrs: {
+                            to: "/orgstatus",
+                            "data-toggle": "awesome_tooltip",
+                            title: "Status"
+                          }
+                        },
+                        [
+                          _c("i", {
+                            staticClass: "menu-icon fa fa-caret-right"
+                          }),
+                          _vm._v(" "),
+                          _c("span", {}, [
+                            _c("b", [_vm._v("   School/Org Status")])
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          attrs: {
+                            to: "/climatetype",
+                            "data-toggle": "awesome_tooltip",
+                            title: "Organization"
+                          }
+                        },
+                        [
+                          _c("i", {
+                            staticClass: "menu-icon fa fa-caret-right"
+                          }),
+                          _vm._v(" "),
+                          _c("span", {}, [
+                            _c("b", [_vm._v("    Climate Type")])
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          attrs: {
+                            to: "/roadtype",
+                            "data-toggle": "awesome_tooltip",
+                            title: "Organization"
+                          }
+                        },
+                        [
+                          _c("i", {
+                            staticClass: "menu-icon fa fa-caret-right"
+                          }),
+                          _vm._v(" "),
+                          _c("span", {}, [_c("b", [_vm._v("   Road Type")])])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ])
               ])
-            ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "tab-content" }, [_c("router-view")], 1)
           ])
         ])
       ])
     ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "dropdown-toggle",
+        attrs: {
+          "data-toggle": "dropdown",
+          href: "#",
+          "aria-expanded": "false"
+        }
+      },
+      [
+        _c("i", { staticClass: "green ace-icon fa fa-database bigger-120" }),
+        _vm._v(
+          "\n\t\t\t\t\t\t\t\t\tOrganization Master Management  \n\t\t\t\t\t\t\t\t\t"
+        ),
+        _c("i", {
+          staticClass: "ace-icon fa fa-caret-down bigger-110 width-auto"
+        })
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -77000,6 +77112,8 @@ var map = {
 	"./organization/masters/locationmaster.vue": "./resources/js/Pages/organization/masters/locationmaster.vue",
 	"./organization/masters/masterlevel": "./resources/js/Pages/organization/masters/masterlevel.vue",
 	"./organization/masters/masterlevel.vue": "./resources/js/Pages/organization/masters/masterlevel.vue",
+	"./organization/masters/orgmasterdata": "./resources/js/Pages/organization/masters/orgmasterdata.vue",
+	"./organization/masters/orgmasterdata.vue": "./resources/js/Pages/organization/masters/orgmasterdata.vue",
 	"./organization/masters/orgmasterindex": "./resources/js/Pages/organization/masters/orgmasterindex.vue",
 	"./organization/masters/orgmasterindex.vue": "./resources/js/Pages/organization/masters/orgmasterindex.vue",
 	"./organization/masters/orgstatus": "./resources/js/Pages/organization/masters/orgstatus.vue",
@@ -78122,6 +78236,59 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/organization/masters/orgmasterdata.vue":
+/*!*******************************************************************!*\
+  !*** ./resources/js/Pages/organization/masters/orgmasterdata.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _orgmasterdata_vue_vue_type_template_id_3a9d57c2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./orgmasterdata.vue?vue&type=template&id=3a9d57c2& */ "./resources/js/Pages/organization/masters/orgmasterdata.vue?vue&type=template&id=3a9d57c2&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _orgmasterdata_vue_vue_type_template_id_3a9d57c2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _orgmasterdata_vue_vue_type_template_id_3a9d57c2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/organization/masters/orgmasterdata.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/organization/masters/orgmasterdata.vue?vue&type=template&id=3a9d57c2&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/Pages/organization/masters/orgmasterdata.vue?vue&type=template&id=3a9d57c2& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterdata_vue_vue_type_template_id_3a9d57c2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./orgmasterdata.vue?vue&type=template&id=3a9d57c2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/organization/masters/orgmasterdata.vue?vue&type=template&id=3a9d57c2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterdata_vue_vue_type_template_id_3a9d57c2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_orgmasterdata_vue_vue_type_template_id_3a9d57c2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/organization/masters/orgmasterindex.vue":
 /*!********************************************************************!*\
   !*** ./resources/js/Pages/organization/masters/orgmasterindex.vue ***!
@@ -78514,27 +78681,31 @@ var routes = [{
 }, {
   path: '/orgmastermanagement',
   name: 'Organization Master Management',
-  component: __webpack_require__(/*! ./Pages/organization/masters/orgmasterindex.vue */ "./resources/js/Pages/organization/masters/orgmasterindex.vue")["default"]
-}, {
-  path: '/orgmasterlevel',
-  name: 'Level Master',
-  component: __webpack_require__(/*! ./Pages/organization/masters/masterlevel.vue */ "./resources/js/Pages/organization/masters/masterlevel.vue")["default"]
-}, {
-  path: '/orglocationmaster',
-  name: 'Location Master',
-  component: __webpack_require__(/*! ./Pages/organization/masters/locationmaster.vue */ "./resources/js/Pages/organization/masters/locationmaster.vue")["default"]
-}, {
-  path: '/orgstatus',
-  name: 'Status Master',
-  component: __webpack_require__(/*! ./Pages/organization/masters/orgstatus.vue */ "./resources/js/Pages/organization/masters/orgstatus.vue")["default"]
-}, {
-  path: '/climatetype',
-  name: 'Climate Master',
-  component: __webpack_require__(/*! ./Pages/organization/masters/climatetype.vue */ "./resources/js/Pages/organization/masters/climatetype.vue")["default"]
-}, {
-  path: '/roadtype',
-  name: 'Roadtype Master',
-  component: __webpack_require__(/*! ./Pages/organization/masters/roadtype.vue */ "./resources/js/Pages/organization/masters/roadtype.vue")["default"]
+  component: __webpack_require__(/*! ./Pages/organization/masters/orgmasterindex.vue */ "./resources/js/Pages/organization/masters/orgmasterindex.vue")["default"],
+  children: [{
+    path: '',
+    component: __webpack_require__(/*! ./Pages/organization/masters/orgmasterdata.vue */ "./resources/js/Pages/organization/masters/orgmasterdata.vue")["default"]
+  }, {
+    path: '/orgmasterlevel',
+    name: 'Level Master',
+    component: __webpack_require__(/*! ./Pages/organization/masters/masterlevel.vue */ "./resources/js/Pages/organization/masters/masterlevel.vue")["default"]
+  }, {
+    path: '/orglocationmaster',
+    name: 'Location Master',
+    component: __webpack_require__(/*! ./Pages/organization/masters/locationmaster.vue */ "./resources/js/Pages/organization/masters/locationmaster.vue")["default"]
+  }, {
+    path: '/orgstatus',
+    name: 'Status Master',
+    component: __webpack_require__(/*! ./Pages/organization/masters/orgstatus.vue */ "./resources/js/Pages/organization/masters/orgstatus.vue")["default"]
+  }, {
+    path: '/climatetype',
+    name: 'Climate Master',
+    component: __webpack_require__(/*! ./Pages/organization/masters/climatetype.vue */ "./resources/js/Pages/organization/masters/climatetype.vue")["default"]
+  }, {
+    path: '/roadtype',
+    name: 'Roadtype Master',
+    component: __webpack_require__(/*! ./Pages/organization/masters/roadtype.vue */ "./resources/js/Pages/organization/masters/roadtype.vue")["default"]
+  }]
 }, {
   path: '/dzongmasters',
   name: 'Dzongkhag Master',
