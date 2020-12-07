@@ -21,6 +21,7 @@
                 </a>
                 <b class="arrow"></b>
             </li>
+
             <li class="" id="globalid">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-database"></i>
@@ -49,6 +50,67 @@
                         
                     </li>
                 </ul>
+            </li>
+             <li class="">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-users"></i>
+                    <span class="menu-text">
+                       Security Admin
+                    </span>
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+                <b class="arrow"></b>
+                 <ul class="submenu" id="staffsubmenu">
+                   
+                    <li class="" id="rolesAndPreviledges" @click="manageclasses('','','','','')">
+                        <router-link to="/rolesAndPriviledges" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <span class="menu-text">
+                                <b>&nbsp;&nbsp;Roles and priviledges</b>
+                            </span>
+                        </router-link>
+                    </li>
+
+                    <li class="" id="workFlow" @click="manageclasses('','','','','')">
+                        <router-link to="/workFlow" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Wok Flow">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <span class="menu-text">
+                                <b>&nbsp;&nbsp;Work Flow</b>
+                            </span>
+                        </router-link>
+                    </li>
+
+                     <li class="" id="userRegistration">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            <b>User Registration</b>
+                            <b class="arrow fa fa-angle-down"></b>
+                        </a>
+                        <b class="arrow"></b>
+                        <ul class="submenu" id="userRegistrationSubmenu">
+                            <li class="" id="staffUser" @click="manageclasses('','','','','')">
+                                <router-link to="/staffUser" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff User">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp;Staff User</b>
+                                    </span> 
+                                </router-link>
+                                <b class="arrow"></b>
+                            </li>                           
+                                                       
+                            <li class="" id="otherUser" @click="manageclasses('','','','','')">
+                                <router-link to="/externalUser" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Other User">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp; External User</b>
+                                    </span> 
+                                </router-link>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
             </li>
             <li class="" id="organizationmenu">
                 <a href="#" class="dropdown-toggle">
@@ -141,7 +203,7 @@
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-users"></i>
                     <span class="menu-text">
-                       Staff and Students
+                       Staff
                     </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
@@ -150,17 +212,35 @@
                     <li class="" id="staffmanagent"  @click="manageclasses('stafflink','staffsubmenu','','','staffmanagent')">
                         <a href="#" class="dropdown-toggle">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            Staff Management
+                            <b>Staff Masters</b>
+                            <b class="arrow fa fa-angle-down"></b>
                         </a>
+                        <b class="arrow"></b>
+                        <ul class="submenu" id="staffMasterSubmenu">
+                            <li class="" id="serviceType" @click="manageclasses('','','','','')">
+                                <router-link to="/serviceType" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="">
+                                        <b>&nbsp;&nbsp;Service Type</b>
+                                    </span> 
+                                </router-link>
+                                <b class="arrow"></b>
+                            </li>
+                        </ul>
                     </li>
-                     <li class="">
-                        <a href="#" class="dropdown-toggle">
+                    <li class="" id="schoolId" @click="manageclasses('','','','','')">
+                        <router-link to="/" class="dropdown-toggle" data-toggle="awesome_tooltip" title="Staff">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            Student Management
-                        </a>
+                            <span class="menu-text">
+                                <b>&nbsp;&nbsp;Staff Information</b>
+                            </span>
+                        </router-link>
                     </li>
+
                 </ul>
+
             </li>
+            
             <li class="">
                 <a href="/insethome">
                     <i class="menu-icon fa fa-bank"></i>
